@@ -128,19 +128,23 @@ export default function Home() {
  </FadeIn>
 
  <FadeIn delay={1.0}>
- <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-white/40 text-xs uppercase tracking-widest font-sans">
- <span>Trusted by guests from</span>
- <span className="text-white/60">Switzerland</span>
+ <div className="text-center">
+ <p className="text-white/40 text-xs uppercase tracking-[0.2em] font-sans mb-3">
+ Trusted by guests from
+ </p>
+ <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-white/60 text-xs uppercase tracking-widest font-sans">
+ <span>Switzerland</span>
  <span className="text-white/30">•</span>
- <span className="text-white/60">Australia</span>
+ <span>Australia</span>
  <span className="text-white/30">•</span>
- <span className="text-white/60">Germany</span>
+ <span>Germany</span>
  <span className="text-white/30">•</span>
- <span className="text-white/60">UK</span>
+ <span>UK</span>
  <span className="text-white/30">•</span>
- <span className="text-white/60">USA</span>
+ <span>USA</span>
  <span className="text-white/30">•</span>
- <span className="text-white/60">Singapore</span>
+ <span>Singapore</span>
+ </div>
  </div>
  </FadeIn>
  </div>
