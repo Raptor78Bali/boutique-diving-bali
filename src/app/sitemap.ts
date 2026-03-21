@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
  { url: `${baseUrl}/services/junior-owd`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
  { url: `${baseUrl}/services/open-water`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
  { url: `${baseUrl}/services/specialty`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
+ { url: `${baseUrl}/services/scuba-skills-update`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
  { url: `${baseUrl}/services/custom-fun-dives`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
  { url: `${baseUrl}/services/dive-butler`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
  { url: `${baseUrl}/about`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },

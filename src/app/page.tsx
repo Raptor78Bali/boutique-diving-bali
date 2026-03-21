@@ -1,7 +1,7 @@
 import { FadeInUp, FadeIn } from "@/components/AnimatedSection";
 import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
-import { Compass, Shield, Globe, ChevronDown, Baby, GraduationCap, Award, Layers, Sparkles, Crown, Anchor, Navigation, Users, Star, Mail, MessageCircle, MapPin, Instagram } from "lucide-react";
+import { Compass, Shield, Globe, ChevronDown, Baby, GraduationCap, Award, Layers, Sparkles, Crown, Anchor, Navigation, Users, Star, Mail, MessageCircle, MapPin, Instagram, RefreshCw } from "lucide-react";
 import Link from "next/link";
 import Header from "@/components/Header";
 
@@ -11,7 +11,7 @@ const localBusinessSchema = {
  name: "Boutique Diving Bali",
  description: "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond.",
  url: "https://boutiquedivingbali.com",
- email: "hello@boutiquedivingbali.com",
+ email: "info@boutiquedivingbali.com",
  address: { "@type": "PostalAddress", addressLocality: "Bali", addressCountry: "ID" },
  geo: { "@type": "GeoCoordinates", latitude: -8.4095, longitude: 115.1889 },
  priceRange: "$$$$",
@@ -50,7 +50,7 @@ const homepageFaq = [
  },
  {
  question: "How do I book a custom diving experience?",
- answer: "Simply get in touch via our contact form, email (hello@boutiquedivingbali.com), or WhatsApp. Tell us about your dream diving experience — your dates, skill level, interests, who you are traveling with — and Dominic will personally design a bespoke program just for you. No generic packages, ever."
+ answer: "Simply get in touch via our contact form, email (info@boutiquedivingbali.com), or WhatsApp. Tell us about your dream diving experience — your dates, skill level, interests, who you are traveling with — and Dominic will personally design a bespoke program just for you. No generic packages, ever."
  },
  {
  question: "What safety measures do you have in place?",
@@ -130,6 +130,8 @@ export default function Home() {
  <FadeIn delay={1.0}>
  <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-white/40 text-xs uppercase tracking-widest font-sans">
  <span>Trusted by guests from</span>
+ <span className="text-white/60">Switzerland</span>
+ <span className="text-white/30">•</span>
  <span className="text-white/60">Australia</span>
  <span className="text-white/30">•</span>
  <span className="text-white/60">Germany</span>
@@ -248,9 +250,16 @@ export default function Home() {
  href: "/services/specialty",
  },
  {
+ icon: RefreshCw,
+ title: "Scuba Skills Update",
+ age: "Certified Divers",
+ text: "Haven't dived in a while? Refresh your skills and confidence with a private SSI Scuba Skills Update. Review and practice at your own pace before your next dive adventure.",
+ href: "/services/scuba-skills-update",
+ },
+ {
  icon: Sparkles,
  title: "Custom Fun Dives",
- age: "All Levels",
+ age: "Certified Divers",
  text: "Your dream dive, designed from scratch. Manta rays in Nusa Penida, the USAT Liberty wreck, macro diving in Amed — tell me your wish.",
  href: "/services/custom-fun-dives",
  },
@@ -609,7 +618,7 @@ export default function Home() {
  <FadeInUp>
  <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
  {[
- { number: "1000+", label: "Dives Completed" },
+ { number: "250+", label: "Dives Completed" },
  { number: "100%", label: "Private & Bespoke" },
  { number: "15+", label: "Destinations" },
  { number: "5★", label: "Guest Experience" },
@@ -683,8 +692,8 @@ export default function Home() {
  </div>
  <p className="text-white/40 text-sm font-sans">
  Or reach us directly:{" "}
- <a href="mailto:hello@boutiquedivingbali.com" className="text-[var(--brand-gold)] hover:text-[var(--brand-gold-bright)] transition-colors">
- hello@boutiquedivingbali.com
+ <a href="mailto:info@boutiquedivingbali.com" className="text-[var(--brand-gold)] hover:text-[var(--brand-gold-bright)] transition-colors">
+ info@boutiquedivingbali.com
  </a>
  </p>
  </FadeInUp>
@@ -711,6 +720,7 @@ export default function Home() {
  { name: "Junior Open Water", href: "/services/junior-owd" },
  { name: "Open Water Diver", href: "/services/open-water" },
  { name: "Specialty Courses", href: "/services/specialty" },
+ { name: "Scuba Skills Update", href: "/services/scuba-skills-update" },
  { name: "Custom Fun Dives", href: "/services/custom-fun-dives" },
  { name: "Dive Butler", href: "/services/dive-butler" },
  ].map((link) => (
@@ -755,8 +765,8 @@ export default function Home() {
  </a>
  </li>
  <li>
- <a href="mailto:hello@boutiquedivingbali.com" className="text-white/50 hover:text-[var(--brand-gold)] text-sm font-sans transition-colors inline-flex items-center gap-2">
- <Mail className="w-4 h-4" /> hello@boutiquedivingbali.com
+ <a href="mailto:info@boutiquedivingbali.com" className="text-white/50 hover:text-[var(--brand-gold)] text-sm font-sans transition-colors inline-flex items-center gap-2">
+ <Mail className="w-4 h-4" /> info@boutiquedivingbali.com
  </a>
  </li>
  </ul>

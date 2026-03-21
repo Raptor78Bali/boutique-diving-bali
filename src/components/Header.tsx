@@ -20,6 +20,7 @@ export default function Header() {
  { name: "Junior Open Water (10-14)", href: "/services/junior-owd" },
  { name: "Open Water Diver (15+)", href: "/services/open-water" },
  { name: "SSI Specialty Courses", href: "/services/specialty" },
+ { name: "Scuba Skills Update", href: "/services/scuba-skills-update" },
  { name: "Custom Fun Dives", href: "/services/custom-fun-dives" },
  { name: "Dive Butler Service", href: "/services/dive-butler" },
  ];
