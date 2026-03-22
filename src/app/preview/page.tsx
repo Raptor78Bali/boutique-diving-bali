@@ -277,7 +277,7 @@ export default function Home() {
  href: "/services/dive-butler",
  },
  ].map((service, i) => (
- <FadeInUp key={service.title} delay={0.1 + i * 0.1}>
+ <FadeInUp key={service.title} delay={0.1 + i * 0.1} className={i === 6 ? "lg:col-start-2" : ""}>
  <Link href={service.href} className="block h-full">
  <div className="bg-white border border-[var(--brand-tan)] rounded-2xl p-7 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 h-full flex flex-col">
  <service.icon className="w-7 h-7 text-[var(--brand-teal)] mb-4" strokeWidth={1.5} />
