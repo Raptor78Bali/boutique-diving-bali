@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Phone, Mail, MapPin, ChevronRight, Instagram, MessageSquare, Clock, Globe, ArrowRight } from "lucide-react";
+import { Phone, Mail, MapPin, ChevronRight, Instagram, MessageSquare, Clock, Globe, ArrowRight, Users, Compass } from "lucide-react";
 import Link from "next/link";
 import { FadeInUp, FadeIn } from "@/components/AnimatedSection";
 import JsonLd from "@/components/JsonLd";
@@ -466,10 +466,6 @@ export default function ContactPage() {
  </FadeIn>
  </div>
  </section>
- </main>
- </>
- );
-}
  </main>
  </>
  );
