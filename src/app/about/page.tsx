@@ -164,13 +164,13 @@ export default function AboutPage() {
  Before diving became his passion, Dominic built two very different careers. As an instructor in the Swiss Army, he trained soldiers in one of Switzerland&apos;s elite units — developing the discipline, leadership, and safety-first mindset that now defines how he shares diving. After the military, he spent a decade as a Risk and Security Management Executive at the world&apos;s second-largest valuable-in-transit company — managing operations where attention to detail and the ability to stay calm under pressure were not optional, they were essential.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- But the ocean kept calling. In 2020, Dominic moved his family — his wife and their 14-year-old twin teenage daughters — to Bali. Not for a holiday, but for a life. He immersed himself in the diving industry, spending three months gaining experience as a Diving Instructor and Boatmaster at a large dive operator in Koh Samui, Thailand. He wanted to see the industry from the inside — the good, the bad, and the ugly. What he found confirmed what he already suspected: mass-market diving sacrifices the personal experience for volume. Groups of eight or more divers. Rotating instructors who do not know your name. Fixed schedules that ignore conditions. Safety treated as a checkbox, not a philosophy.
+ But the ocean kept calling. In 2021, Dominic moved his family — his wife and their 14-year-old twin teenage daughters — to Bali. Not for a holiday, but for a life. He immersed himself in the diving industry, spending three months gaining experience as a Diving Instructor and Boatmaster at a large dive operator in Koh Samui, Thailand. He wanted to see the industry from the inside — the good, the bad, and the ugly. What he found confirmed what he already suspected: mass-market diving sacrifices the personal experience for volume. Groups of eight or more divers. Rotating instructors who do not know your name. Fixed schedules that ignore conditions. Safety treated as a checkbox, not a philosophy.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
  In 2023, Dominic earned his SSI Instructor certification. Not because he needed another credential — but because he wanted to build something different. Something where every diver is known personally. Where safety is designed into every moment, not stapled on as an afterthought. Where the instructor does not change between dives. Where the experience is not a product, but a relationship.
  </p>
  <p className="text-[#64748B] font-sans leading-relaxed">
- That is Boutique Diving Bali. It is not a dive shop. It is not a tour operator. It is one person — Dominic — offering his expertise, his time, and his genuine passion for the ocean to people who want something better than what the dive industry typically provides. Based in Tulamben, available across all of Indonesia, and built on the belief that the underwater world deserves to be experienced personally, privately, and without compromise.
+ That is Boutique Diving Bali. It is not a dive shop. It is not a tour operator. It is one person — Dominic — offering his expertise, his time, and his genuine passion for the ocean to people who want something better than what the dive industry typically provides. Serving Tulamben and all of Indonesia, and built on the belief that the underwater world deserves to be experienced personally, privately, and without compromise.
  </p>
  </div>
  </FadeInUp>
@@ -215,7 +215,7 @@ export default function AboutPage() {
  title: "Family Man in Bali",
  icon: Heart,
  description:
- "Dominic lives in Bali with his wife and their 14-year-old twin teenage daughters. He has called Indonesia home for since 2021. His perspective as a father directly shapes how he guides young divers — with patience, encouragement, and genuine understanding of how children learn.",
+ "Dominic lives in Bali with his wife and their 14-year-old twin teenage daughters. He has called Indonesia home since 2021. His perspective as a father directly shapes how he guides young divers — with patience, encouragement, and genuine understanding of how children learn.",
  },
  ].map((item, index) => (
  <FadeInUp key={item.title} delay={index * 0.1}>
