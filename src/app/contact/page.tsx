@@ -252,7 +252,7 @@ export default function ContactPage() {
  {[
  {
  icon: Clock,
- text: "When are you visiting Bali? (dates, even approximate)",
+ text: "When are you planning your trip? (dates, even approximate)",
  },
  {
  icon: Users,
@@ -268,7 +268,7 @@ export default function ContactPage() {
  },
  {
  icon: MapPin,
- text: "Where are you staying in Bali? (helps with logistics planning)",
+ text: "Where in Indonesia are you heading? (Bali, Komodo, Raja Ampat, etc.)",
  },
  {
  icon: MessageSquare,
