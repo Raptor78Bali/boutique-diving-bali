@@ -405,6 +405,12 @@ export default function AboutPage() {
  badge: "Certified Divers",
  },
  {
+ title: "Scuba Skills Update",
+ description: "Haven't dived in a while? Private refresher course at your pace. Rebuild confidence and dive again.",
+ href: "/services/scuba-skills-update",
+ badge: "Certified Divers",
+ },
+ {
  title: "Custom Fun Dives",
  description: "Dream dives designed from scratch. Mantas, wrecks, macro, night dives — your wish, your dive.",
  href: "/services/custom-fun-dives",
