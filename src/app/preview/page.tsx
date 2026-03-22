@@ -536,7 +536,7 @@ export default function Home() {
  {[
  "SSI Certified Instructor",
  "Swiss Precision & Safety",
- "5 Years in Bali",
+ "In Bali Since 2021",
  "Multilingual (EN / DE)",
  ].map((badge) => (
  <span

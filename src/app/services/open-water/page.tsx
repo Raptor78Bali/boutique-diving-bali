@@ -514,7 +514,7 @@ export default function OpenWaterDiverPage() {
  },
  {
  title: "Couples & Friends",
- description: "Learn together at your own pace. Dominic guides couples and small groups privately — so you share the experience without sharing your instructor with strangers.",
+ description: "Learn together at your own pace. Dominic guides couples and small groups privately — so you share the experience without sharing Dominic with strangers.",
  },
  {
  title: "Anxious Beginners",
