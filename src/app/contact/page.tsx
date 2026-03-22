@@ -105,7 +105,7 @@ export default function ContactPage() {
 
  <FadeInUp delay={0.3}>
  <p className="font-sans text-lg sm:text-xl text-[#94A3B8] max-w-2xl mx-auto leading-relaxed">
- No forms, no automated replies. When you reach out, you are talking directly to Dominic — the person who will be with you in the water.
+ No forms, no automated replies. When you reach out, you are talking directly to Dominic — in English or German.
  </p>
  </FadeInUp>
  </div>
@@ -373,7 +373,7 @@ export default function ContactPage() {
  {
  icon: Globe,
  title: "Languages",
- detail: "English and German. Serving clients from Australia, UK, USA, Singapore, Germany, Austria, and Switzerland.",
+ detail: "English and German — Dominic spricht auch Deutsch. Serving clients from Australia, UK, USA, Singapore, Germany, Austria, and Switzerland.",
  },
  {
  icon: Phone,
