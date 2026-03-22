@@ -73,7 +73,7 @@ const faqItems = [
  {
  question: "Is it safe for children to scuba dive?",
  answer:
- "Yes, when taught properly by a qualified instructor. SSI has developed specific training standards, depth limits, and supervision requirements for young divers based on decades of research and experience. Dominic's approach adds an extra layer of safety: his Swiss Army instructor background means discipline and safety protocols are second nature, while his experience as a father of two teenage daughters means he genuinely understands how children learn — with patience, encouragement, and a focus on making it fun. Every child is different, and Dominic adapts to each one.",
+ "Yes, when taught properly by a qualified instructor. SSI has developed specific training standards, depth limits, and supervision requirements for young divers based on decades of research and experience. Dominic's approach adds an extra layer of safety: his Swiss Army instructor background means discipline and safety protocols are second nature, while his experience as a father of 14-year-old twin teenage daughters means he genuinely understands how children learn — with patience, encouragement, and a focus on making it fun. Every child is different, and Dominic adapts to each one.",
  },
  {
  question: "How does pricing work for the Junior OWD course?",
@@ -271,7 +271,7 @@ export default function JuniorOwdPage() {
  With Boutique Diving Bali, your child dives privately with Dominic — one-on-one or with their siblings only. Every skill is taught at their pace. Every question gets a patient, individual answer. If they need to repeat a skill ten times, they repeat it ten times — without anyone watching or waiting. If they are having a brilliant day and want to push further, Dominic adjusts the plan instantly.
  </p>
  <p className="text-[#64748B] font-sans leading-relaxed">
- Dominic is not only an SSI-certified instructor — he is also a father of two teenage daughters, Lilly and Emily, and a former Swiss Army instructor. He knows how to teach young people with the right blend of discipline, encouragement, and genuine fun. Your child will not just earn a certification. They will discover a lifelong passion for the ocean.
+ Dominic is not only an SSI-certified instructor — he is also a father of 14-year-old twin teenage daughters and a former Swiss Army instructor. He knows how to teach young people with the right blend of discipline, encouragement, and genuine fun. Your child will not just earn a certification. They will discover a lifelong passion for the ocean.
  </p>
  </div>
  </FadeInUp>

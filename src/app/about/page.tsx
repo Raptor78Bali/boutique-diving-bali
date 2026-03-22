@@ -129,7 +129,7 @@ export default function AboutPage() {
 
  <FadeIn delay={0.4}>
  <div className="flex flex-wrap items-center justify-center gap-3">
- {["SSI Certified Instructor", "Swiss Precision", "5+ Years in Bali", "English & German"].map((badge) => (
+ {["SSI Certified Instructor", "Swiss Precision", "In Bali Since 2021", "English & German"].map((badge) => (
  <span key={badge} className="inline-flex items-center px-4 py-1.5 bg-[#C5A55A]/10 border border-[#C5A55A]/20 rounded-full text-xs font-sans uppercase tracking-wider text-[#C5A55A]">
  {badge}
  </span>
@@ -164,7 +164,7 @@ export default function AboutPage() {
  Before diving became his profession, Dominic built two very different careers. As an instructor in the Swiss Army, he trained soldiers in one of Switzerland&apos;s elite units — developing the discipline, leadership, and safety-first mindset that now defines how he teaches diving. After the military, he spent a decade as a Risk and Security Management Executive at the world&apos;s second-largest valuable-in-transit company — managing operations where attention to detail and the ability to stay calm under pressure were not optional, they were essential.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- But the ocean kept calling. In 2020, Dominic moved his family — his wife Verena and their two daughters, Lilly and Emily — to Bali. Not for a holiday, but for a life. He immersed himself in the diving industry, spending three months working as a Diving Instructor and Boatmaster for a large dive operator in Koh Samui, Thailand. He wanted to see the industry from the inside — the good, the bad, and the ugly. What he found confirmed what he already suspected: mass-market diving sacrifices the personal experience for volume. Groups of eight or more divers. Rotating instructors who do not know your name. Fixed schedules that ignore conditions. Safety treated as a checkbox, not a philosophy.
+ But the ocean kept calling. In 2020, Dominic moved his family — his wife and their 14-year-old twin teenage daughters — to Bali. Not for a holiday, but for a life. He immersed himself in the diving industry, spending three months working as a Diving Instructor and Boatmaster for a large dive operator in Koh Samui, Thailand. He wanted to see the industry from the inside — the good, the bad, and the ugly. What he found confirmed what he already suspected: mass-market diving sacrifices the personal experience for volume. Groups of eight or more divers. Rotating instructors who do not know your name. Fixed schedules that ignore conditions. Safety treated as a checkbox, not a philosophy.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
  In 2023, Dominic earned his SSI Diving Instructor certification. Not because he needed another credential — but because he wanted to build something different. Something where every diver is known personally. Where safety is designed into every moment, not stapled on as an afterthought. Where the instructor does not change between dives. Where the experience is not a product, but a relationship.
@@ -215,7 +215,7 @@ export default function AboutPage() {
  title: "Family Man in Bali",
  icon: Heart,
  description:
- "Dominic lives in Bali with his wife Verena and their two teenage daughters, Lilly and Emily. He has called Indonesia home for over five years. His perspective as a father directly shapes how he teaches young divers — with patience, encouragement, and genuine understanding of how children learn.",
+ "Dominic lives in Bali with his wife and their 14-year-old twin teenage daughters. He has called Indonesia home for since 2021. His perspective as a father directly shapes how he teaches young divers — with patience, encouragement, and genuine understanding of how children learn.",
  },
  ].map((item, index) => (
  <FadeInUp key={item.title} delay={index * 0.1}>
@@ -301,13 +301,13 @@ export default function AboutPage() {
  },
  {
  icon: MapPin,
- title: "5+ Years Living in Bali",
+ title: "In Bali Since 2021",
  description: "Not a visiting instructor — Dominic lives in Bali with his family. He knows the island, the waters, the conditions, and the culture intimately.",
  },
  {
  icon: Users,
- title: "Father of Two Teenagers",
- description: "Lilly and Emily give Dominic a genuine understanding of how young people learn. His patience with children is not taught — it is lived daily.",
+ title: "Father of Teenage Twins",
+ description: "His twin teenage daughters give Dominic a genuine understanding of how young people learn. His patience with children is not taught — it is lived daily.",
  },
  {
  icon: Globe,
