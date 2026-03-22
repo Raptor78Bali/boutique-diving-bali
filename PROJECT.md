@@ -5,25 +5,40 @@
 **Project Name:** Boutique Diving Bali  
 **Type:** Website (Next.js)  
 **Description:** Indonesia's premier personal dive concierge — luxury private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond.  
-**Target URL:** https://boutiquedivingbali.com  
+**Live URL:** https://www.boutiquedivingbali.com (Coming Soon mode)  
+**Preview URL:** https://www.boutiquedivingbali.com/preview (full homepage, not indexed)  
 **Repository:** https://github.com/Raptor78Bali/boutique-diving-bali
 
-## Status: SETUP COMPLETE — Ready for Vercel Deployment
+## Status: ✅ HOMEPAGE COMPLETE — LIVE
 
 ### Completed Steps
 - [x] Next.js project initialized (TypeScript, Tailwind, App Router)
 - [x] shadcn/ui installed (button, badge, separator)
-- [x] Fonts configured (Cormorant Garamond, DM Sans, JetBrains Mono)
+- [x] Fonts configured (Cormorant Garamond, DM Sans)
 - [x] Brand design system implemented (CSS variables, animations)
-- [x] Components created (AnimatedSection, JsonLd, FaqAccordion)
-- [x] Placeholder homepage created
-- [x] Dev server verified (localhost:3000)
-- [x] GitHub push complete
+- [x] Components created (AnimatedSection, JsonLd, FaqAccordion, Header)
+- [x] Full 14-section homepage built (Task 2)
+- [x] 8 service sub-pages created (placeholder)
+- [x] sitemap.xml generated
+- [x] llms.txt for AI search engines
+- [x] Coming Soon landing page deployed
+- [x] Full homepage moved to /preview (hidden, not indexed)
+- [x] Vercel deployment complete
+- [x] Custom domain connected
 
-### Pending
-- [ ] Vercel deployment
-- [ ] Custom domain configuration
-- [ ] Full content pages
+### Services (7 total)
+1. Scuba Explorer (Ages 8-9)
+2. Junior Open Water Diver (Ages 10-14)
+3. Open Water Diver (Age 15+)
+4. SSI Specialty Courses
+5. Scuba Skills Update
+6. Custom Fun Dives
+7. Dive Butler Service
+
+### Key Details
+- **Email:** info@boutiquedivingbali.com
+- **Stats:** 250+ dives, 15+ destinations
+- **Trust strip:** Switzerland, Australia, Germany, UK, USA, Singapore
 
 ## Tech Stack
 
@@ -31,8 +46,8 @@
 - **Styling:** Tailwind CSS v4 + shadcn/ui
 - **Animations:** Framer Motion
 - **Icons:** Lucide React
-- **Fonts:** Google Fonts (Cormorant Garamond, DM Sans, JetBrains Mono)
-- **Hosting:** Vercel (pending)
+- **Fonts:** Google Fonts (Cormorant Garamond, DM Sans)
+- **Hosting:** Vercel
 
 ## Brand Design System
 
@@ -52,40 +67,35 @@
 - `particle-float` — Bubbles rising
 - `gold-glow` — Button glow effect
 - `gradient-text-shift` — Gold text gradient animation
-- `scroll-bounce` — Scroll indicator bounce
-- `float-subtle` — Card float on hover
 
 ## File Structure
 ```
 boutique-diving-bali/
 ├── src/
 │   ├── app/
-│   │   ├── layout.tsx     # Root layout + fonts
-│   │   ├── page.tsx       # Homepage
-│   │   └── globals.css    # Brand CSS + animations
+│   │   ├── page.tsx           # Coming Soon landing page
+│   │   ├── preview/page.tsx   # Full 14-section homepage
+│   │   ├── sitemap.ts
+│   │   ├── services/           # 8 service pages
+│   │   ├── about/page.tsx
+│   │   ├── contact/page.tsx
+│   │   └── globals.css
 │   └── components/
+│       ├── Header.tsx
 │       ├── AnimatedSection.tsx
 │       ├── FaqAccordion.tsx
 │       ├── JsonLd.tsx
-│       └── ui/            # shadcn components
+│       └── ui/
 ├── public/
-├── package.json
-├── next.config.ts
-├── tailwind.config.ts
-└── components.json
+│   └── llms.txt
+└── package.json
 ```
 
 ## Next Steps
-
-1. **Deploy to Vercel** (awaiting user confirmation)
-2. **Connect custom domain** (boutiquedivingbali.com)
-3. **Build out full pages:**
-   - Services page
-   - Destinations page
-   - About page
-   - Contact page
-4. **Add photo gallery**
-5. **SEO optimization**
+- [ ] Build out full service pages (replace placeholders)
+- [ ] Add photo gallery
+- [ ] Add real underwater photos (currently placeholders)
+- [ ] Launch full site (remove Coming Soon)
 
 ## Contact
 - **Owner:** Dominic Frei (SSI Scuba Diving Instructor)
