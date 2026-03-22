@@ -434,8 +434,8 @@ export default function JuniorOwdPage() {
  <FadeInUp delay={0.1}>
  <div className="bg-[#F5F0E8] rounded-2xl p-8 border border-[#E8DFD0]">
  <div className="flex items-center gap-3 mb-4">
- <div className="w-10 h-10 rounded-full bg-[#0C7C6B]/10 border border-[#0C7C6B]/20 flex items-center justify-center">
- <span className="font-sans text-sm font-medium text-[#0C7C6B]">10–11</span>
+ <div className="w-12 h-12 rounded-full bg-[#0C7C6B]/10 border border-[#0C7C6B]/20 flex items-center justify-center">
+ <span className="font-sans text-xs font-medium text-[#0C7C6B] whitespace-nowrap">10–11</span>
  </div>
  <h3 className="font-heading text-xl font-normal text-[#2D4349]">
  Ages 10–11
@@ -452,8 +452,8 @@ export default function JuniorOwdPage() {
  <FadeInUp delay={0.2}>
  <div className="bg-[#F5F0E8] rounded-2xl p-8 border border-[#E8DFD0]">
  <div className="flex items-center gap-3 mb-4">
- <div className="w-10 h-10 rounded-full bg-[#0C7C6B]/10 border border-[#0C7C6B]/20 flex items-center justify-center">
- <span className="font-sans text-sm font-medium text-[#0C7C6B]">12–14</span>
+ <div className="w-12 h-12 rounded-full bg-[#0C7C6B]/10 border border-[#0C7C6B]/20 flex items-center justify-center">
+ <span className="font-sans text-xs font-medium text-[#0C7C6B] whitespace-nowrap">12–14</span>
  </div>
  <h3 className="font-heading text-xl font-normal text-[#2D4349]">
  Ages 12–14
