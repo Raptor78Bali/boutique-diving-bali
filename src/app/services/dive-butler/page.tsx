@@ -308,7 +308,7 @@ export default function DiveButlerPage() {
  step: "04",
  title: "Dive With Your Personal Instructor",
  description:
- "Underwater, Dominic is by your side — exclusively. He monitors your comfort, manages your safety, adjusts the dive in real time to your pace and interests. At your home base in Tulamben, he leads dives himself. At destinations across Indonesia, he works alongside vetted local guides who handle the site briefing while Dominic stays focused on you.",
+ "Underwater, Dominic is by your side — exclusively. He monitors your comfort, manages your safety, adjusts the dive in real time to your pace and interests. At his home base in Tulamben, he leads dives himself. At destinations across Indonesia, he works alongside vetted local guides who handle the site briefing while Dominic stays focused on you.",
  icon: Anchor,
  },
  ].map((item, index) => (
