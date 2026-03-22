@@ -313,7 +313,7 @@ export default function DiveButlerPage() {
  },
  ].map((item, index) => (
  <FadeInUp delay={index * 0.1}>
- <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 border border-[#E8DFD0] hover:shadow-lg transition-all duration-300">
+ <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 border border-[#E8DFD0] hover:shadow-lg transition-all duration-300 h-full">
  <div className="flex items-start gap-4 mb-4">
  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#C5A55A]/10 border border-[#C5A55A]/20 flex items-center justify-center">
  <item.icon className="w-5 h-5 text-[#C5A55A]" />
