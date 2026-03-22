@@ -36,7 +36,7 @@ const homepageFaq = [
  },
  {
  question: "Do I need diving experience to book?",
- answer: "Not at all! We welcome complete beginners from age 8. Our Scuba Explorer program (ages 8-9) and Junior Open Water Diver course (ages 10-14) are designed specifically for young adventurers. Adults can start with the SSI Open Water Diver certification — fully private, at your own pace."
+ answer: "Not at all! We welcome complete beginners from age 8. Our Scuba Explorer program (ages 8-12) and Junior Open Water Diver course (ages 10-14) are designed specifically for young adventurers. Adults can start with the SSI Open Water Diver certification — fully private, at your own pace."
  },
  {
  question: "What is the Dive Butler service?",
