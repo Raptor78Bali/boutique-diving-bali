@@ -385,7 +385,7 @@ export default function DiveButlerPage() {
  },
  ].map((feature, index) => (
  <FadeInUp delay={index * 0.05}>
- <div className="bg-white/[0.03] backdrop-blur-sm rounded-2xl p-6 border border-white/[0.06] hover:border-[#C5A55A]/20 transition-all duration-300">
+ <div className="bg-white/[0.03] backdrop-blur-sm rounded-2xl p-6 border border-white/[0.06] hover:border-[#C5A55A]/20 transition-all duration-300 h-full">
  <feature.icon className="w-6 h-6 text-[#C5A55A] mb-4" />
  <h3 className="font-heading text-lg font-normal text-white mb-2">
  {feature.title}
