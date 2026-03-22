@@ -230,7 +230,7 @@ export default function Home() {
  {
  icon: Baby,
  title: "Scuba Explorer",
- age: "Ages 8–9",
+ age: "Ages 8–12",
  text: "Your child's magical first breath underwater. Safe, fun, and unforgettable introduction to the ocean in a controlled environment.",
  href: "/services/scuba-explorer",
  },
@@ -346,7 +346,7 @@ export default function Home() {
  <FadeInUp delay={0.3}>
  <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-12">
  {[
- { problem: "Burned-out instructors", solution: "Your dedicated, passionate personal instructor" },
+ { problem: "Burned-out instructors", solution: "Your dedicated, passionate dive professional" },
  { problem: "Poorly maintained equipment", solution: "Premium, personally inspected gear" },
  { problem: "Generic group packages", solution: "Every experience designed from scratch for you" },
  ].map((item) => (
