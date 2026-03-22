@@ -348,7 +348,7 @@ export default function AboutPage() {
  <FadeInUp delay={0.1}>
  <div className="max-w-3xl mx-auto">
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- Diving is Dominic&apos;s greatest passion — but it is not his only one. When he is not guiding divers underwater, you might find him paragliding over Bali&apos;s rice terraces, on the golf course, at the gym, training MMA, fishing off the coast, or perfecting his BBQ technique for family gatherings. He is also the founder of Freistyle AI, an education platform exploring how artificial intelligence is transforming the way we work and learn.
+ Diving is Dominic&apos;s greatest passion — but it is not his only one. When he is not guiding divers underwater, you might find him paragliding over Bali&apos;s cliffs in Uluwatu, on the golf course, at the gym, training MMA, fishing off the coast, or perfecting his BBQ technique for family gatherings. He is also the founder of Freistyle AI, an education platform exploring how artificial intelligence is transforming the way we work and learn.
  </p>
  <p className="text-[#64748B] font-sans leading-relaxed">
  But ask anyone who knows him: when Dominic talks about diving, something changes. His eyes light up. His stories get longer. His hands start gesturing at dive profiles. It is not a job. It is the thing he was always meant to do — and it took a career in the military, a decade in corporate security, a family move to Bali, and one transformative breath underwater in Panama to finally get there.
