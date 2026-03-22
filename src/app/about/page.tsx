@@ -376,13 +376,13 @@ export default function AboutPage() {
  {[
  {
  title: "Dive Butler Service",
- description: "Your personal instructor across all of Indonesia — liveaboards, resorts, any destination.",
+ description: "Your personal diving concierge across all of Indonesia — liveaboards, resorts, any destination.",
  href: "/services/dive-butler",
  badge: "Signature Service",
  },
  {
  title: "Open Water Diver",
- description: "Private SSI certification for adults. No groups, your own instructor, Bali's best sites.",
+ description: "Private SSI certification for adults. No groups, your own guide, Bali's best sites.",
  href: "/services/open-water",
  badge: "From Age 15",
  },
