@@ -624,7 +624,7 @@ export default function Home() {
  <FadeInUp>
  <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
  {[
- { number: "250+", label: "Dives Completed" },
+ { number: "500+", label: "Dives Completed" },
  { number: "100%", label: "Private & Bespoke" },
  { number: "15+", label: "Destinations" },
  { number: "5★", label: "Guest Experience" },
