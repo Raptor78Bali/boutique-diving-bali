@@ -783,6 +783,11 @@ export default function Home() {
  <p className="text-white/30 text-xs font-sans">
  © {new Date().getFullYear()} Boutique Diving Bali. All rights reserved.
  </p>
+ <div className="flex items-center justify-center gap-4 mt-4 text-xs text-[#64748B]">
+ <Link href="/privacy" className="hover:text-[#C5A55A] transition-colors">Privacy Policy</Link>
+ <span className="text-[#64748B]/30">·</span>
+ <Link href="/terms" className="hover:text-[#C5A55A] transition-colors">Terms & Conditions</Link>
+ </div>
  <div className="flex items-center gap-1 text-white/30 text-xs font-sans">
  <MapPin className="w-3 h-3" />
  Bali, Indonesia
