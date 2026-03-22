@@ -58,7 +58,7 @@ const faqItems = [
  {
  question: "How long does the Junior OWD course take?",
  answer:
- "The in-water portion typically takes three to four days: one day for confined water skills and two to three days for open water dives. Because Dominic teaches your child privately, the pace is completely flexible. If your child needs more time on a skill, they take it without any pressure. If they are confident and progressing well, the course moves at their speed. The academic theory is completed online before arriving in Bali, so all the time in Bali is spent in the water.",
+ "The in-water portion typically takes three to four days: one day for confined water skills and two to three days for open water dives. your child learns privately with Dominic, the pace is completely flexible. If your child needs more time on a skill, they take it without any pressure. If they are confident and progressing well, the course moves at their speed. The academic theory is completed online before arriving in Bali, so all the time in Bali is spent in the water.",
  },
  {
  question: "Does my child need prior diving experience?",
@@ -309,7 +309,7 @@ export default function JuniorOwdPage() {
  phase: "02",
  title: "Confined Water Training — Build Confidence Step by Step",
  description:
- "The first day in the water takes place in a pool or calm, shallow environment. Dominic teaches your child every essential skill privately: breathing underwater, clearing a mask, controlling buoyancy, sharing air, and signalling. Because there are no other students, your child never feels rushed or judged. Every skill is practised until they are genuinely confident — not until a timer runs out. This phase is where trust is built, and it makes all the difference in the open water dives that follow.",
+ "The first day in the water takes place in a pool or calm, shallow environment. Dominic guides your child through every essential skill privately: breathing underwater, clearing a mask, controlling buoyancy, sharing air, and signalling. Because there are no other students, your child never feels rushed or judged. Every skill is practised until they are genuinely confident — not until a timer runs out. This phase is where trust is built, and it makes all the difference in the open water dives that follow.",
  icon: Shield,
  detail: "One full day · Private pool or calm shallow water · All equipment provided and fitted",
  },
@@ -585,7 +585,7 @@ export default function JuniorOwdPage() {
  },
  {
  title: "Dive Butler Service",
- description: "Your personal diving instructor across all of Indonesia. Perfect for families who want a guide for their entire trip.",
+ description: "Your personal diving concierge across all of Indonesia. Perfect for families who want a guide for their entire trip.",
  href: "/services/dive-butler",
  badge: "Signature Service",
  },

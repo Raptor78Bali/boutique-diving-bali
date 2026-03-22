@@ -192,7 +192,7 @@ export default function Home() {
  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
  {[
  { icon: Compass, title: "Fully Bespoke", text: "Every dive custom-tailored to your wishes, skill level, and comfort. No fixed packages. No generic group tours." },
- { icon: Shield, title: "Private & Exclusive", text: "No groups, no crowds. Just you, your loved ones, and your personal Swiss diving instructor." },
+ { icon: Shield, title: "Private & Exclusive", text: "No groups, no crowds. Just you, your loved ones, and your personal Swiss diving professional." },
  { icon: Globe, title: "Indonesia-Wide", text: "From Bali to Komodo to Raja Ampat — your Dive Butler travels with you across Indonesia's most spectacular underwater worlds." },
  ].map((card, i) => (
  <FadeInUp key={card.title} delay={0.1 + i * 0.15}>
@@ -785,7 +785,7 @@ export default function Home() {
  </p>
  <div className="flex items-center gap-1 text-white/30 text-xs font-sans">
  <MapPin className="w-3 h-3" />
- Based in Bali, Indonesia
+ Bali, Indonesia
  </div>
  </div>
  </div>

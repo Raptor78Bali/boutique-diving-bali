@@ -573,7 +573,7 @@ export default function ScubaExplorerPage() {
  },
  {
  title: "Dive Butler Service",
- description: "Your personal diving instructor across all of Indonesia. Ideal for families who want a dedicated guide for their entire trip.",
+ description: "Your personal diving concierge across all of Indonesia. Ideal for families who want a dedicated guide for their entire trip.",
  href: "/services/dive-butler",
  badge: "Signature Service",
  },

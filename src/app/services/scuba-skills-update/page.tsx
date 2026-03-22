@@ -193,7 +193,7 @@ export default function ScubaSkillsUpdatePage() {
 
  <FadeInUp delay={0.3}>
  <p className="font-sans text-lg sm:text-xl text-[#94A3B8] max-w-2xl mx-auto mb-10 leading-relaxed">
- Haven&apos;t dived in a while? Get back in the water with confidence. A private refresher course at your pace — no pressure, no judgement, just you and your instructor.
+ Haven&apos;t dived in a while? Get back in the water with confidence. A private refresher course at your pace — no pressure, no judgement, just you and Dominic.
  </p>
  </FadeInUp>
 
@@ -480,7 +480,7 @@ export default function ScubaSkillsUpdatePage() {
  },
  {
  title: "Dive Butler Service",
- description: "Your personal diving instructor across all of Indonesia. Perfect for liveaboard trips after refreshing your skills.",
+ description: "Your personal diving concierge across all of Indonesia. Perfect for liveaboard trips after refreshing your skills.",
  href: "/services/dive-butler",
  badge: "Signature Service",
  },

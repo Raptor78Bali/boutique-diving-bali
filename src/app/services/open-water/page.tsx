@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
  title: "Private SSI Open Water Diver Course in Bali — No Groups, Your Own Instructor | Boutique Diving Bali",
  description:
- "Earn your SSI Open Water Diver certification with fully private instruction in Bali. No group classes, no strangers — just you and your personal diving instructor at Tulamben, Padang Bai, and Bali's finest dive sites. From age 15.",
+ "Earn your SSI Open Water Diver certification with fully private instruction in Bali. No group classes, no strangers — just you and your personal diving professional at Tulamben, Padang Bai, and Bali's finest dive sites. From age 15.",
  keywords: [
  "SSI Open Water Diver Bali",
  "private scuba certification Bali",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
  openGraph: {
  title: "Private SSI Open Water Diver Course | Boutique Diving Bali",
  description:
- "Earn your SSI Open Water Diver certification with fully private instruction in Bali. No groups, no rush — just you and your personal instructor.",
+ "Earn your SSI Open Water Diver certification with fully private instruction in Bali. No groups, no rush — just you and your personal diving professional.",
  url: "https://www.boutiquedivingbali.com/services/open-water",
  siteName: "Boutique Diving Bali",
  locale: "en_US",
@@ -97,7 +97,7 @@ export default function OpenWaterDiverPage() {
  url: "https://www.boutiquedivingbali.com",
  },
  description:
- "Earn your SSI Open Water Diver certification with fully private instruction in Bali. No group classes — just you and your personal SSI-certified diving instructor.",
+ "Earn your SSI Open Water Diver certification with fully private instruction in Bali. No group classes — just you and your personal SSI-certified diving professional.",
  areaServed: {
  "@type": "Place",
  name: "Bali, Indonesia",
@@ -214,7 +214,7 @@ export default function OpenWaterDiverPage() {
  {/* Sub-heading */}
  <FadeInUp delay={0.3}>
  <p className="font-sans text-lg sm:text-xl text-[#94A3B8] max-w-2xl mx-auto mb-10 leading-relaxed">
- Earn your SSI Open Water Diver certification with fully private instruction. No group classes, no strangers — just you and your personal diving instructor at Bali&apos;s most beautiful dive sites.
+ Earn your SSI Open Water Diver certification with fully private instruction. No group classes, no strangers — just you and your personal diving professional at Bali&apos;s most beautiful dive sites.
  </p>
  </FadeInUp>
 
@@ -264,7 +264,7 @@ export default function OpenWaterDiverPage() {
  At most dive shops in Bali, your Open Water Diver course means sharing an instructor with four, six, sometimes eight other students. You wait your turn. You move at the group&apos;s pace. If you need more time with a skill, you feel the pressure of everyone watching. If you progress quickly, you wait for others to catch up. The instructor — however talented — cannot give you individual attention when they are managing a crowd.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- At Boutique Diving Bali, your Open Water Diver course is entirely different. Dominic Frei, your SSI-certified Swiss diving instructor, teaches you privately — one-on-one or with your own group only. Every skill is demonstrated just for you. Every question is answered immediately. Every dive is planned around your comfort, your confidence, and the best conditions that day. You never compete for attention, and you never feel rushed.
+ At Boutique Diving Bali, your Open Water Diver course is entirely different. Dominic Frei, your SSI-certified Swiss diving professional, guides you privately — one-on-one or with your own group only. Every skill is demonstrated just for you. Every question is answered immediately. Every dive is planned around your comfort, your confidence, and the best conditions that day. You never compete for attention, and you never feel rushed.
  </p>
  <p className="text-[#64748B] font-sans leading-relaxed">
  The result is not just a certification card — it is genuine comfort and competence underwater. Divers who learn privately develop better buoyancy, stronger confidence, and a deeper connection to the ocean from their very first dive. This is learning to dive as it should be: personal, patient, and unforgettable.
@@ -305,7 +305,7 @@ export default function OpenWaterDiverPage() {
  phase: "02",
  title: "Confined Water Training — Master the Skills",
  description:
- "Your first day in the water. In a pool or calm, shallow environment, Dominic teaches you every essential diving skill one-on-one: equipment setup, breathing techniques, buoyancy control, mask clearing, regulator recovery, emergency ascents, and air-sharing procedures. Because it is just you and your instructor, there is no pressure and no waiting. You practise each skill until you are genuinely comfortable — not until the group is ready to move on.",
+ "Your first day in the water. In a pool or calm, shallow environment, Dominic guides you through every essential diving skill one-on-one: equipment setup, breathing techniques, buoyancy control, mask clearing, regulator recovery, emergency ascents, and air-sharing procedures. Because it is just you and Dominic, there is no pressure and no waiting. You practise each skill until you are genuinely comfortable — not until the group is ready to move on.",
  icon: Shield,
  detail: "One full day · Private pool or calm shallow water · All equipment provided",
  },
@@ -422,7 +422,7 @@ export default function OpenWaterDiverPage() {
  Where You Will Learn to Dive
  </h2>
  <p className="font-sans text-[#64748B] text-center max-w-2xl mx-auto mb-14">
- Not a hotel swimming pool. Not a crowded beach. Bali&apos;s finest dive sites — chosen for you, on the day, by your instructor.
+ Not a hotel swimming pool. Not a crowded beach. Bali&apos;s finest dive sites — chosen for you, on the day, by Dominic.
  </p>
  </FadeInUp>
 
@@ -514,11 +514,11 @@ export default function OpenWaterDiverPage() {
  },
  {
  title: "Couples & Friends",
- description: "Learn together at your own pace. Dominic teaches couples and small groups privately — so you share the experience without sharing your instructor with strangers.",
+ description: "Learn together at your own pace. Dominic guides couples and small groups privately — so you share the experience without sharing your instructor with strangers.",
  },
  {
  title: "Anxious Beginners",
- description: "Nervous about breathing underwater? A private course removes every source of pressure. No audience, no rushing. Just you, your instructor, and your pace.",
+ description: "Nervous about breathing underwater? A private course removes every source of pressure. No audience, no rushing. Just you, Dominic, and your pace.",
  },
  {
  title: "Parents Before Family Trips",
@@ -594,7 +594,7 @@ export default function OpenWaterDiverPage() {
  },
  {
  title: "Dive Butler Service",
- description: "Your personal diving instructor across all of Indonesia. Liveaboards, resorts, any destination.",
+ description: "Your personal diving concierge across all of Indonesia. Liveaboards, resorts, any destination.",
  href: "/services/dive-butler",
  badge: "Signature Service",
  },

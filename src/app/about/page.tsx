@@ -5,25 +5,25 @@ import { FadeInUp, FadeIn } from "@/components/AnimatedSection";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "About Dominic Frei — Your Personal Diving Instructor in Bali | Boutique Diving Bali",
+ title: "About Dominic Frei — Your Personal Diving Concierge in Bali | Boutique Diving Bali",
  description:
- "Meet Dominic Frei — Swiss-born, Bali-based SSI diving instructor. Former Swiss Army instructor and corporate risk management executive. Now he's your personal diving concierge across Indonesia. Learn his story.",
+ "Meet Dominic Frei — Swiss-born, Bali-based, SSI-certified diving professional. Former Swiss Army instructor and corporate risk management executive. Now your personal diving concierge across Indonesia. Learn his story.",
  keywords: [
- "Dominic Frei diving instructor",
+ "Dominic Frei diving concierge",
  "about Boutique Diving Bali",
  "personal dive instructor Bali",
- "Swiss diving instructor Bali",
+ "Swiss diving professional Bali",
  "SSI instructor Bali",
- "dive instructor Tulamben",
+ "dive concierge Tulamben",
  "private diving Bali founder",
  "Bali dive concierge",
- "diving instructor Indonesia",
+ "diving concierge Indonesia",
  "Swiss Army dive instructor",
  ],
  openGraph: {
  title: "About Dominic Frei | Boutique Diving Bali",
  description:
- "Meet Dominic Frei — Swiss-born, Bali-based SSI diving instructor. Former Swiss Army instructor turned personal diving concierge.",
+ "Meet Dominic Frei — Swiss-born, Bali-based SSI-certified diving professional. Former Swiss Army instructor turned personal diving concierge.",
  url: "https://www.boutiquedivingbali.com/about",
  siteName: "Boutique Diving Bali",
  locale: "en_US",
@@ -49,7 +49,7 @@ export default function AboutPage() {
  "@context": "https://schema.org",
  "@type": "Person",
  name: "Dominic Frei",
- jobTitle: "Founder & SSI Diving Instructor",
+ jobTitle: "Founder & Personal Diving Concierge",
  worksFor: {
  "@type": "LocalBusiness",
  name: "Boutique Diving Bali",
@@ -123,7 +123,7 @@ export default function AboutPage() {
 
  <FadeInUp delay={0.3}>
  <p className="font-sans text-lg sm:text-xl text-[#94A3B8] max-w-2xl mx-auto mb-6 leading-relaxed">
- Swiss-born. Bali-based. SSI-certified diving instructor. Former Swiss Army instructor and corporate risk management executive. Now your personal diving concierge across Indonesia.
+ Swiss-born. Bali-based. SSI-certified diving professional. Former Swiss Army instructor and corporate risk management executive. Now your personal diving concierge across Indonesia.
  </p>
  </FadeInUp>
 
@@ -161,13 +161,13 @@ export default function AboutPage() {
  It started in Panama. In 2002, in the warm waters of Bocas del Toro, Dominic Frei took his first breath underwater — and everything changed. What was supposed to be a holiday activity became an obsession that would reshape his entire life. From that moment, no matter where his career took him, the ocean was never far from his mind.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- Before diving became his profession, Dominic built two very different careers. As an instructor in the Swiss Army, he trained soldiers in one of Switzerland&apos;s elite units — developing the discipline, leadership, and safety-first mindset that now defines how he teaches diving. After the military, he spent a decade as a Risk and Security Management Executive at the world&apos;s second-largest valuable-in-transit company — managing operations where attention to detail and the ability to stay calm under pressure were not optional, they were essential.
+ Before diving became his passion, Dominic built two very different careers. As an instructor in the Swiss Army, he trained soldiers in one of Switzerland&apos;s elite units — developing the discipline, leadership, and safety-first mindset that now defines how he shares diving. After the military, he spent a decade as a Risk and Security Management Executive at the world&apos;s second-largest valuable-in-transit company — managing operations where attention to detail and the ability to stay calm under pressure were not optional, they were essential.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- But the ocean kept calling. In 2020, Dominic moved his family — his wife and their 14-year-old twin teenage daughters — to Bali. Not for a holiday, but for a life. He immersed himself in the diving industry, spending three months working as a Diving Instructor and Boatmaster for a large dive operator in Koh Samui, Thailand. He wanted to see the industry from the inside — the good, the bad, and the ugly. What he found confirmed what he already suspected: mass-market diving sacrifices the personal experience for volume. Groups of eight or more divers. Rotating instructors who do not know your name. Fixed schedules that ignore conditions. Safety treated as a checkbox, not a philosophy.
+ But the ocean kept calling. In 2020, Dominic moved his family — his wife and their 14-year-old twin teenage daughters — to Bali. Not for a holiday, but for a life. He immersed himself in the diving industry, spending three months gaining experience as a Diving Instructor and Boatmaster at a large dive operator in Koh Samui, Thailand. He wanted to see the industry from the inside — the good, the bad, and the ugly. What he found confirmed what he already suspected: mass-market diving sacrifices the personal experience for volume. Groups of eight or more divers. Rotating instructors who do not know your name. Fixed schedules that ignore conditions. Safety treated as a checkbox, not a philosophy.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- In 2023, Dominic earned his SSI Diving Instructor certification. Not because he needed another credential — but because he wanted to build something different. Something where every diver is known personally. Where safety is designed into every moment, not stapled on as an afterthought. Where the instructor does not change between dives. Where the experience is not a product, but a relationship.
+ In 2023, Dominic earned his SSI Instructor certification. Not because he needed another credential — but because he wanted to build something different. Something where every diver is known personally. Where safety is designed into every moment, not stapled on as an afterthought. Where the instructor does not change between dives. Where the experience is not a product, but a relationship.
  </p>
  <p className="text-[#64748B] font-sans leading-relaxed">
  That is Boutique Diving Bali. It is not a dive shop. It is not a tour operator. It is one person — Dominic — offering his expertise, his time, and his genuine passion for the ocean to people who want something better than what the dive industry typically provides. Based in Tulamben, available across all of Indonesia, and built on the belief that the underwater world deserves to be experienced personally, privately, and without compromise.
@@ -197,7 +197,7 @@ export default function AboutPage() {
  title: "Swiss Army Instructor",
  icon: Shield,
  description:
- "Instructor for an elite unit in the Swiss Army. This is where Dominic's approach to safety, discipline, and teaching was forged — not in a classroom, but in the field, where precision and calm under pressure are non-negotiable. These instincts now define how he teaches diving.",
+ "Instructor for an elite unit in the Swiss Army. This is where Dominic's approach to safety, discipline, and teaching was forged — not in a classroom, but in the field, where precision and calm under pressure are non-negotiable. These instincts now define how he approaches diving.",
  },
  {
  title: "Corporate Risk & Security Executive",
@@ -209,13 +209,13 @@ export default function AboutPage() {
  title: "Dive Industry Research — Koh Samui",
  icon: Globe,
  description:
- "Before building Boutique Diving Bali, Dominic spent three months working as a Diving Instructor and Boatmaster at a large operator in Koh Samui. He wanted to see the industry from the inside — and what he found confirmed that mass-market diving consistently sacrifices personal experience for volume.",
+ "Before building Boutique Diving Bali, Dominic spent three months working as a Diving Instructor and Boatmaster at a large operator in Koh Samui. He wanted to understand the industry from the inside — and what he found confirmed that mass-market diving consistently sacrifices personal experience for volume.",
  },
  {
  title: "Family Man in Bali",
  icon: Heart,
  description:
- "Dominic lives in Bali with his wife and their 14-year-old twin teenage daughters. He has called Indonesia home for since 2021. His perspective as a father directly shapes how he teaches young divers — with patience, encouragement, and genuine understanding of how children learn.",
+ "Dominic lives in Bali with his wife and their 14-year-old twin teenage daughters. He has called Indonesia home for since 2021. His perspective as a father directly shapes how he guides young divers — with patience, encouragement, and genuine understanding of how children learn.",
  },
  ].map((item, index) => (
  <FadeInUp key={item.title} delay={index * 0.1}>

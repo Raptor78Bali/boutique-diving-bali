@@ -105,7 +105,7 @@ export default function ContactPage() {
 
  <FadeInUp delay={0.3}>
  <p className="font-sans text-lg sm:text-xl text-[#94A3B8] max-w-2xl mx-auto leading-relaxed">
- No forms, no automated replies. When you reach out, you are talking directly to Dominic — the person who will be your instructor in the water.
+ No forms, no automated replies. When you reach out, you are talking directly to Dominic — the person who will be with you in the water.
  </p>
  </FadeInUp>
  </div>
@@ -362,7 +362,7 @@ export default function ContactPage() {
  {[
  {
  icon: MapPin,
- title: "Based in Bali",
+ title: "Bali, Indonesia",
  detail: "Tulamben, East Bali — with services available across the entire island and all of Indonesia.",
  },
  {

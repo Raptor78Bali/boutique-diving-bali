@@ -6,9 +6,9 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "Personal Dive Butler Service — Your Private Diving Instructor Across Indonesia | Boutique Diving Bali",
+ title: "Personal Dive Butler Service — Your Private Diving Companion Across Indonesia | Boutique Diving Bali",
  description:
- "Your personal SSI-certified diving instructor travels with you to any destination in Indonesia. From luxury liveaboards to five-star dive resorts — Dominic handles all diving logistics so you experience only wonder. Fully bespoke, entirely private.",
+ "Your personal SSI-certified diving companion travels with you to any destination in Indonesia. From luxury liveaboards to five-star dive resorts — Dominic handles all diving logistics so you experience only wonder. Fully bespoke, entirely private.",
  keywords: [
  "dive butler Indonesia",
  "personal dive instructor Bali",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
  openGraph: {
  title: "Personal Dive Butler Service | Boutique Diving Bali",
  description:
- "Your personal SSI-certified diving instructor travels with you across Indonesia. Luxury liveaboards, five-star resorts, private dive experiences — all handled for you.",
+ "Your personal SSI-certified diving companion travels with you across Indonesia. Luxury liveaboards, five-star resorts, private dive experiences — all handled for you.",
  url: "https://www.boutiquedivingbali.com/services/dive-butler",
  siteName: "Boutique Diving Bali",
  locale: "en_US",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
  card: "summary_large_image",
  title: "Personal Dive Butler Service | Boutique Diving Bali",
  description:
- "Your personal SSI-certified diving instructor travels with you across Indonesia. Fully bespoke, entirely private.",
+ "Your personal SSI-certified diving companion travels with you across Indonesia. Fully bespoke, entirely private.",
  },
  alternates: {
  canonical: "https://www.boutiquedivingbali.com/services/dive-butler",
@@ -48,12 +48,12 @@ const faqItems = [
  {
  question: "What exactly is the Dive Butler service?",
  answer:
- "The Dive Butler is your personal, SSI-certified diving instructor who travels with you to any destination in Indonesia. Whether you are joining a luxury liveaboard expedition or staying at a five-star dive resort, Dominic accompanies you as your dedicated dive professional. He handles all diving logistics — equipment selection, dive planning, safety protocols, weather timing — so you experience only the wonder of being underwater. Think of it as having a private diving concierge who ensures every dive is tailored to your comfort, skill level, and wishes.",
+ "The Dive Butler is your personal, SSI-certified diving companion who travels with you to any destination in Indonesia. Whether you are joining a luxury liveaboard expedition or staying at a five-star dive resort, Dominic accompanies you as your dedicated diving companion. He handles all diving logistics — equipment selection, dive planning, safety protocols, weather timing — so you experience only the wonder of being underwater. Think of it as having a private diving concierge who ensures every dive is tailored to your comfort, skill level, and wishes.",
  },
  {
  question: "Which destinations does the Dive Butler service cover?",
  answer:
- "The Dive Butler service covers all of Indonesia. Bali's Tulamben region serves as our home base, where Dominic leads dives personally at sites he knows intimately — the USAT Liberty wreck, the coral gardens, the drop-off, and the macro sites. For destinations beyond Bali — Komodo National Park, Raja Ampat, the Banda Sea, Alor, Wakatobi, and more — Dominic coordinates with carefully vetted local dive guides who know their sites inside-out. He handles all preparation and logistics before the dive, the local guide delivers the site-specific briefing, and Dominic stays with you underwater as your personal instructor and safety monitor throughout every dive.",
+ "The Dive Butler service covers all of Indonesia. Bali's Tulamben region serves as our home base, where Dominic leads dives personally at sites he knows intimately — the USAT Liberty wreck, the coral gardens, the drop-off, and the macro sites. For destinations beyond Bali — Komodo National Park, Raja Ampat, the Banda Sea, Alor, Wakatobi, and more — Dominic coordinates with carefully vetted local dive guides who know their sites inside-out. He handles all preparation and logistics before the dive, the local guide delivers the site-specific briefing, and Dominic stays with you underwater as your personal dive companion and safety monitor throughout every dive.",
  },
  {
  question: "Do I need to be an experienced diver to use the Dive Butler service?",
@@ -97,7 +97,7 @@ export default function DiveButlerPage() {
  url: "https://www.boutiquedivingbali.com",
  },
  description:
- "Your personal SSI-certified diving instructor travels with you to any destination in Indonesia. From luxury liveaboards to five-star dive resorts — fully bespoke, entirely private diving experiences.",
+ "Your personal SSI-certified diving companion travels with you to any destination in Indonesia. From luxury liveaboards to five-star dive resorts — fully bespoke, entirely private diving experiences.",
  areaServed: {
  "@type": "Country",
  name: "Indonesia",
@@ -204,7 +204,7 @@ export default function DiveButlerPage() {
  {/* Sub-heading */}
  <FadeInUp delay={0.3}>
  <p className="font-sans text-lg sm:text-xl text-[#94A3B8] max-w-2xl mx-auto mb-10 leading-relaxed">
- A dedicated SSI-certified diving instructor who travels with you to any destination in Indonesia. Your dives, your pace, your wishes — handled from start to finish.
+ A dedicated SSI-certified diving professional who travels with you to any destination in Indonesia. Your dives, your pace, your wishes — handled from start to finish.
  </p>
  </FadeInUp>
 
@@ -251,10 +251,10 @@ export default function DiveButlerPage() {
  <FadeInUp delay={0.1}>
  <div className="prose prose-lg max-w-none">
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- Imagine arriving at a luxury liveaboard or a five-star dive resort — and instead of joining a group of strangers led by an unfamiliar guide, you have your own personal diving instructor already there, already prepared, already knowing exactly what you want from this trip.
+ Imagine arriving at a luxury liveaboard or a five-star dive resort — and instead of joining a group of strangers led by an unfamiliar guide, you have your own personal diving concierge already there, already prepared, already knowing exactly what you want from this trip.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- That is the Dive Butler. Dominic Frei, your SSI-certified Swiss diving instructor, travels with you to any destination in Indonesia as your private dive professional. He handles everything: equipment preparation, dive planning, safety checks, weather timing, coordination with local operators and dive guides. You handle nothing — except deciding where you want to dive and what you want to see.
+ That is the Dive Butler. Dominic Frei, your SSI-certified Swiss diving professional, travels with you to any destination in Indonesia as your private dive professional. He handles everything: equipment preparation, dive planning, safety checks, weather timing, coordination with local operators and dive guides. You handle nothing — except deciding where you want to dive and what you want to see.
  </p>
  <p className="text-[#64748B] font-sans leading-relaxed">
  The concept of a personal Dive Butler was pioneered internationally by operators serving superyachts and ultra-luxury resorts in the Maldives. Boutique Diving Bali brings this same philosophy to Indonesia — the world&apos;s largest archipelago and the global epicentre of marine biodiversity — with one critical difference: here, it is not a team of rotating staff. It is one person. Your person. The same instructor, the same trust, the same understanding — from your first breath underwater to your last dive of the trip.
@@ -413,7 +413,7 @@ export default function DiveButlerPage() {
  Where Your Dive Butler Goes
  </h2>
  <p className="font-sans text-[#64748B] text-center max-w-2xl mx-auto mb-14">
- Based in Bali. Available across the entire Indonesian archipelago.
+ Serving Bali and the entire Indonesian archipelago.
  </p>
  </FadeInUp>
 
