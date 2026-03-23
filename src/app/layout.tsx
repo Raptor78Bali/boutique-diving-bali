@@ -80,6 +80,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${heading.variable} ${sans.variable} ${mono.variable}`}>
       <body className="font-sans antialiased bg-[#FDF8F0] text-[#2D4349]">
+        <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[9999] focus:px-4 focus:py-2 focus:bg-[#C5A55A] focus:text-[#0A1628] focus:rounded-lg focus:text-sm focus:font-sans">
+          Skip to content
+        </a>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
