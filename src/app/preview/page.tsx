@@ -69,7 +69,9 @@ export default function Home() {
  {/* SECTION 1: HEADER */}
  <Header />
 
- {/* SECTION 2: HERO */}
+ 
+
+{/* SECTION 2: HERO */}
  <section className="ocean-hero-bg min-h-screen flex items-center justify-center relative">
  {/* Light rays */}
  <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -156,10 +158,14 @@ export default function Home() {
  </div>
  </section>
 
- {/* SECTION 3: TRANSITION */}
+ 
+
+{/* SECTION 3: TRANSITION */}
  <div className="ocean-hero-fade" />
 
- {/* SECTION 4: WHY BOUTIQUE DIVING BALI */}
+ 
+
+{/* SECTION 4: WHY BOUTIQUE DIVING BALI */}
  <section className="py-20 md:py-28 px-6 bg-[var(--brand-cream)]">
  <div className="max-w-6xl mx-auto">
  <FadeInUp>
@@ -207,7 +213,151 @@ export default function Home() {
  </div>
  </section>
 
- {/* SECTION 5: SERVICES OVERVIEW */}
+ 
+
+{/* SECTION 9: ABOUT DOMINIC */}
+ <section className="py-20 md:py-28 px-6 bg-[var(--brand-sand)]">
+ <div className="max-w-6xl mx-auto">
+ <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
+ <div className="lg:col-span-2">
+ <FadeInUp>
+ <div className="aspect-[3/4] rounded-2xl border border-[var(--brand-tan)] bg-gradient-to-b from-[var(--brand-cream)] to-[var(--brand-sand)] flex items-center justify-center">
+ <div className="text-center px-6">
+ <Users className="w-12 h-12 text-[var(--brand-teal)]/30 mx-auto mb-4" strokeWidth={1} />
+ <p className="text-[var(--brand-text-muted)] text-sm font-sans">Professional photo</p>
+ <p className="text-[var(--brand-text-muted)] text-xs font-sans mt-1">Coming soon</p>
+ </div>
+ </div>
+ </FadeInUp>
+ </div>
+
+ <div className="lg:col-span-3">
+ <FadeInUp delay={0.15}>
+ <p className="text-xs uppercase tracking-[0.2em] text-[var(--brand-gold)] mb-4 font-sans font-medium">
+ THE FOUNDER
+ </p>
+ <h2 className="font-heading text-3xl md:text-4xl text-[var(--brand-text)] mb-6 leading-tight">
+ Dominic Frei — Your Personal Diving Expert
+ </h2>
+ <div className="space-y-4 text-[var(--brand-text-secondary)] leading-relaxed font-sans">
+ <p>
+ Hi, I&apos;m Dominic, a 48-year-young visionary from Switzerland, calling Bali
+ home and our family&apos;s happy place for 5 years already. With a heritage rooted
+ in precision and excellence, my journey has taken me from the disciplined heights
+ of military service as an instructor for an elite Swiss Army unit, through a decade
+ as a Risk &amp; Security Management Executive at corporate level, to the magical
+ depths of the ocean.
+ </p>
+ <p>
+ My passion for the underwater world started in Panama&apos;s Bocas del Toro
+ archipelago in 2002 and ignited a lifelong quest to explore the underwater wonders
+ of our beautiful blue planet. In 2023, I elevated this passion by becoming a
+ certified SSI Diving Instructor, allowing me to share this magical experience
+ with adventurers like you. Nothing is more relaxing, de-stressing and magical to
+ me than floating weightless below the ocean and watching the beauty of our
+ blue planet...
+ </p>
+ </div>
+
+ <div className="flex flex-wrap gap-3 mt-8">
+ {[
+ "SSI Certified Instructor",
+ "Swiss Precision & Safety",
+ "In Bali Since 2021",
+ "Multilingual (EN / DE)",
+ ].map((badge) => (
+ <span
+ key={badge}
+ className="text-xs font-sans font-medium text-[var(--brand-teal)] bg-[var(--brand-teal)]/10 px-4 py-2 rounded-full border border-[var(--brand-teal)]/20"
+ >
+ {badge}
+ </span>
+ ))}
+ </div>
+
+ <Link
+ href="/about"
+ className="inline-flex items-center gap-1 text-[var(--brand-teal)] font-sans font-medium text-sm mt-6 hover:gap-2 transition-all"
+ >
+ Read Full Story →
+ </Link>
+ </FadeInUp>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ 
+
+{/* SECTION 6: WHY BOOK ME */}
+ <section className="py-20 md:py-28 px-6 bg-[var(--brand-sand)]">
+ <div className="max-w-3xl mx-auto">
+ <FadeInUp>
+ <div className="text-center mb-12">
+ <p className="text-xs uppercase tracking-[0.2em] text-[var(--brand-gold)] mb-4 font-sans font-medium">
+ THE STORY
+ </p>
+ <h2 className="font-heading text-3xl md:text-5xl text-[var(--brand-text)] mb-6 leading-tight">
+ Why Boutique Diving Bali Exists
+ </h2>
+ </div>
+ </FadeInUp>
+
+ <FadeInUp delay={0.15}>
+ <div className="space-y-5 text-[var(--brand-text-secondary)] leading-relaxed font-sans">
+ <p>
+ You may think that curating a premium, high-end diving experience should be the
+ goal of every diving operator, right? Unfortunately, that is not always the case.
+ </p>
+ <p>
+ Before launching Boutique Diving Bali, I spent 3 months during high season in
+ Koh Samui, working 6 days a week as a Diving Instructor &amp; Boatmaster for a
+ large local operator. I wanted to see and experience for myself the Good, the Bad,
+ and the Ugly sides of this business — and do active market research at the same time.
+ It was an intense, challenging, and deeply insightful time.
+ </p>
+ <p>
+ The recreational diving industry is booming globally, but sadly this comes with
+ negative side effects that can ruin your experience completely — especially at
+ mass-diving hotspots. From burned-out, unmotivated instructors with a dangerous
+ lack of safety awareness, to worn-out and poorly maintained equipment that
+ compromises your safety, to manufactured 5-star reviews offered in exchange for
+ discounts or free beers.
+ </p>
+ <p className="text-[var(--brand-text)] font-medium">
+ That is exactly why Boutique Diving Bali exists. Every experience is designed with
+ Swiss precision, an unwavering commitment to your safety, and a genuine passion for
+ sharing the magic of the underwater world. No shortcuts. No compromises. Just
+ exceptional diving, tailored to you.
+ </p>
+ </div>
+ </FadeInUp>
+
+ <FadeInUp delay={0.3}>
+ <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-12">
+ {[
+ { problem: "Burned-out instructors", solution: "Your dedicated, passionate dive professional" },
+ { problem: "Poorly maintained equipment", solution: "Premium, personally inspected gear" },
+ { problem: "Generic group packages", solution: "Every experience designed from scratch for you" },
+ ].map((item) => (
+ <div key={item.problem} className="bg-white border border-[var(--brand-tan)] rounded-2xl p-6 text-center">
+ <p className="text-[var(--brand-coral)] text-sm font-sans font-medium mb-2 line-through decoration-[var(--brand-coral)]/40">
+ {item.problem}
+ </p>
+ <div className="w-6 h-px bg-[var(--brand-gold)] mx-auto my-3" />
+ <p className="text-[var(--brand-teal)] text-sm font-sans font-medium">
+ {item.solution}
+ </p>
+ </div>
+ ))}
+ </div>
+ </FadeInUp>
+ </div>
+ </section>
+
+ 
+
+{/* SECTION 5: SERVICES OVERVIEW */}
  <section id="services" className="py-20 md:py-28 px-6 bg-[var(--brand-cream)] border-t border-[var(--brand-tan)]">
  <div className="max-w-6xl mx-auto">
  <FadeInUp>
@@ -299,73 +449,9 @@ export default function Home() {
  </div>
  </section>
 
- {/* SECTION 6: WHY BOOK ME */}
- <section className="py-20 md:py-28 px-6 bg-[var(--brand-sand)]">
- <div className="max-w-3xl mx-auto">
- <FadeInUp>
- <div className="text-center mb-12">
- <p className="text-xs uppercase tracking-[0.2em] text-[var(--brand-gold)] mb-4 font-sans font-medium">
- The Difference
- </p>
- <h2 className="font-heading text-3xl md:text-5xl text-[var(--brand-text)] mb-6 leading-tight">
- Why Boutique Diving Bali Exists
- </h2>
- </div>
- </FadeInUp>
+ 
 
- <FadeInUp delay={0.15}>
- <div className="space-y-5 text-[var(--brand-text-secondary)] leading-relaxed font-sans">
- <p>
- You may think that curating a premium, high-end diving experience should be the
- goal of every diving operator, right? Unfortunately, that is not always the case.
- </p>
- <p>
- Before launching Boutique Diving Bali, I spent 3 months during high season in
- Koh Samui, working 6 days a week as a Diving Instructor &amp; Boatmaster for a
- large local operator. I wanted to see and experience for myself the Good, the Bad,
- and the Ugly sides of this business — and do active market research at the same time.
- It was an intense, challenging, and deeply insightful time.
- </p>
- <p>
- The recreational diving industry is booming globally, but sadly this comes with
- negative side effects that can ruin your experience completely — especially at
- mass-diving hotspots. From burned-out, unmotivated instructors with a dangerous
- lack of safety awareness, to worn-out and poorly maintained equipment that
- compromises your safety, to manufactured 5-star reviews offered in exchange for
- discounts or free beers.
- </p>
- <p className="text-[var(--brand-text)] font-medium">
- That is exactly why Boutique Diving Bali exists. Every experience is designed with
- Swiss precision, an unwavering commitment to your safety, and a genuine passion for
- sharing the magic of the underwater world. No shortcuts. No compromises. Just
- exceptional diving, tailored to you.
- </p>
- </div>
- </FadeInUp>
-
- <FadeInUp delay={0.3}>
- <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-12">
- {[
- { problem: "Burned-out instructors", solution: "Your dedicated, passionate dive professional" },
- { problem: "Poorly maintained equipment", solution: "Premium, personally inspected gear" },
- { problem: "Generic group packages", solution: "Every experience designed from scratch for you" },
- ].map((item) => (
- <div key={item.problem} className="bg-white border border-[var(--brand-tan)] rounded-2xl p-6 text-center">
- <p className="text-[var(--brand-coral)] text-sm font-sans font-medium mb-2 line-through decoration-[var(--brand-coral)]/40">
- {item.problem}
- </p>
- <div className="w-6 h-px bg-[var(--brand-gold)] mx-auto my-3" />
- <p className="text-[var(--brand-teal)] text-sm font-sans font-medium">
- {item.solution}
- </p>
- </div>
- ))}
- </div>
- </FadeInUp>
- </div>
- </section>
-
- {/* SECTION 7: THE DIVE BUTLER */}
+{/* SECTION 7: THE DIVE BUTLER */}
  <section className="py-20 md:py-28 px-6 bg-gradient-to-b from-[#0B2A3A] to-[#0A1628] relative overflow-hidden">
  <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[var(--brand-teal)]/5 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/4 pointer-events-none" />
 
@@ -432,7 +518,9 @@ export default function Home() {
  </div>
  </section>
 
- {/* SECTION 8: DESTINATION SHOWCASE */}
+ 
+
+{/* SECTION 8: DESTINATION SHOWCASE */}
  <section id="destinations" className="py-20 md:py-28 px-6 bg-[var(--brand-cream)]">
  <div className="max-w-6xl mx-auto">
  <FadeInUp>
@@ -488,79 +576,9 @@ export default function Home() {
  </div>
  </section>
 
- {/* SECTION 9: ABOUT DOMINIC */}
- <section className="py-20 md:py-28 px-6 bg-[var(--brand-sand)]">
- <div className="max-w-6xl mx-auto">
- <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
- <div className="lg:col-span-2">
- <FadeInUp>
- <div className="aspect-[3/4] rounded-2xl border border-[var(--brand-tan)] bg-gradient-to-b from-[var(--brand-cream)] to-[var(--brand-sand)] flex items-center justify-center">
- <div className="text-center px-6">
- <Users className="w-12 h-12 text-[var(--brand-teal)]/30 mx-auto mb-4" strokeWidth={1} />
- <p className="text-[var(--brand-text-muted)] text-sm font-sans">Professional photo</p>
- <p className="text-[var(--brand-text-muted)] text-xs font-sans mt-1">Coming soon</p>
- </div>
- </div>
- </FadeInUp>
- </div>
+ 
 
- <div className="lg:col-span-3">
- <FadeInUp delay={0.15}>
- <p className="text-xs uppercase tracking-[0.2em] text-[var(--brand-gold)] mb-4 font-sans font-medium">
- Meet Your Dive Butler
- </p>
- <h2 className="font-heading text-3xl md:text-4xl text-[var(--brand-text)] mb-6 leading-tight">
- Dominic Frei — Your Personal Diving Expert
- </h2>
- <div className="space-y-4 text-[var(--brand-text-secondary)] leading-relaxed font-sans">
- <p>
- Hi, I&apos;m Dominic, a 48-year-young visionary from Switzerland, calling Bali
- home and our family&apos;s happy place for 5 years already. With a heritage rooted
- in precision and excellence, my journey has taken me from the disciplined heights
- of military service as an instructor for an elite Swiss Army unit, through a decade
- as a Risk &amp; Security Management Executive at corporate level, to the magical
- depths of the ocean.
- </p>
- <p>
- My passion for the underwater world started in Panama&apos;s Bocas del Toro
- archipelago in 2002 and ignited a lifelong quest to explore the underwater wonders
- of our beautiful blue planet. In 2023, I elevated this passion by becoming a
- certified SSI Diving Instructor, allowing me to share this magical experience
- with adventurers like you. Nothing is more relaxing, de-stressing and magical to
- me than floating weightless below the ocean and watching the beauty of our
- blue planet...
- </p>
- </div>
-
- <div className="flex flex-wrap gap-3 mt-8">
- {[
- "SSI Certified Instructor",
- "Swiss Precision & Safety",
- "In Bali Since 2021",
- "Multilingual (EN / DE)",
- ].map((badge) => (
- <span
- key={badge}
- className="text-xs font-sans font-medium text-[var(--brand-teal)] bg-[var(--brand-teal)]/10 px-4 py-2 rounded-full border border-[var(--brand-teal)]/20"
- >
- {badge}
- </span>
- ))}
- </div>
-
- <Link
- href="/about"
- className="inline-flex items-center gap-1 text-[var(--brand-teal)] font-sans font-medium text-sm mt-6 hover:gap-2 transition-all"
- >
- Read Full Story →
- </Link>
- </FadeInUp>
- </div>
- </div>
- </div>
- </section>
-
- {/* SECTION 10: TESTIMONIALS */}
+{/* SECTION 10: TESTIMONIALS */}
  <section className="py-20 md:py-28 px-6 bg-[var(--brand-cream)]">
  <div className="max-w-6xl mx-auto">
  <FadeInUp>
@@ -618,7 +636,9 @@ export default function Home() {
  </div>
  </section>
 
- {/* SECTION 11: STATS COUNTER BAR */}
+ 
+
+{/* SECTION 11: STATS COUNTER BAR */}
  <section className="py-16 md:py-20 px-6 bg-gradient-to-r from-[#0A1628] to-[#0B2A3A]">
  <div className="max-w-5xl mx-auto">
  <FadeInUp>
@@ -643,13 +663,15 @@ export default function Home() {
  </div>
  </section>
 
- {/* SECTION 12: FAQ */}
+ 
+
+{/* SECTION 12: FAQ */}
  <section id="faq" className="py-20 md:py-28 px-6 bg-[var(--brand-cream)]">
  <div className="max-w-3xl mx-auto">
  <FadeInUp>
  <div className="text-center mb-12">
  <p className="text-xs uppercase tracking-[0.2em] text-[var(--brand-gold)] mb-4 font-sans font-medium">
- FAQ
+ COMMON QUESTIONS
  </p>
  <h2 className="font-heading text-3xl md:text-4xl text-[var(--brand-text)] leading-tight">
  Frequently Asked Questions
@@ -662,7 +684,9 @@ export default function Home() {
  </div>
  </section>
 
- {/* SECTION 13: CONTACT / INQUIRY CTA */}
+ 
+
+{/* SECTION 13: CONTACT / INQUIRY CTA */}
  <section className="py-20 md:py-28 px-6 bg-gradient-to-b from-[#0A1628] to-[#0B2A3A] relative overflow-hidden">
  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[var(--brand-gold)]/5 rounded-full blur-[150px] pointer-events-none" />
  <div className="max-w-3xl mx-auto text-center relative z-10">
@@ -706,7 +730,9 @@ export default function Home() {
  </div>
  </section>
 
- {/* SECTION 14: FOOTER */}
+ 
+
+{/* SECTION 14: FOOTER */}
  <footer className="py-16 px-6 bg-[#060D18] border-t border-white/5">
  <div className="max-w-6xl mx-auto">
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
