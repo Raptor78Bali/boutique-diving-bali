@@ -455,7 +455,7 @@ export default function AboutPage() {
  <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-normal text-white mb-6">
  Ready to Meet{" "}
  <span className="bg-gradient-to-r from-[#C5A55A] via-[#D4AF37] to-[#0C7C6B] bg-clip-text text-transparent animate-[gradient-text-shift_8s_ease_infinite] bg-[length:200%_auto]">
- Your Instructor?
+ Dominic?
  </span>
  </h2>
  <p className="font-sans text-[#94A3B8] text-lg mb-10 max-w-xl mx-auto">
