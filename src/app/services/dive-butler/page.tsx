@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
  title: "Personal Dive Butler Service — Your Private Diving Companion Across Indonesia | Boutique Diving Bali",
  description:
- "Your personal SSI-certified diving companion travels with you to any destination in Indonesia. From luxury liveaboards to five-star dive resorts — Dominic handles all diving logistics so you experience only wonder. Fully bespoke, entirely private.",
+ "Your personal SSI-certified diving companion travels with you across Indonesia. Liveaboards, resorts, any destination. Fully bespoke, entirely private.",
  keywords: [
  "dive butler Indonesia",
  "personal dive instructor Bali",
@@ -103,6 +103,7 @@ export default function DiveButlerPage() {
  name: "Indonesia",
  },
  serviceType: "Personal Dive Butler / Private Diving Concierge",
+ priceRange: "$$$$",
  url: "https://www.boutiquedivingbali.com/services/dive-butler",
  }}
  />

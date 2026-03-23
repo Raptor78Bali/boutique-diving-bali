@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
  title: "Private SSI Specialty Courses in Bali — Deep Diving, Nitrox, Night, Wreck & More | Boutique Diving Bali",
  description:
- "Take your diving further with private SSI Specialty courses in Bali. Deep Diving, Enriched Air Nitrox, Night Diving, Wreck Diving, Navigation, Perfect Buoyancy, and more — all conducted one-on-one at Bali's best dive sites.",
+ "Private SSI Specialty courses in Bali. Deep Diving, Nitrox, Night, Wreck, Navigation and more — one-on-one at Bali's best sites.",
  keywords: [
  "SSI specialty courses Bali",
  "deep diving course Bali",
@@ -103,6 +103,7 @@ export default function SpecialtyPage() {
  name: "Bali, Indonesia",
  },
  serviceType: "Private SSI Specialty Diving Courses",
+ priceRange: "$$$$",
  url: "https://www.boutiquedivingbali.com/services/specialty",
  }}
  />

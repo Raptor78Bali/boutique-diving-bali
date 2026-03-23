@@ -63,7 +63,9 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
-    googleBot: { index: true, follow: true },
+    "max-snippet": -1,
+    "max-image-preview": "large",
+    "max-video-preview": -1,
   },
   verification: {
     google: "AKiUau91FXJ-0rWV6roMTd9zOLVlXHv84-6mxPqvEZI",
@@ -78,6 +80,32 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${heading.variable} ${sans.variable} ${mono.variable}`}>
       <body className="font-sans antialiased bg-[#FDF8F0] text-[#2D4349]">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  name: "Boutique Diving Bali",
+                  url: "https://www.boutiquedivingbali.com",
+                  description: "Indonesia's premier personal diving concierge. Fully bespoke, private diving experiences across Bali and Indonesia.",
+                  email: "info@boutiquedivingbali.com",
+                  founder: { "@type": "Person", name: "Dominic Frei" },
+                  areaServed: { "@type": "Country", name: "Indonesia" },
+                  sameAs: ["https://www.instagram.com/boutiquedivingbali"]
+                },
+                {
+                  "@type": "WebSite",
+                  name: "Boutique Diving Bali",
+                  url: "https://www.boutiquedivingbali.com",
+                  publisher: { "@type": "Organization", name: "Boutique Diving Bali" }
+                }
+              ]
+            }),
+          }}
+        />
         {children}
       </body>
     </html>

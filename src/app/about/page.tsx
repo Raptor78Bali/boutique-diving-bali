@@ -7,7 +7,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
  title: "About Dominic Frei — Your Personal Diving Concierge in Bali | Boutique Diving Bali",
  description:
- "Meet Dominic Frei — Swiss-born, Bali-based, SSI-certified diving professional. Former Swiss Army instructor and corporate risk management executive. Now your personal diving concierge across Indonesia. Learn his story.",
+ "Meet Dominic Frei — Swiss-born, Bali-based SSI diving professional and founder of Boutique Diving Bali. His full story.",
  keywords: [
  "Dominic Frei diving concierge",
  "about Boutique Diving Bali",

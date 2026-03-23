@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
  title: "Private SSI Open Water Diver Course in Bali — No Groups, Your Own Instructor | Boutique Diving Bali",
  description:
- "Earn your SSI Open Water Diver certification with fully private instruction in Bali. No group classes, no strangers — just you and your personal diving professional at Tulamben, Padang Bai, and Bali's finest dive sites. From age 15.",
+ "Private SSI Open Water Diver certification in Bali. No groups, no strangers — just you and your personal diving professional. From age 15.",
  keywords: [
  "SSI Open Water Diver Bali",
  "private scuba certification Bali",
@@ -103,6 +103,7 @@ export default function OpenWaterDiverPage() {
  name: "Bali, Indonesia",
  },
  serviceType: "Private SSI Open Water Diver Certification Course",
+ priceRange: "$$$$",
  url: "https://www.boutiquedivingbali.com/services/open-water",
  }}
  />

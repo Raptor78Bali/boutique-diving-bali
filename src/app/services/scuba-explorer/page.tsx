@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
  title: "SSI Scuba Explorer for Kids in Bali — Ages 8–12, Private & Fun | Boutique Diving Bali",
  description:
- "Give your child their first underwater adventure with the SSI Scuba Explorer program in Bali. Private one-on-one instruction for children aged 8–12. Safe, fun, and unforgettable — in a pool or calm shallow water. No open water required.",
+ "SSI Scuba Explorer for kids aged 8–12 in Bali. Private, pool-based first underwater adventure. Safe, fun, unforgettable.",
  keywords: [
  "SSI Scuba Explorer Bali",
  "kids diving Bali",
@@ -103,6 +103,7 @@ export default function ScubaExplorerPage() {
  name: "Bali, Indonesia",
  },
  serviceType: "SSI Scuba Explorer Program — Kids Diving Experience",
+ priceRange: "$$$$",
  audience: {
  "@type": "PeopleAudience",
  suggestedMinAge: 8,

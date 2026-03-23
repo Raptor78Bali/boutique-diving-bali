@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
  title: "Custom Fun Dives in Bali — Private Guided Diving at Bali's Best Sites | Boutique Diving Bali",
  description:
- "Dream dives designed from scratch. Private guided diving at Bali's finest sites — manta rays, the USAT Liberty wreck, macro photography, night dives, and more. Tell Dominic your wish and he designs the perfect dive experience for you.",
+ "Private guided fun dives in Bali. Mantas, USAT Liberty wreck, macro, night dives — designed from scratch around your wishes.",
  keywords: [
  "private fun diving Bali",
  "custom dive experience Bali",
@@ -102,6 +102,7 @@ export default function CustomFunDivesPage() {
  name: "Bali, Indonesia",
  },
  serviceType: "Custom Private Fun Dives",
+ priceRange: "$$$$",
  url: "https://www.boutiquedivingbali.com/services/custom-fun-dives",
  }}
  />

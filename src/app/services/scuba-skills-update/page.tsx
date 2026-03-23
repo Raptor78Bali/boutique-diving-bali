@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
  title: "Private SSI Scuba Skills Update in Bali — Refresher Course at Your Pace | Boutique Diving Bali",
  description:
- "Haven't dived in a while? The SSI Scuba Skills Update is a private refresher course in Bali that gets you back in the water with confidence. Review skills, rebuild comfort, and dive again — at your own pace, with your own instructor.",
+ "Private SSI Scuba Skills Update in Bali. Haven't dived in a while? Rebuild confidence at your pace with your own diving professional.",
  keywords: [
  "scuba refresher course Bali",
  "SSI Scuba Skills Update Bali",
@@ -103,6 +103,7 @@ export default function ScubaSkillsUpdatePage() {
  name: "Bali, Indonesia",
  },
  serviceType: "SSI Scuba Skills Update — Private Dive Refresher Course",
+ priceRange: "$$$$",
  url: "https://www.boutiquedivingbali.com/services/scuba-skills-update",
  }}
  />

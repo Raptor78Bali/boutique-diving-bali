@@ -7,7 +7,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
  title: "Contact Dominic — Plan Your Private Diving Experience in Bali | Boutique Diving Bali",
  description:
- "Get in touch with Dominic Frei to plan your private diving experience in Bali. WhatsApp, email, or Instagram — reach out however you prefer. No commitment, no pressure. Just a conversation about your diving dreams.",
+ "Contact Dominic to plan your private diving experience in Bali. WhatsApp, email, or Instagram — no commitment, no pressure.",
  keywords: [
  "contact Boutique Diving Bali",
  "book private diving Bali",

@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
  title: "Private SSI Junior Open Water Diver Course in Bali — Ages 10–14 | Boutique Diving Bali",
  description:
- "Private SSI Junior Open Water Diver certification for children aged 10–14 in Bali. One-on-one instruction at your child's pace — patient, safe, and fun. No group classes. Tulamben, Padang Bai, and Bali's best dive sites.",
+ "Private SSI Junior Open Water Diver course for children aged 10–14 in Bali. One-on-one, patient, safe. No group classes.",
  keywords: [
  "Junior Open Water Diver Bali",
  "kids scuba certification Bali",
@@ -103,6 +103,7 @@ export default function JuniorOwdPage() {
  name: "Bali, Indonesia",
  },
  serviceType: "Private SSI Junior Open Water Diver Certification Course",
+ priceRange: "$$$$",
  audience: {
  "@type": "PeopleAudience",
  suggestedMinAge: 10,
