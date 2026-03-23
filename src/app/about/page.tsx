@@ -109,7 +109,7 @@ export default function AboutPage() {
 
  <FadeIn>
  <p className="font-sans uppercase tracking-[0.2em] text-xs text-[#C5A55A] mb-4">
- Meet Your Dive Butler
+ Meet the Founder
  </p>
  </FadeIn>
 
