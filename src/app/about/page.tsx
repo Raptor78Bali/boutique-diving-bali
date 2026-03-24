@@ -214,7 +214,7 @@ export default function AboutPage() {
  Background
  </p>
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-14">
- The Experience Behind the Instructor
+ A Background Built for This
  </h2>
  </FadeInUp>
 
