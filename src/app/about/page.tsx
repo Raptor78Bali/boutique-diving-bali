@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Shield, Globe, Phone, ChevronRight, Star, ArrowRight, Award, Heart, Mountain, Anchor, Users, MapPin } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { FadeInUp, FadeIn } from "@/components/AnimatedSection";
 import JsonLd from "@/components/JsonLd";
 
@@ -153,6 +154,31 @@ export default function AboutPage() {
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-8">
  From the Swiss Alps to the Coral Triangle
  </h2>
+
+ {/* Founder portrait with picture-in-picture headshot */}
+ <div className="relative w-full max-w-md mx-auto mb-12">
+ <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+ <Image
+ src="/images/founder-underwater.jpg"
+ alt="Dominic Frei diving over coral reef in Bali — founder of Boutique Diving Bali"
+ fill
+ className="object-cover"
+ sizes="(max-width: 768px) 100vw, 448px"
+ quality={85}
+ />
+ </div>
+ {/* Circular headshot overlay */}
+ <div className="absolute -bottom-6 -right-4 w-28 h-28 rounded-full border-4 border-[#FDF8F0] shadow-lg overflow-hidden z-10">
+ <Image
+ src="/images/founder-headshot.jpg"
+ alt="Dominic Frei — founder of Boutique Diving Bali"
+ fill
+ className="object-cover object-top"
+ sizes="112px"
+ quality={85}
+ />
+ </div>
+ </div>
  </FadeInUp>
 
  <FadeInUp delay={0.1}>

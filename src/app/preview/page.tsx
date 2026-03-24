@@ -253,11 +253,27 @@ export default function Home() {
  <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
  <div className="lg:col-span-2">
  <FadeInUp>
- <div className="aspect-[3/4] rounded-2xl border border-[var(--brand-tan)] bg-gradient-to-b from-[var(--brand-cream)] to-[var(--brand-sand)] flex items-center justify-center">
- <div className="text-center px-6">
- <Users className="w-12 h-12 text-[var(--brand-teal)]/30 mx-auto mb-4" strokeWidth={1} />
- <p className="text-[var(--brand-text-muted)] text-sm font-sans">Professional photo</p>
- <p className="text-[var(--brand-text-muted)] text-xs font-sans mt-1">Coming soon</p>
+ <div className="relative w-full max-w-md mx-auto lg:mx-0">
+ <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+ <Image
+ src="/images/founder-underwater.jpg"
+ alt="Dominic Frei diving over coral reef in Bali — founder of Boutique Diving Bali"
+ fill
+ className="object-cover"
+ sizes="(max-width: 768px) 100vw, 400px"
+ quality={85}
+ />
+ </div>
+ {/* Circular headshot overlay */}
+ <div className="absolute -bottom-6 -right-4 w-28 h-28 rounded-full border-4 border-[#FDF8F0] shadow-lg overflow-hidden z-10">
+ <Image
+ src="/images/founder-headshot.jpg"
+ alt="Dominic Frei — founder of Boutique Diving Bali"
+ fill
+ className="object-cover object-top"
+ sizes="112px"
+ quality={85}
+ />
  </div>
  </div>
  </FadeInUp>
