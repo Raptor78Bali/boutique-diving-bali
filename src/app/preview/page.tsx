@@ -554,7 +554,7 @@ export default function Home() {
 
  <div className="lg:col-span-2">
  <FadeInUp delay={0.2}>
- <div className="relative aspect-[3/4] rounded-2xl overflow-hidden">
+ <div className="relative aspect-[16/9] rounded-2xl overflow-hidden">
  <Image
  src="/images/dive-butler-section.jpg"
  alt="Dominic Frei guiding a diver underwater — the personal Dive Butler experience in Bali"
