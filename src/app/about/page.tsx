@@ -168,7 +168,7 @@ export default function AboutPage() {
  />
  </div>
  {/* Circular headshot overlay */}
- <div className="absolute -bottom-6 -right-4 w-36 h-36 rounded-full border-[3px] border-[#C5A55A] shadow-lg overflow-hidden bg-[#4a8a9e]">
+ <div className="absolute -bottom-6 -right-4 w-36 h-36 rounded-full border-[3px] border-[#C5A55A] shadow-lg overflow-hidden bg-[#8a8878]">
  <Image
  src="/images/founder-headshot.jpg"
  alt="Dominic Frei — founder of Boutique Diving Bali"
