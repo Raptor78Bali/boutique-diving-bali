@@ -3,6 +3,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 import { Compass, Shield, Globe, ChevronDown, Baby, GraduationCap, Award, Layers, Sparkles, Crown, Anchor, Navigation, Users, Star, Mail, MessageCircle, MapPin, Instagram, RefreshCw } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/Header";
 
 export const metadata = { title: "Preview | Boutique Diving Bali", robots: { index: false, follow: false } };
@@ -73,8 +74,39 @@ export default function Home() {
 
 {/* SECTION 2: HERO */}
  <section className="ocean-hero-bg min-h-screen flex items-center justify-center relative">
+ {/* Hero background image carousel */}
+ <div className="absolute inset-0 z-0">
+ <Image
+ src="/images/hero-1-manta.jpg"
+ alt="Manta ray gliding over coral reef in Bali — private diving with Boutique Diving Bali"
+ fill
+ priority
+ className="hero-carousel-image"
+ sizes="100vw"
+ quality={85}
+ />
+ <Image
+ src="/images/hero-2-coral.jpg"
+ alt="Vibrant coral reef with tropical fish in Tulamben, Bali"
+ fill
+ className="hero-carousel-image"
+ sizes="100vw"
+ quality={85}
+ />
+ <Image
+ src="/images/hero-3-bubbles.jpg"
+ alt="Scuba diving bubbles rising toward the ocean surface in Bali"
+ fill
+ className="hero-carousel-image"
+ sizes="100vw"
+ quality={85}
+ />
+ {/* Dark overlay for text readability */}
+ <div className="absolute inset-0 bg-[#0A1628]/60 z-10" />
+ </div>
+
  {/* Light rays */}
- <div className="absolute inset-0 pointer-events-none overflow-hidden">
+ <div className="absolute inset-0 pointer-events-none overflow-hidden z-20">
  <div className="absolute w-[200px] h-[600px] bg-white/[0.03] rotate-[15deg] -top-20 left-[20%]" style={{ animation: "light-ray-drift 20s ease-in-out infinite" }} />
  <div className="absolute w-[150px] h-[500px] bg-white/[0.02] -rotate-[10deg] -top-10 right-[25%]" style={{ animation: "light-ray-drift-2 25s ease-in-out infinite" }} />
  <div className="absolute w-[100px] h-[400px] bg-white/[0.02] rotate-[20deg] top-10 left-[60%]" style={{ animation: "light-ray-drift 22s ease-in-out infinite 3s" }} />
@@ -97,7 +129,7 @@ export default function Home() {
  ))}
  </div>
 
- <div className="text-center px-6 relative z-10 max-w-4xl mx-auto">
+ <div className="text-center px-6 relative z-30 max-w-4xl mx-auto">
  <FadeIn delay={0.2}>
  <span className="inline-block border border-white/20 text-white/60 text-xs uppercase tracking-[0.2em] px-5 py-2 rounded-full mb-6 font-sans">
  Indonesia&apos;s Premier Personal Dive Concierge
