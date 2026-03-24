@@ -444,7 +444,7 @@ export default function AboutPage() {
  badge: "Certified Divers",
  },
  ].map((service, index) => (
- <FadeInUp key={service.title} delay={index * 0.05}>
+ <FadeInUp key={service.title} delay={index * 0.05} className={index === 6 ? "lg:col-start-2" : ""}>
  <Link
  href={service.href}
  className="block bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-[#E8DFD0] hover:border-[#C5A55A]/30 hover:shadow-lg transition-all duration-300 group h-full"
