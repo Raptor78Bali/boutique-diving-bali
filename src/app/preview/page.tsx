@@ -102,7 +102,7 @@ export default function Home() {
  quality={85}
  />
  {/* Dark overlay for text readability */}
- <div className="absolute inset-0 bg-[#0A1628]/60 z-10" />
+ <div className="absolute inset-0 bg-[#0A1628]/75 z-10" />
  </div>
 
  {/* Light rays */}
@@ -148,7 +148,7 @@ export default function Home() {
  <p className="text-white/70 max-w-2xl mx-auto mb-10 font-sans text-base md:text-lg leading-relaxed">
  Are you looking for a premium, fully personalized and worry-free diving experience
  to create wonderful memories? You just found it! Welcome to Boutique Diving Bali,
- curated by Dominic Frei — your SSI-certified Swiss scuba instructor.
+ curated by Dominic Frei — your SSI-certified Swiss scuba diving professional.
  </p>
  </FadeIn>
 
