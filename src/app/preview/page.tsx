@@ -554,12 +554,15 @@ export default function Home() {
 
  <div className="lg:col-span-2">
  <FadeInUp delay={0.2}>
- <div className="aspect-[3/4] rounded-2xl border border-[var(--brand-gold)]/20 bg-gradient-to-b from-white/5 to-transparent flex items-center justify-center">
- <div className="text-center px-6">
- <Anchor className="w-12 h-12 text-[var(--brand-gold)]/30 mx-auto mb-4" strokeWidth={1} />
- <p className="text-white/30 text-sm font-sans">Premium underwater photo</p>
- <p className="text-white/20 text-xs font-sans mt-1">Coming soon</p>
- </div>
+ <div className="relative aspect-[3/4] rounded-2xl overflow-hidden">
+ <Image
+ src="/images/dive-butler-section.jpg"
+ alt="Dominic Frei guiding a diver underwater — the personal Dive Butler experience in Bali"
+ fill
+ className="object-cover"
+ sizes="(max-width: 768px) 100vw, 500px"
+ quality={85}
+ />
  </div>
  </FadeInUp>
  </div>
