@@ -174,7 +174,7 @@ export default function AboutPage() {
  alt="Dominic Frei — founder of Boutique Diving Bali"
  fill
  className="object-cover"
- style={{ objectPosition: "center 25%" }}
+ style={{ objectPosition: "center 30%" }}
  sizes="112px"
  quality={85}
  />
