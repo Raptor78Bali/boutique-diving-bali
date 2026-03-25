@@ -37,7 +37,7 @@ export default function Header() {
  }`}
  >
  <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
- <Link href="/" className={`flex items-center gap-2 ${isServicePage ? "hidden" : ""}`}>
+ <Link href="/" className={`flex items-center gap-2 ${isServicePage ? "invisible" : ""}`}>
  <span className="font-heading text-lg md:text-xl text-white tracking-wide">
  Boutique Diving{" "}
  <span className="text-[var(--brand-gold)] tracking-[0.15em]">BALI</span>
