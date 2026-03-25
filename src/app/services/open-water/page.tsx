@@ -152,7 +152,7 @@ export default function OpenWaterDiverPage() {
  />
  </div>
 
- <div className="relative z-10 max-w-4xl mx-auto px-6 text-center pt-20 pb-20">
+ <div className="relative z-10 max-w-4xl mx-auto px-6 text-center pt-14 pb-20">
  {/* Breadcrumb */}
  <nav aria-label="Breadcrumb" className="mb-8">
  <ol className="flex items-center justify-center gap-2 text-sm text-[#94A3B8]">
