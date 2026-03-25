@@ -282,7 +282,7 @@ export default function Home() {
 
  <div className="flex flex-wrap gap-3 mt-8">
  {[
- "SSI Certified Instructor",
+ "SSI Certified Professional",
  "Swiss Precision & Safety",
  "In Bali Since 2021",
  "Multilingual (EN / DE)",
