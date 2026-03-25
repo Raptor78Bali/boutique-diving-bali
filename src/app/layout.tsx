@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, DM_Sans, JetBrains_Mono } from "next/font/google";
+import Header from "@/components/Header";
 import "./globals.css";
 
 const heading = Cormorant_Garamond({
@@ -83,6 +84,7 @@ export default function RootLayout({
         <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[9999] focus:px-4 focus:py-2 focus:bg-[#C5A55A] focus:text-[#0A1628] focus:rounded-lg focus:text-sm focus:font-sans">
           Skip to content
         </a>
+        <Header />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

@@ -4,7 +4,6 @@ import JsonLd from "@/components/JsonLd";
 import { Compass, Shield, Globe, ChevronDown, Baby, GraduationCap, Award, Layers, Sparkles, Crown, Anchor, Navigation, Users, Star, Mail, MessageCircle, MapPin, Instagram, RefreshCw } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import Header from "@/components/Header";
 
 export const metadata = { title: "Preview | Boutique Diving Bali", robots: { index: false, follow: false } };
 
@@ -67,12 +66,7 @@ export default function Home() {
  <JsonLd data={localBusinessSchema} />
  <JsonLd data={websiteSchema} />
 
- {/* SECTION 1: HEADER */}
- <Header />
-
- 
-
-{/* SECTION 2: HERO */}
+ {/* SECTION 2: HERO */}
  <section className="ocean-hero-bg min-h-screen flex items-center justify-center relative">
  {/* Hero background image carousel */}
  <div className="absolute inset-0 z-0">
