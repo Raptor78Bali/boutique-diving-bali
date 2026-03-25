@@ -43,8 +43,8 @@ export default function Header() {
  <Image
  src="/images/logo-icon-only.png"
  alt="Boutique Diving Bali"
- width={200}
- height={200}
+ width={400}
+ height={400}
  className="w-full h-full object-cover"
  />
 </div>
