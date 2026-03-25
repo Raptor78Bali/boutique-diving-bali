@@ -5,7 +5,7 @@ import { Compass, Shield, Globe, ChevronDown, Baby, GraduationCap, Award, Layers
 import Link from "next/link";
 import Image from "next/image";
 
-export const metadata = { title: "Boutique Diving Bali | Luxury Private Diving Experiences in Indonesia" };
+export const metadata = { title: "Private Diving Concierge Bali — Luxury Bespoke Experiences | Boutique Diving Bali" };
 
 const localBusinessSchema = {
  "@context": "https://schema.org",
@@ -65,6 +65,96 @@ export default function Home() {
  <main className="overflow-x-hidden">
  <JsonLd data={localBusinessSchema} />
  <JsonLd data={websiteSchema} />
+ <script
+ type="application/ld+json"
+ dangerouslySetInnerHTML={{
+ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "Person",
+ "name": "Dominic Frei",
+ "jobTitle": "Personal Diving Concierge",
+ "description": "SSI-certified Swiss diving professional and founder of Boutique Diving Bali. Offers fully bespoke, private diving experiences across Indonesia.",
+ "nationality": {
+ "@type": "Country",
+ "name": "Switzerland"
+ },
+ "knowsAbout": ["Scuba Diving", "SSI Certification", "Dive Butler Service", "Indonesia Diving", "Bali Diving", "Komodo Diving", "Raja Ampat Diving"],
+ "knowsLanguage": ["English", "German"],
+ "sameAs": [
+ "https://instagram.com/boutiquedivingbali"
+ ],
+ "worksFor": {
+ "@type": "Organization",
+ "name": "Boutique Diving Bali",
+ "url": "https://www.boutiquedivingbali.com"
+ }
+ })
+ }}
+ />
+ <script
+ type="application/ld+json"
+ dangerouslySetInnerHTML={{
+ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "ProfessionalService",
+ "name": "Boutique Diving Bali",
+ "description": "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond.",
+ "url": "https://www.boutiquedivingbali.com",
+ "telephone": "+41791722403",
+ "email": "info@boutiquedivingbali.com",
+ "image": "https://www.boutiquedivingbali.com/images/founder-underwater.jpg",
+ "logo": "https://www.boutiquedivingbali.com/images/logo-icon-only.png",
+ "priceRange": "$$$$",
+ "currenciesAccepted": "USD, EUR, CHF, IDR",
+ "paymentAccepted": "Bank Transfer, Cash",
+ "areaServed": [
+ { "@type": "Place", "name": "Bali, Indonesia" },
+ { "@type": "Place", "name": "Komodo National Park, Indonesia" },
+ { "@type": "Place", "name": "Raja Ampat, Indonesia" },
+ { "@type": "Place", "name": "Banda Sea, Indonesia" },
+ { "@type": "Place", "name": "Wakatobi, Indonesia" }
+ ],
+ "address": {
+ "@type": "PostalAddress",
+ "addressLocality": "Tulamben",
+ "addressRegion": "Bali",
+ "addressCountry": "ID"
+ },
+ "geo": {
+ "@type": "GeoCoordinates",
+ "latitude": -8.2775,
+ "longitude": 115.5964
+ },
+ "founder": {
+ "@type": "Person",
+ "name": "Dominic Frei"
+ },
+ "contactPoint": {
+ "@type": "ContactPoint",
+ "telephone": "+41791722403",
+ "contactType": "customer service",
+ "availableLanguage": ["English", "German"],
+ "areaServed": "ID"
+ },
+ "sameAs": [
+ "https://instagram.com/boutiquedivingbali"
+ ],
+ "hasOfferCatalog": {
+ "@type": "OfferCatalog",
+ "name": "Diving Experiences",
+ "itemListElement": [
+ { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dive Butler Service" } },
+ { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Fun Dives" } },
+ { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SSI Open Water Diver Certification" } },
+ { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Junior Open Water Diver" } },
+ { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Scuba Explorer (Ages 8-12)" } },
+ { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SSI Specialty Courses" } },
+ { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Scuba Skills Update" } }
+ ]
+ }
+ })
+ }}
+ />
 
  {/* SECTION 2: HERO */}
  <section className="ocean-hero-bg min-h-screen flex items-center justify-center relative">
@@ -743,7 +833,7 @@ export default function Home() {
  Plan Your Dive
  </Link>
  <a
- href="https://wa.me/62XXXXXXXXXX"
+ href="https://wa.me/41791722403"
  target="_blank"
  rel="noopener noreferrer"
  className="ghost-button px-10 py-4 rounded-full font-sans text-sm tracking-wide inline-flex items-center justify-center gap-2"
@@ -835,7 +925,7 @@ export default function Home() {
  </a>
  </li>
  <li>
- <a href="https://wa.me/62XXXXXXXXXX" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-[var(--brand-gold)] text-sm font-sans transition-colors inline-flex items-center gap-2">
+ <a href="https://wa.me/41791722403" target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-[var(--brand-gold)] text-sm font-sans transition-colors inline-flex items-center gap-2">
  <MessageCircle className="w-4 h-4" /> WhatsApp
  </a>
  </li>

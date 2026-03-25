@@ -83,6 +83,33 @@ export default function AboutPage() {
  }}
  />
 
+ <script
+ type="application/ld+json"
+ dangerouslySetInnerHTML={{
+ __html: JSON.stringify({
+ "@context": "https://schema.org",
+ "@type": "Person",
+ "name": "Dominic Frei",
+ "jobTitle": "Personal Diving Concierge",
+ "description": "SSI-certified Swiss diving professional and founder of Boutique Diving Bali. Offers fully bespoke, private diving experiences across Indonesia.",
+ "nationality": {
+ "@type": "Country",
+ "name": "Switzerland"
+ },
+ "knowsAbout": ["Scuba Diving", "SSI Certification", "Dive Butler Service", "Indonesia Diving", "Bali Diving", "Komodo Diving", "Raja Ampat Diving"],
+ "knowsLanguage": ["English", "German"],
+ "sameAs": [
+ "https://instagram.com/boutiquedivingbali"
+ ],
+ "worksFor": {
+ "@type": "Organization",
+ "name": "Boutique Diving Bali",
+ "url": "https://www.boutiquedivingbali.com"
+ }
+ })
+ }}
+ />
+
  <main className="min-h-screen">
  {/* ============================================= */}
  {/* HERO SECTION */}
