@@ -182,6 +182,7 @@ export default function Home() {
  alt="Vibrant coral reef with tropical fish in Tulamben, Bali"
  fill
  loading="lazy"
+ aria-hidden="true"
  className="hero-carousel-image"
  sizes="100vw"
  quality={85}
@@ -191,6 +192,7 @@ export default function Home() {
  alt="Scuba diving bubbles rising toward the ocean surface in Bali"
  fill
  loading="lazy"
+ aria-hidden="true"
  className="hero-carousel-image"
  sizes="100vw"
  quality={85}
