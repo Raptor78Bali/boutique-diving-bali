@@ -769,14 +769,16 @@ export default function Home() {
  <div className="max-w-6xl mx-auto">
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
  <div>
- <div className="flex items-center gap-3 mb-4">
+ <div className="flex items-center gap-4 mb-4">
+ <div className="w-14 h-14 rounded-full overflow-hidden flex-shrink-0">
  <Image
  src="/images/logo-icon-only.png"
- alt="Boutique Diving Bali logo"
- width={44}
- height={44}
- className="rounded-full"
+ alt="Boutique Diving Bali"
+ width={400}
+ height={400}
+ className="w-full h-full object-cover"
  />
+ </div>
  <span className="font-heading text-lg text-white">Boutique Diving <span className="text-[#C5A55A] tracking-[0.15em] text-sm font-sans">BALI</span></span>
  </div>
  <p className="text-white/40 text-sm font-sans leading-relaxed">
