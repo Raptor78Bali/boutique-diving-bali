@@ -103,6 +103,12 @@ export default function RootLayout({
                   description: "Indonesia's premier personal diving concierge. Fully bespoke, private diving experiences across Bali and Indonesia.",
                   email: "info@boutiquedivingbali.com",
                   founder: { "@type": "Person", name: "Dominic Frei" },
+                  contactPoint: {
+                    "@type": "ContactPoint",
+                    "telephone": "+41791722403",
+                    "contactType": "customer service",
+                    "availableLanguage": ["English", "German"]
+                  },
                   areaServed: { "@type": "Country", name: "Indonesia" },
                   sameAs: ["https://www.instagram.com/boutiquedivingbali"]
                 },

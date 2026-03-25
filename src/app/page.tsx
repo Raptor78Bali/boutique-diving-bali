@@ -58,6 +58,14 @@ const homepageFaq = [
  question: "What safety measures do you have in place?",
  answer: "Safety is paramount. Dominic brings Swiss military precision and a decade of corporate security management experience to every dive. All equipment is premium and personally inspected before every dive. We maintain comprehensive insurance, follow strict SSI safety protocols, carry emergency oxygen, and never compromise on diver-to-instructor ratios. Your safety and comfort come first, always."
  },
+ {
+ question: "What do private diving experiences cost?",
+ answer: "Every experience is custom-designed, so pricing depends on the type of service, duration, number of divers, and destination. As a general guide: private day diving in Bali starts from approximately USD 350 per day, multi-day programs and SSI certification courses are quoted based on your specific goals, and Dive Butler service on liveaboards or at dive resorts includes a daily rate plus travel arrangements. There are no hidden fees — you will always receive a transparent, personalised quote before committing. Simply get in touch and tell us about your dream dive experience, and Dominic will provide a detailed proposal."
+ },
+ {
+ question: "When is the best time to dive in Bali and Indonesia?",
+ answer: "Bali offers year-round diving, with each season bringing unique encounters. Nusa Penida's famous Manta rays are present year-round, while the rare Mola Mola (ocean sunfish) appear from July to October. Tulamben's USAT Liberty wreck and Amed's macro diving are excellent in all conditions. For Komodo National Park, the best season is May to October with warm waters and excellent visibility. Raja Ampat peaks from October to April. The Banda Sea's legendary hammerhead season runs from March to May and September to November. As your personal diving concierge, Dominic will help you choose the perfect destination and timing based on what you want to see."
+ },
 ];
 
 export default function Home() {
@@ -173,6 +181,7 @@ export default function Home() {
  src="/images/hero-2-coral.jpg"
  alt="Vibrant coral reef with tropical fish in Tulamben, Bali"
  fill
+ loading="lazy"
  className="hero-carousel-image"
  sizes="100vw"
  quality={85}
@@ -181,6 +190,7 @@ export default function Home() {
  src="/images/hero-3-bubbles.jpg"
  alt="Scuba diving bubbles rising toward the ocean surface in Bali"
  fill
+ loading="lazy"
  className="hero-carousel-image"
  sizes="100vw"
  quality={85}
@@ -295,7 +305,10 @@ export default function Home() {
  Your Personal Diving Concierge.
  </h2>
  <p className="text-[var(--brand-text-secondary)] leading-relaxed font-sans mb-4">
- Boutique Diving Bali is not a dive shop. It is a fully private, personally curated diving concierge — every experience designed from scratch around you. Whether you are a family introducing your children to the underwater world, a couple seeking a romantic adventure, or an experienced diver craving something extraordinary — every dive is a unique creation, never a package.
+ Boutique Diving Bali is a premium personal diving concierge service founded by Dominic Frei, an SSI-certified Swiss diving professional based in Bali, Indonesia since 2021. The service offers fully bespoke, private scuba diving experiences with no fixed packages and no group tours — covering Bali, Komodo National Park, Raja Ampat, the Banda Sea, Wakatobi, and destinations across the entire Indonesian archipelago.
+ </p>
+ <p className="text-[var(--brand-text-secondary)] leading-relaxed font-sans mb-4">
+ Whether you are a family introducing your children to the underwater world, a couple seeking a romantic adventure, or an experienced diver craving something extraordinary — every dive is a unique creation, never a package.
  </p>
  </div>
  </FadeInUp>
