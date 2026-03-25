@@ -39,14 +39,13 @@ export default function Header() {
  >
  <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
  <Link href="/" className={`flex items-center gap-2 ${isServicePage ? "invisible" : ""}`}>
- <div className="w-11 h-11 rounded-full overflow-hidden flex-shrink-0 ring-[3px] ring-[#0A1628]">
+ <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0">
  <Image
  src="/images/logo-icon-only.png"
  alt="Boutique Diving Bali"
- width={80}
- height={80}
- className="w-full h-full object-cover scale-[1.45]"
- style={{ objectPosition: '48% 45%' }}
+ width={200}
+ height={200}
+ className="w-full h-full object-cover"
  />
 </div>
  <span className="font-heading text-lg text-white">Boutique Diving <span className="text-[#C5A55A] tracking-[0.15em] text-sm font-sans">BALI</span></span>
