@@ -47,19 +47,28 @@ export const metadata: Metadata = {
     "dive butler indonesia liveaboard",
   ],
   openGraph: {
-    title: "Boutique Diving Bali | Luxury Private Diving Experiences",
+    title: "Private Diving Concierge Bali — Luxury Bespoke Experiences | Boutique Diving Bali",
     description:
-      "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences tailored to you.",
-    url: "https://boutiquedivingbali.com",
+      "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond. SSI certified. No groups, no packages — every dive tailored to you.",
+    url: "https://www.boutiquedivingbali.com",
     siteName: "Boutique Diving Bali",
+    images: [
+      {
+        url: "https://www.boutiquedivingbali.com/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Boutique Diving Bali — Your Personal Diving Concierge in Paradise",
+      },
+    ],
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Boutique Diving Bali",
+    title: "Private Diving Concierge Bali — Luxury Bespoke Experiences",
     description:
-      "Indonesia's premier personal dive concierge. Luxury private diving experiences.",
+      "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond.",
+    images: ["https://www.boutiquedivingbali.com/images/og-image.jpg"],
   },
   robots: {
     index: true,
