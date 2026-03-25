@@ -2,9 +2,12 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown } from "lucide-react";
 
 export default function Header() {
+ const pathname = usePathname();
+ const isServicePage = pathname.startsWith("/services/");
  const [isOpen, setIsOpen] = useState(false);
  const [scrolled, setScrolled] = useState(false);
  const [servicesOpen, setServicesOpen] = useState(false);
@@ -34,7 +37,7 @@ export default function Header() {
  }`}
  >
  <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
- <Link href="/" className="flex items-center gap-2">
+ <Link href="/" className={`flex items-center gap-2 ${isServicePage ? "hidden" : ""}`}>
  <span className="font-heading text-lg md:text-xl text-white tracking-wide">
  Boutique Diving{" "}
  <span className="text-[var(--brand-gold)] tracking-[0.15em]">BALI</span>
@@ -114,6 +117,9 @@ export default function Header() {
  </Link>
  <Link href="/contact" onClick={() => setIsOpen(false)} className="block text-white/60 hover:text-white text-sm font-sans transition-colors">
  Contact
+ </Link>
+ <Link href="/" onClick={() => setIsOpen(false)} className="block text-white/60 hover:text-white text-sm font-sans transition-colors">
+ Home
  </Link>
  </div>
  <Link
