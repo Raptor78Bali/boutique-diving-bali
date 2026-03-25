@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X, ChevronDown } from "lucide-react";
 
@@ -38,10 +39,14 @@ export default function Header() {
  >
  <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
  <Link href="/" className={`flex items-center gap-2 ${isServicePage ? "invisible" : ""}`}>
- <span className="font-heading text-lg md:text-xl text-white tracking-wide">
- Boutique Diving{" "}
- <span className="text-[var(--brand-gold)] tracking-[0.15em]">BALI</span>
- </span>
+ <Image
+ src="/images/logo-icon-only.png"
+ alt="Boutique Diving Bali logo"
+ width={36}
+ height={36}
+ className="rounded-full"
+ />
+ <span className="font-heading text-lg text-white">Boutique Diving <span className="text-[#C5A55A] tracking-[0.15em] text-sm font-sans">BALI</span></span>
  </Link>
 
  <nav className="hidden lg:flex items-center gap-8">
