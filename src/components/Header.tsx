@@ -41,10 +41,10 @@ export default function Header() {
  <Link href="/" className={`flex items-center gap-2 ${isServicePage ? "invisible" : ""}`}>
  <Image
  src="/images/logo-icon-only.png"
- alt="Boutique Diving Bali logo"
- width={36}
- height={36}
- className="rounded-full"
+ alt="Boutique Diving Bali"
+ width={48}
+ height={48}
+ className="w-12 h-12 rounded-full object-cover object-center"
  />
  <span className="font-heading text-lg text-white">Boutique Diving <span className="text-[#C5A55A] tracking-[0.15em] text-sm font-sans">BALI</span></span>
  </Link>
