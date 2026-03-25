@@ -568,11 +568,32 @@ export default function Home() {
  highlights: "Hammerheads, volcanic seamounts, remote expedition diving",
  sites: "Banda Islands • Alor • Wakatobi • Forgotten Islands",
  },
- ].map((dest, i) => (
+ ].map((dest, i) => {
+ const destImages: Record<string, string> = {
+ "Bali": "/images/dest-bali.jpg",
+ "Komodo National Park": "/images/dest-komodo.jpg",
+ "Raja Ampat": "/images/dest-raja-ampat.jpg",
+ "Banda Sea & Beyond": "/images/dest-banda-sea.jpg",
+ };
+ const destAlts: Record<string, string> = {
+ "Bali": "Green sea turtle gliding over coral reef in Bali — private diving at Tulamben and Nusa Penida",
+ "Komodo National Park": "Manta ray silhouette in deep blue water at Komodo National Park, Indonesia",
+ "Raja Ampat": "Vibrant coral reef teeming with tropical fish in Raja Ampat, Indonesia — world's top diving destination",
+ "Banda Sea & Beyond": "Dominic Frei diving with a massive school of fish in the Banda Sea, Indonesia",
+ };
+ return (
  <FadeInUp key={dest.name} delay={0.1 + i * 0.1}>
  <div className="bg-white border border-[var(--brand-tan)] rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
- <div className="aspect-[4/3] bg-gradient-to-b from-[#0B2A3A] to-[#0A1628] flex items-center justify-center">
- <Navigation className="w-8 h-8 text-[var(--brand-teal)]/30" strokeWidth={1} />
+ <div className="relative aspect-[4/3] rounded-t-2xl overflow-hidden">
+ <Image
+ src={destImages[dest.name]}
+ alt={destAlts[dest.name]}
+ fill
+ className="object-cover"
+ sizes="(max-width: 768px) 100vw, 280px"
+ quality={80}
+ />
+ <div className="absolute inset-0 bg-gradient-to-t from-[#0A1628]/60 to-transparent" />
  </div>
  <div className="p-6 flex flex-col flex-grow">
  <h3 className="font-heading text-xl text-[var(--brand-text)] mb-2">{dest.name}</h3>
@@ -581,7 +602,8 @@ export default function Home() {
  </div>
  </div>
  </FadeInUp>
- ))}
+ );
+ })}
  </div>
  </div>
  </section>
