@@ -7,7 +7,7 @@ import { Menu, X, ChevronDown } from "lucide-react";
 
 export default function Header() {
  const pathname = usePathname();
- const isServicePage = pathname.startsWith("/services/");
+ const isServicePage = pathname.startsWith("/services/") || pathname === "/about" || pathname === "/contact" || pathname === "/privacy" || pathname === "/terms";
  const [isOpen, setIsOpen] = useState(false);
  const [scrolled, setScrolled] = useState(false);
  const [servicesOpen, setServicesOpen] = useState(false);
