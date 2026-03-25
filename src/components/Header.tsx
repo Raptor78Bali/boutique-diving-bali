@@ -39,13 +39,15 @@ export default function Header() {
  >
  <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
  <Link href="/" className={`flex items-center gap-2 ${isServicePage ? "invisible" : ""}`}>
+ <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0">
  <Image
  src="/images/logo-icon-only.png"
  alt="Boutique Diving Bali"
- width={48}
- height={48}
- className="w-12 h-12 rounded-full object-cover object-center"
+ width={40}
+ height={40}
+ className="w-full h-full object-cover scale-110"
  />
+</div>
  <span className="font-heading text-lg text-white">Boutique Diving <span className="text-[#C5A55A] tracking-[0.15em] text-sm font-sans">BALI</span></span>
  </Link>
 
