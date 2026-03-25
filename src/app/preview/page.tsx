@@ -1,7 +1,7 @@
 import { FadeInUp, FadeIn } from "@/components/AnimatedSection";
 import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
-import { Compass, Shield, Globe, ChevronDown, Baby, GraduationCap, Award, Layers, Sparkles, Crown, Anchor, Navigation, Users, Star, Mail, MessageCircle, MapPin, Instagram, RefreshCw } from "lucide-react";
+import { Compass, Shield, Globe, ChevronDown, Baby, GraduationCap, Award, Layers, Sparkles, Crown, Anchor, Navigation, Users, Star, Mail, MessageCircle, MapPin, Instagram, RefreshCw, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -205,18 +205,7 @@ export default function Home() {
  Your Personal Diving Concierge.
  </h2>
  <p className="text-[var(--brand-text-secondary)] leading-relaxed font-sans mb-4">
- Nestled in paradise Bali, I craft high-end diving experiences, individually
- tailored just for you and your loved ones. Whether you&apos;re a family introducing
- your little ones (from 8 years old) to the underwater wonders alongside parents,
- a couple seeking romantic submersion, honeymooners chasing blissful serenity, or
- an individual explorer craving solitude beneath the waves — every dive will be
- a unique masterpiece.
- </p>
- <p className="text-[var(--brand-text-secondary)] leading-relaxed font-sans">
- My mission is to curate the ultimate premium diving experience — an exclusive
- sanctuary for exciting underwater adventures, individually tailored just for you
- and your loved ones. Join me in discovering the elite essence of the deep, where
- every moment is crafted with sophistication and soul.
+ Boutique Diving Bali is not a dive shop. It is a fully private, personally curated diving concierge — every experience designed from scratch around you. Whether you are a family introducing your children to the underwater world, a couple seeking a romantic adventure, or an experienced diver craving something extraordinary — every dive is a unique creation, never a package.
  </p>
  </div>
  </FadeInUp>
@@ -283,22 +272,11 @@ export default function Home() {
  Dominic Frei — Your Personal Diving Expert
  </h2>
  <div className="space-y-4 text-[var(--brand-text-secondary)] leading-relaxed font-sans">
- <p>
- Hi, I&apos;m Dominic, a 48-year-young visionary from Switzerland, calling Bali
- home and our family&apos;s happy place for 5 years already. With a heritage rooted
- in precision and excellence, my journey has taken me from the disciplined heights
- of military service as an instructor for an elite Swiss Army unit, through a decade
- as a Risk &amp; Security Management Executive at corporate level, to the magical
- depths of the ocean.
+ <p className="text-[var(--brand-text-secondary)] leading-relaxed font-sans mb-4">
+ Hi, I'm Dominic — a Swiss diving professional calling Bali home since 2021. My journey to the ocean started in Panama in 2002, and after careers in the Swiss Army and corporate security, I turned my deepest passion into a way of life. In 2023, I became a certified SSI Diving Professional.
  </p>
- <p>
- My passion for the underwater world started in Panama&apos;s Bocas del Toro
- archipelago in 2002 and ignited a lifelong quest to explore the underwater wonders
- of our beautiful blue planet. In 2023, I elevated this passion by becoming a
- certified SSI Diving Instructor, allowing me to share this magical experience
- with adventurers like you. Nothing is more relaxing, de-stressing and magical to
- me than floating weightless below the ocean and watching the beauty of our
- blue planet...
+ <p className="text-[var(--brand-text-secondary)] leading-relaxed font-sans mb-6">
+ Today, I design and guide fully private diving experiences across Bali and Indonesia. No groups, no standard routes — just you, the ocean, and my full attention. Whether it is your first breath underwater or your five-hundredth dive, I am personally there to make it unforgettable.
  </p>
  </div>
 
@@ -348,30 +326,11 @@ export default function Home() {
 
  <FadeInUp delay={0.15}>
  <div className="space-y-5 text-[var(--brand-text-secondary)] leading-relaxed font-sans">
- <p>
- You may think that curating a premium, high-end diving experience should be the
- goal of every diving operator, right? Unfortunately, that is not always the case.
+ <p className="text-[var(--brand-text-secondary)] leading-relaxed font-sans mb-4">
+ Before launching Boutique Diving Bali, I spent three months working as a Diving Instructor in Koh Samui to see the industry from the inside. What I found was eye-opening: overcrowded boats, burned-out guides, worn equipment, and manufactured reviews. The recreational diving industry is booming — but the quality of the experience often suffers.
  </p>
- <p>
- Before launching Boutique Diving Bali, I spent 3 months during high season in
- Koh Samui, working 6 days a week as a Diving Instructor &amp; Boatmaster for a
- large local operator. I wanted to see and experience for myself the Good, the Bad,
- and the Ugly sides of this business — and do active market research at the same time.
- It was an intense, challenging, and deeply insightful time.
- </p>
- <p>
- The recreational diving industry is booming globally, but sadly this comes with
- negative side effects that can ruin your experience completely — especially at
- mass-diving hotspots. From burned-out, unmotivated instructors with a dangerous
- lack of safety awareness, to worn-out and poorly maintained equipment that
- compromises your safety, to manufactured 5-star reviews offered in exchange for
- discounts or free beers.
- </p>
- <p className="text-[var(--brand-text)] font-medium">
- That is exactly why Boutique Diving Bali exists. Every experience is designed with
- Swiss precision, an unwavering commitment to your safety, and a genuine passion for
- sharing the magic of the underwater world. No shortcuts. No compromises. Just
- exceptional diving, tailored to you.
+ <p className="text-[var(--brand-text-secondary)] leading-relaxed font-sans mb-6">
+ Boutique Diving Bali exists because premium travellers deserve better. Swiss precision meets underwater paradise — every detail handled, every dive personal, every moment designed for you.
  </p>
  </div>
  </FadeInUp>
@@ -395,6 +354,11 @@ export default function Home() {
  ))}
  </div>
  </FadeInUp>
+ <div className="text-center mt-8">
+ <Link href="/about" className="inline-flex items-center gap-1 text-[var(--brand-teal)] hover:text-[var(--brand-teal)]/80 font-sans text-sm transition-colors">
+ Read the Full Story <ArrowRight className="w-4 h-4" />
+ </Link>
+ </div>
  </div>
  </section>
 

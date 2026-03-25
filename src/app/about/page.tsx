@@ -208,6 +208,18 @@ export default function AboutPage() {
  </p>
  </div>
  </FadeInUp>
+
+ <FadeInUp delay={0.15}>
+ <div className="bg-[#F5F0E8] rounded-2xl p-8 border border-[#E8DFD0] my-8">
+ <h3 className="font-heading text-xl font-normal text-[#2D4349] mb-4">The Mission</h3>
+ <p className="text-[#2D4349] font-sans leading-relaxed mb-4">
+ My mission is to curate the ultimate premium diving experience — an exclusive sanctuary for exciting underwater adventures, individually tailored just for you and your loved ones. Join me in discovering the elite essence of the deep, where every moment is crafted with sophistication and soul.
+ </p>
+ <p className="text-[#64748B] font-sans leading-relaxed">
+ Whether you are a family introducing your little ones to the underwater wonders alongside parents, a couple seeking romantic submersion, honeymooners chasing blissful serenity, or an individual explorer craving solitude beneath the waves — every dive will be a unique masterpiece.
+ </p>
+ </div>
+ </FadeInUp>
  </div>
  </section>
 
