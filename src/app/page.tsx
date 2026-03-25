@@ -5,7 +5,31 @@ import { Compass, Shield, Globe, ChevronDown, Baby, GraduationCap, Award, Layers
 import Link from "next/link";
 import Image from "next/image";
 
-export const metadata = { title: "Private Diving Concierge Bali — Luxury Bespoke Experiences | Boutique Diving Bali" };
+export const metadata = {
+ title: "Private Diving Concierge Bali — Luxury Bespoke Experiences | Boutique Diving Bali",
+ openGraph: {
+ title: "Private Diving Concierge Bali — Luxury Bespoke Experiences | Boutique Diving Bali",
+ description: "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond. SSI certified. No groups, no packages — every dive tailored to you.",
+ url: "https://www.boutiquedivingbali.com",
+ siteName: "Boutique Diving Bali",
+ images: [
+ {
+ url: "https://www.boutiquedivingbali.com/images/og-image.jpg",
+ width: 1200,
+ height: 630,
+ alt: "Boutique Diving Bali — Your Personal Diving Concierge in Paradise",
+ },
+ ],
+ locale: "en_US",
+ type: "website",
+ },
+ twitter: {
+ card: "summary_large_image",
+ title: "Private Diving Concierge Bali — Luxury Bespoke Experiences",
+ description: "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond.",
+ images: ["https://www.boutiquedivingbali.com/images/og-image.jpg"],
+ },
+};
 
 const localBusinessSchema = {
  "@context": "https://schema.org",
