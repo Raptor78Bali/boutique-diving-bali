@@ -45,7 +45,7 @@ export default function Header() {
  alt="Boutique Diving Bali"
  width={40}
  height={40}
- className="w-full h-full object-cover scale-125"
+ className="w-full h-full object-cover"
  />
 </div>
  <span className="font-heading text-lg text-white">Boutique Diving <span className="text-[#C5A55A] tracking-[0.15em] text-sm font-sans">BALI</span></span>
