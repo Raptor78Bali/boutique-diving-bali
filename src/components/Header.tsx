@@ -38,7 +38,7 @@ export default function Header() {
  }`}
  >
  <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
- <Link href="/" className={`flex items-center gap-4 ${isServicePage ? "invisible" : ""}`}>
+ <Link href="/" className="flex items-center gap-4">
  <div className="w-14 h-14 -my-2 rounded-full overflow-hidden flex-shrink-0">
  <Image
  src="/images/logo-icon-only.png"
