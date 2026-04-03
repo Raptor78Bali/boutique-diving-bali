@@ -61,7 +61,8 @@ export default function Header() {
  Services <ChevronDown className="w-3.5 h-3.5" />
  </button>
  {servicesOpen && (
- <div className="absolute top-full left-0 mt-2 w-64 bg-[#0A1628]/98 backdrop-blur-md border border-white/10 rounded-xl p-2 shadow-xl">
+ <div className="absolute top-full left-0 pt-2 w-64">
+ <div className="bg-[#0A1628]/98 backdrop-blur-md border border-white/10 rounded-xl p-2 shadow-xl">
  {services.map((service) => (
  <Link
  key={service.name}
@@ -71,6 +72,7 @@ export default function Header() {
  {service.name}
  </Link>
  ))}
+ </div>
  </div>
  )}
  </div>
