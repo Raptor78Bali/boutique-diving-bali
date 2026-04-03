@@ -870,7 +870,7 @@ export default function Home() {
                     This is where Dominic completed his SSI Instructor certification — trained personally by Ocean Sun&apos;s owner, Ricardo. That relationship of trust and shared standards is the foundation of this partnership.
                   </p>
                   <p className="text-[#64748B] font-sans text-sm leading-relaxed mb-6">
-                    For guests staying at hotels, private villas, or resorts in Bali without their own dive facilities, Ocean Sun serves as the base for all courses and fun dives. From equipment to pool sessions to boat departures — everything is handled at Diamond Center level.
+                    For guests staying at hotels, private villas, or resorts in Bali without their own dive facilities, Ocean Sun serves as the base for all courses and fun dives. From equipment to pool sessions to boat departures — everything is handled to the highest SSI standards.
                   </p>
                   <a
                     href="https://ocean-sun.com/en"
