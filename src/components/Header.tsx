@@ -80,7 +80,7 @@ export default function Header() {
  <Link href="/services/dive-butler" className="text-white/70 hover:text-white text-sm font-sans transition-colors">
  Dive Butler
  </Link>
- <Link href="#destinations" className="text-white/70 hover:text-white text-sm font-sans transition-colors">
+ <Link href="/#destinations" className="text-white/70 hover:text-white text-sm font-sans transition-colors">
  Destinations
  </Link>
  <Link href="/about" className="text-white/70 hover:text-white text-sm font-sans transition-colors">
