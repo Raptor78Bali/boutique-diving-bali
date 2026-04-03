@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     template: "%s | Boutique Diving Bali",
   },
   description:
-    "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond. SSI certified instructor. No groups, no packages — every dive tailored to you.",
+    "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond. SSI certified professional. No groups, no packages — every dive tailored to you.",
   keywords: [
     "luxury diving bali",
     "private dive instructor bali",

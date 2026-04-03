@@ -31,12 +31,15 @@ export default function FaqAccordion({ items }: FaqAccordionProps) {
   return (
     <div>
       <JsonLd data={faqSchema} />
-      <div className="divide-y divide-[var(--brand-tan)]">
+      <div className="divide-y divide-[var(--brand-tan)]" role="list">
         {items.map((item, index) => (
-          <div key={index} className="py-5">
+          <div key={index} className="py-5" role="listitem">
             <button
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
               className="flex w-full items-center justify-between text-left group"
+              aria-expanded={openIndex === index}
+              aria-controls={`faq-answer-${index}`}
+              id={`faq-question-${index}`}
             >
               <span className="font-sans text-base font-medium text-[var(--brand-text)] group-hover:text-[var(--brand-teal)] transition-colors pr-4">
                 {item.question}
@@ -45,11 +48,15 @@ export default function FaqAccordion({ items }: FaqAccordionProps) {
                 className={`text-[var(--brand-gold)] text-xl transition-transform duration-300 flex-shrink-0 ${
                   openIndex === index ? "rotate-45" : ""
                 }`}
+                aria-hidden="true"
               >
                 +
               </span>
             </button>
             <div
+              id={`faq-answer-${index}`}
+              role="region"
+              aria-labelledby={`faq-question-${index}`}
               className={`overflow-hidden transition-all duration-300 ${
                 openIndex === index ? "max-h-96 opacity-100 mt-3" : "max-h-0 opacity-0"
               }`}

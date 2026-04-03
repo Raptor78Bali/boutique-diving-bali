@@ -272,6 +272,42 @@ export default function DiveButlerPage() {
  </div>
  </section>
 
+ {/* HowTo Schema */}
+ <JsonLd
+ data={{
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "How the Dive Butler Service Works",
+ "description": "From first contact to first dive — how to book your personal Dive Butler for a fully bespoke diving experience across Indonesia.",
+ "step": [
+ {
+ "@type": "HowToStep",
+ "position": 1,
+ "name": "Share Your Vision",
+ "text": "Tell Dominic what you dream of — destinations, dates, group size, experience level. A liveaboard through Komodo, manta dives in Nusa Penida, or family certification in Tulamben."
+ },
+ {
+ "@type": "HowToStep",
+ "position": 2,
+ "name": "Receive Your Bespoke Proposal",
+ "text": "Dominic prepares a detailed, fully transparent proposal. Every element is itemised: dive days, certifications, equipment, logistics, and accommodation. No hidden costs."
+ },
+ {
+ "@type": "HowToStep",
+ "position": 3,
+ "name": "Dominic Prepares Everything",
+ "text": "Before you arrive, everything is handled. Equipment selected and checked, dive sites planned around conditions, local guides briefed and coordinated."
+ },
+ {
+ "@type": "HowToStep",
+ "position": 4,
+ "name": "Dive With Your Personal Instructor",
+ "text": "Underwater, Dominic is by your side exclusively. He monitors your comfort, manages safety, and adjusts every dive to your pace and interests."
+ }
+ ]
+ }}
+ />
+
  {/* ============================================= */}
  {/* HOW IT WORKS — 4 Steps */}
  {/* ============================================= */}
