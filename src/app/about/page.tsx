@@ -157,7 +157,7 @@ export default function AboutPage() {
 
  <FadeIn delay={0.4}>
  <div className="flex flex-wrap items-center justify-center gap-3">
- {["SSI Certified Instructor", "Swiss Precision", "In Bali Since 2021", "English & German"].map((badge) => (
+ {["SSI Certified Professional", "Swiss Precision", "In Bali Since 2021", "English & German"].map((badge) => (
  <span key={badge} className="inline-flex items-center px-4 py-1.5 bg-[#C5A55A]/10 border border-[#C5A55A]/20 rounded-full text-xs font-sans uppercase tracking-wider text-[#C5A55A]">
  {badge}
  </span>

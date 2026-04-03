@@ -126,7 +126,10 @@ export default function RootLayout({
                     "availableLanguage": ["English", "German"]
                   },
                   areaServed: { "@type": "Country", name: "Indonesia" },
-                  sameAs: ["https://www.instagram.com/boutiquedivingbali"]
+                  sameAs: [
+ "https://www.instagram.com/boutiquedivingbali",
+ "https://maps.app.goo.gl/dWZz5fu84wEpBcHD7"
+ ]
                 },
                 {
                   "@type": "WebSite",

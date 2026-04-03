@@ -101,6 +101,8 @@ export default function Header() {
  <button
  onClick={() => setIsOpen(!isOpen)}
  className="lg:hidden text-white/70 hover:text-white transition-colors"
+ aria-label={isOpen ? "Close menu" : "Open menu"}
+ aria-expanded={isOpen}
  >
  {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
  </button>

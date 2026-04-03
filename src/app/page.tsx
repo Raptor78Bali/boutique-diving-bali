@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
- title: "Private Diving Concierge Bali — Luxury Bespoke Experiences | Boutique Diving Bali",
+ title: "Private Diving Concierge Bali | Boutique Diving Bali",
  openGraph: {
  title: "Private Diving Concierge Bali — Luxury Bespoke Experiences | Boutique Diving Bali",
  description: "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond. SSI certified. No groups, no packages — every dive tailored to you.",
@@ -855,6 +855,7 @@ export default function Home() {
                       width={220}
                       height={220}
                       className="w-44 h-44 md:w-52 md:h-52 object-contain"
+                      sizes="208px"
                     />
                   </a>
                 </div>
@@ -1003,9 +1004,9 @@ export default function Home() {
  <h4 className="text-white/60 text-xs uppercase tracking-widest font-sans mb-4">Explore</h4>
  <ul className="space-y-2.5">
  {[
- { name: "Destinations", href: "#destinations" },
+ { name: "Destinations", href: "/#destinations" },
  { name: "About Dominic", href: "/about" },
- { name: "FAQ", href: "#faq" },
+ { name: "FAQ", href: "/#faq" },
  { name: "Contact", href: "/contact" },
  ].map((link) => (
  <li key={link.name}>
