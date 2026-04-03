@@ -851,7 +851,7 @@ export default function Home() {
                   <a href="https://ocean-sun.com/en" target="_blank" rel="noopener noreferrer">
                     <Image
                       src="/images/partner-ocean-sun.png"
-                      alt="Ocean Sun Dive Resort — SSI Diamond Center, Tulamben, Bali"
+                      alt="Ocean Sun Dive Resort — SSI Instructor Training Center, Tulamben, Bali"
                       width={220}
                       height={220}
                       className="w-44 h-44 md:w-52 md:h-52 object-contain"
@@ -861,10 +861,10 @@ export default function Home() {
                 {/* Description */}
                 <div className="text-center md:text-left">
                   <div className="inline-flex items-center px-3 py-1 bg-[#C5A55A]/10 border border-[#C5A55A]/20 rounded-full text-xs font-sans uppercase tracking-wider text-[#C5A55A] mb-4">
-                    SSI Diamond Center
+                    SSI Instructor Training Center
                   </div>
                   <p className="text-[#2D4349] font-sans text-sm md:text-base leading-relaxed mb-4">
-                    Ocean Sun is our home base in Tulamben and an official SSI Diamond Center — the highest recognition SSI awards to dive centers that consistently exceed their strictest standards in training quality, safety, and professionalism. Every staff member holds active SSI professional status, and all equipment is premium-grade, maintained and serviced in Ocean Sun&apos;s own dedicated service center.
+                    Ocean Sun is our home base in Tulamben and an official SSI Instructor Training Center — one of the highest ratings SSI awards, reserved for centers authorized to not only train recreational divers but also certify new SSI Instructors. This requires meeting the strictest standards in training quality, safety, and professionalism, with at least one permanent SSI Instructor Trainer on staff. All equipment is premium-grade, maintained and serviced in Ocean Sun&apos;s own dedicated service center.
                   </p>
                   <p className="text-[#2D4349] font-sans text-sm md:text-base leading-relaxed mb-4">
                     This is where Dominic completed his SSI Instructor certification — trained personally by Ocean Sun&apos;s owner, Ricardo. That relationship of trust and shared standards is the foundation of this partnership.
