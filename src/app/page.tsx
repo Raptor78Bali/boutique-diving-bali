@@ -864,13 +864,13 @@ export default function Home() {
                     SSI Instructor Training Center
                   </div>
                   <p className="text-[#2D4349] font-sans text-sm md:text-base leading-relaxed mb-4">
-                    Ocean Sun is our home base in Tulamben and an official SSI Instructor Training Center — one of the highest ratings SSI awards, reserved for centers authorized to not only train recreational divers but also certify new SSI Instructors. This requires meeting the strictest standards in training quality, safety, and professionalism, with at least one permanent SSI Instructor Trainer on staff. All equipment is premium-grade, maintained and serviced in Ocean Sun&apos;s own dedicated service center.
+                    Ocean Sun is our home base in Tulamben (Bali) and an official SSI Instructor Training Center — one of the highest ratings SSI awards, reserved for centers authorized to not only train recreational divers but also certify new SSI Instructors. This requires meeting the strictest standards in training quality, safety, and professionalism, with at least one permanent SSI Instructor Trainer on staff. All equipment is premium-grade, maintained and serviced in Ocean Sun&apos;s own dedicated service center.
                   </p>
                   <p className="text-[#2D4349] font-sans text-sm md:text-base leading-relaxed mb-4">
                     This is where Dominic completed his SSI Instructor certification — trained personally by Ocean Sun&apos;s owner, Ricardo. That relationship of trust and shared standards is the foundation of this partnership.
                   </p>
                   <p className="text-[#64748B] font-sans text-sm leading-relaxed mb-6">
-                    For guests staying at hotels, private villas, or resorts without their own dive facilities, Ocean Sun serves as the base for all courses and fun dives. From equipment to pool sessions to boat departures — everything is handled at Diamond Center level.
+                    For guests staying at hotels, private villas, or resorts in Bali without their own dive facilities, Ocean Sun serves as the base for all courses and fun dives. From equipment to pool sessions to boat departures — everything is handled at Diamond Center level.
                   </p>
                   <a
                     href="https://ocean-sun.com/en"
