@@ -826,6 +826,68 @@ export default function Home() {
 
  
 
+
+      {/* ============================================= */}
+      {/* SECTION: OUR PARTNER */}
+      {/* ============================================= */}
+      <section className="py-20 md:py-28 px-6 bg-[#FDF8F0]">
+        <div className="max-w-4xl mx-auto">
+          <FadeInUp>
+            <div className="text-center mb-10">
+              <p className="text-xs uppercase tracking-[0.2em] text-[#C5A55A] mb-4 font-sans font-medium">
+                Our Partner
+              </p>
+              <h2 className="font-heading text-3xl md:text-4xl text-[#2D4349] leading-tight">
+                Ocean Sun Dive Resort
+              </h2>
+              <p className="text-[#64748B] text-sm font-sans mt-2">Tulamben, Bali</p>
+            </div>
+          </FadeInUp>
+          <FadeInUp delay={0.1}>
+            <div className="bg-[#F5F0E8] rounded-2xl border border-[#E8DFD0] p-8 md:p-12">
+              <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+                {/* Ocean Sun Logo */}
+                <div className="flex-shrink-0">
+                  <a href="https://ocean-sun.com/en" target="_blank" rel="noopener noreferrer">
+                    <Image
+                      src="/images/partner-ocean-sun.png"
+                      alt="Ocean Sun Dive Resort — SSI Diamond Center, Tulamben, Bali"
+                      width={220}
+                      height={220}
+                      className="w-44 h-44 md:w-52 md:h-52 object-contain"
+                    />
+                  </a>
+                </div>
+                {/* Description */}
+                <div className="text-center md:text-left">
+                  <div className="inline-flex items-center px-3 py-1 bg-[#C5A55A]/10 border border-[#C5A55A]/20 rounded-full text-xs font-sans uppercase tracking-wider text-[#C5A55A] mb-4">
+                    SSI Diamond Center
+                  </div>
+                  <p className="text-[#2D4349] font-sans text-sm md:text-base leading-relaxed mb-4">
+                    Ocean Sun is our home base in Tulamben and an official SSI Diamond Center — the highest recognition SSI awards to dive centers that consistently exceed their strictest standards in training quality, safety, and professionalism. Every staff member holds active SSI professional status, and all equipment is premium-grade, maintained and serviced in Ocean Sun&apos;s own dedicated service center.
+                  </p>
+                  <p className="text-[#2D4349] font-sans text-sm md:text-base leading-relaxed mb-4">
+                    This is where Dominic completed his SSI Instructor certification — trained personally by Ocean Sun&apos;s owner, Ricardo. That relationship of trust and shared standards is the foundation of this partnership.
+                  </p>
+                  <p className="text-[#64748B] font-sans text-sm leading-relaxed mb-6">
+                    For guests staying at hotels, private villas, or resorts without their own dive facilities, Ocean Sun serves as the base for all courses and fun dives. From equipment to pool sessions to boat departures — everything is handled at Diamond Center level.
+                  </p>
+                  <a
+                    href="https://ocean-sun.com/en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-[#0C7C6B] hover:text-[#0A6B5C] font-sans text-sm font-medium transition-colors"
+                  >
+                    Visit Ocean Sun Dive Resort
+                    <ArrowRight className="w-4 h-4" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </FadeInUp>
+        </div>
+      </section>
+
 {/* SECTION 12: FAQ */}
  <section id="faq" className="py-20 md:py-28 px-6 bg-[var(--brand-cream)]">
  <div className="max-w-3xl mx-auto">
