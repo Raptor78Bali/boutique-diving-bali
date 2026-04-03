@@ -174,12 +174,12 @@ export default function AboutPage() {
  </div>
  </section>
 
- <div className="h-24 bg-gradient-to-b from-[#0A1628] to-[#FDF8F0]" />
+ <div className="h-12 bg-gradient-to-b from-[#0A1628] to-[#FDF8F0]" />
 
  {/* ============================================= */}
  {/* THE STORY — Dominic's Journey */}
  {/* ============================================= */}
- <section className="py-20 bg-[#FDF8F0]">
+ <section className="pt-10 pb-20 bg-[#FDF8F0]">
  <div className="max-w-4xl mx-auto px-6">
  <FadeInUp>
  <p className="font-sans uppercase tracking-[0.2em] text-xs text-[#C5A55A] mb-4 text-center">
