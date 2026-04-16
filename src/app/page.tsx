@@ -954,7 +954,7 @@ export default function Home() {
  className="w-full h-full object-cover"
  />
  </div>
- <span className="font-heading text-lg text-white">Boutique Diving <span className="text-[#C5A55A] tracking-[0.15em]">BALI</span></span>
+ <span className="font-heading text-lg text-white">Boutique Diving <span className="text-[#C5A55A]">Bali</span></span>
  </div>
  <p className="text-white/40 text-sm font-sans leading-relaxed">
  Indonesia&apos;s premier personal dive concierge. Fully bespoke, private diving
