@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "Personal Dive Butler Service — Your Private Diving Companion Across Indonesia | Boutique Diving Bali",
+ title: "Personal Dive Butler Indonesia | Boutique Diving Bali",
  description:
  "Your personal SSI-certified diving companion travels with you across Indonesia. Liveaboards, resorts, any destination. Fully bespoke, entirely private.",
  keywords: [
@@ -30,6 +30,7 @@ export const metadata: Metadata = {
  "Your personal SSI-certified diving companion travels with you across Indonesia. Luxury liveaboards, five-star resorts, private dive experiences — all handled for you.",
  url: "https://www.boutiquedivingbali.com/services/dive-butler",
  siteName: "Boutique Diving Bali",
+ images: [{ url: 'https://www.boutiquedivingbali.com/images/og-image.jpg', width: 1200, height: 630 }],
  locale: "en_US",
  type: "website",
  },
@@ -38,6 +39,7 @@ export const metadata: Metadata = {
  title: "Personal Dive Butler Service | Boutique Diving Bali",
  description:
  "Your personal SSI-certified diving companion travels with you across Indonesia. Fully bespoke, entirely private.",
+ images: ['https://www.boutiquedivingbali.com/images/og-image.jpg'],
  },
  alternates: {
  canonical: "https://www.boutiquedivingbali.com/services/dive-butler",
@@ -91,11 +93,7 @@ export default function DiveButlerPage() {
  "@context": "https://schema.org",
  "@type": "Service",
  name: "Personal Dive Butler Service",
- provider: {
- "@type": "LocalBusiness",
- name: "Boutique Diving Bali",
- url: "https://www.boutiquedivingbali.com",
- },
+ provider: { "@id": "https://www.boutiquedivingbali.com/#organization" },
  description:
  "Your personal SSI-certified diving companion travels with you to any destination in Indonesia. From luxury liveaboards to five-star dive resorts — fully bespoke, entirely private diving experiences.",
  areaServed: {
@@ -105,6 +103,7 @@ export default function DiveButlerPage() {
  serviceType: "Personal Dive Butler / Private Diving Concierge",
  priceRange: "$$$$",
  url: "https://www.boutiquedivingbali.com/services/dive-butler",
+ "dateModified": "2026-04-16",
  }}
  />
  {/* JSON-LD BreadcrumbList Schema */}
@@ -135,7 +134,7 @@ export default function DiveButlerPage() {
  }}
  />
 
- <main className="min-h-screen">
+ <main id="main-content" className="min-h-screen">
  {/* ============================================= */}
  {/* HERO SECTION */}
  {/* ============================================= */}

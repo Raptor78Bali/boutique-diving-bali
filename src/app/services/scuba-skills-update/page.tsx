@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "Private SSI Scuba Skills Update in Bali — Refresher Course at Your Pace | Boutique Diving Bali",
+ title: "SSI Scuba Skills Update Bali | Boutique Diving Bali",
  description:
  "Private SSI Scuba Skills Update in Bali. Haven't dived in a while? Rebuild confidence at your pace with your own diving professional.",
  keywords: [
@@ -30,6 +30,7 @@ export const metadata: Metadata = {
  "Haven't dived in a while? Private SSI refresher course in Bali. Review skills, rebuild confidence, dive again — at your pace.",
  url: "https://www.boutiquedivingbali.com/services/scuba-skills-update",
  siteName: "Boutique Diving Bali",
+ images: [{ url: 'https://www.boutiquedivingbali.com/images/og-image.jpg', width: 1200, height: 630 }],
  locale: "en_US",
  type: "website",
  },
@@ -38,6 +39,7 @@ export const metadata: Metadata = {
  title: "Private SSI Scuba Skills Update in Bali | Boutique Diving Bali",
  description:
  "Haven't dived in a while? Private refresher course in Bali. Rebuild confidence and dive again.",
+ images: ['https://www.boutiquedivingbali.com/images/og-image.jpg'],
  },
  alternates: {
  canonical: "https://www.boutiquedivingbali.com/services/scuba-skills-update",
@@ -91,11 +93,7 @@ export default function ScubaSkillsUpdatePage() {
  "@context": "https://schema.org",
  "@type": "Service",
  name: "Private SSI Scuba Skills Update",
- provider: {
- "@type": "LocalBusiness",
- name: "Boutique Diving Bali",
- url: "https://www.boutiquedivingbali.com",
- },
+ provider: { "@id": "https://www.boutiquedivingbali.com/#organization" },
  description:
  "Private SSI Scuba Skills Update refresher course in Bali. Review essential diving skills, rebuild confidence, and get back in the water — at your own pace.",
  areaServed: {
@@ -105,6 +103,7 @@ export default function ScubaSkillsUpdatePage() {
  serviceType: "SSI Scuba Skills Update — Private Dive Refresher Course",
  priceRange: "$$$$",
  url: "https://www.boutiquedivingbali.com/services/scuba-skills-update",
+ "dateModified": "2026-04-16",
  }}
  />
  {/* JSON-LD BreadcrumbList Schema */}
@@ -135,7 +134,7 @@ export default function ScubaSkillsUpdatePage() {
  }}
  />
 
- <main className="min-h-screen">
+ <main id="main-content" className="min-h-screen">
  {/* ============================================= */}
  {/* HERO SECTION */}
  {/* ============================================= */}

@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "Private SSI Junior Open Water Diver Course in Bali — Ages 10–14 | Boutique Diving Bali",
+ title: "SSI Junior Open Water Diver Bali | Boutique Diving Bali",
  description:
  "Private SSI Junior Open Water Diver course for children aged 10–14 in Bali. One-on-one, patient, safe. No group classes.",
  keywords: [
@@ -30,6 +30,7 @@ export const metadata: Metadata = {
  "Private SSI Junior Open Water Diver certification for children aged 10–14 in Bali. Patient, safe, one-on-one instruction at your child's pace.",
  url: "https://www.boutiquedivingbali.com/services/junior-owd",
  siteName: "Boutique Diving Bali",
+ images: [{ url: 'https://www.boutiquedivingbali.com/images/og-image.jpg', width: 1200, height: 630 }],
  locale: "en_US",
  type: "website",
  },
@@ -38,6 +39,7 @@ export const metadata: Metadata = {
  title: "Private SSI Junior Open Water Diver Course — Ages 10–14 | Boutique Diving Bali",
  description:
  "Private SSI Junior Open Water Diver certification for children aged 10–14 in Bali. Patient, safe, fun.",
+ images: ['https://www.boutiquedivingbali.com/images/og-image.jpg'],
  },
  alternates: {
  canonical: "https://www.boutiquedivingbali.com/services/junior-owd",
@@ -91,11 +93,7 @@ export default function JuniorOwdPage() {
  "@context": "https://schema.org",
  "@type": "Service",
  name: "Private SSI Junior Open Water Diver Course",
- provider: {
- "@type": "LocalBusiness",
- name: "Boutique Diving Bali",
- url: "https://www.boutiquedivingbali.com",
- },
+ provider: { "@id": "https://www.boutiquedivingbali.com/#organization" },
  description:
  "Private SSI Junior Open Water Diver certification for children aged 10–14 in Bali. One-on-one instruction — patient, safe, and fun.",
  areaServed: {
@@ -110,6 +108,7 @@ export default function JuniorOwdPage() {
  suggestedMaxAge: 14,
  },
  url: "https://www.boutiquedivingbali.com/services/junior-owd",
+ "dateModified": "2026-04-16",
  }}
  />
  {/* JSON-LD BreadcrumbList Schema */}
@@ -140,7 +139,7 @@ export default function JuniorOwdPage() {
  }}
  />
 
- <main className="min-h-screen">
+ <main id="main-content" className="min-h-screen">
  {/* ============================================= */}
  {/* HERO SECTION */}
  {/* ============================================= */}

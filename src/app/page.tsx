@@ -7,6 +7,10 @@ import Image from "next/image";
 
 export const metadata = {
  title: "Private Diving Concierge Bali | Boutique Diving Bali",
+ description: 'Private diving concierge in Bali and Indonesia. Try diving, get certified, or explore with your personal SSI-certified companion. From age 10. No groups.',
+ alternates: {
+  canonical: 'https://www.boutiquedivingbali.com',
+ },
  openGraph: {
  title: "Private Diving Concierge Bali — Luxury Bespoke Experiences | Boutique Diving Bali",
  description: "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond. SSI certified. No groups, no packages — every dive tailored to you.",
@@ -94,7 +98,7 @@ const homepageFaq = [
 
 export default function Home() {
  return (
- <main className="overflow-x-hidden">
+ <main id="main-content" className="overflow-x-hidden">
  <JsonLd data={localBusinessSchema} />
  <JsonLd data={websiteSchema} />
  <script
@@ -103,6 +107,7 @@ export default function Home() {
  __html: JSON.stringify({
  "@context": "https://schema.org",
  "@type": "Person",
+ "@id": "https://www.boutiquedivingbali.com/#founder",
  "name": "Dominic Frei",
  "jobTitle": "Personal Diving Concierge",
  "description": "SSI-certified Swiss diving professional and founder of Boutique Diving Bali. Offers fully bespoke, private diving experiences across Indonesia.",
@@ -115,11 +120,7 @@ export default function Home() {
  "sameAs": [
  "https://instagram.com/boutiquedivingbali"
  ],
- "worksFor": {
- "@type": "Organization",
- "name": "Boutique Diving Bali",
- "url": "https://www.boutiquedivingbali.com"
- }
+ "worksFor": { "@id": "https://www.boutiquedivingbali.com/#organization" }
  })
  }}
  />
@@ -129,6 +130,7 @@ export default function Home() {
  __html: JSON.stringify({
  "@context": "https://schema.org",
  "@type": "ProfessionalService",
+ "@id": "https://www.boutiquedivingbali.com/#localbusiness",
  "name": "Boutique Diving Bali",
  "description": "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond.",
  "url": "https://www.boutiquedivingbali.com",
@@ -157,10 +159,7 @@ export default function Home() {
  "latitude": -8.2775,
  "longitude": 115.5964
  },
- "founder": {
- "@type": "Person",
- "name": "Dominic Frei"
- },
+ "founder": { "@id": "https://www.boutiquedivingbali.com/#founder" },
  "contactPoint": {
  "@type": "ContactPoint",
  "telephone": "+41791722403",
@@ -331,7 +330,7 @@ export default function Home() {
  Your Personal Diving Concierge.
  </h2>
  <p className="text-[var(--brand-text-secondary)] leading-relaxed font-sans mb-4">
- Boutique Diving Bali is a premium personal diving concierge service founded by Dominic Frei, an SSI-certified Swiss diving professional based in Bali, Indonesia since 2021. The service offers fully bespoke, private scuba diving experiences with no fixed packages and no group tours — covering Bali, Komodo National Park, Raja Ampat, the Banda Sea, Wakatobi, and destinations across the entire Indonesian archipelago.
+ Boutique Diving Bali is a premium personal diving concierge service founded by Dominic Frei, an <a href="https://www.divessi.com" target="_blank" rel="noopener noreferrer" className="text-[var(--brand-teal)] underline underline-offset-2">SSI</a>-certified Swiss diving professional based in Bali, Indonesia since 2021. The service offers fully bespoke, private scuba diving experiences with no fixed packages and no group tours — covering Bali, Komodo National Park, Raja Ampat, the Banda Sea, Wakatobi, and destinations across the entire Indonesian archipelago.
  </p>
  <p className="text-[var(--brand-text-secondary)] leading-relaxed font-sans mb-4">
  Whether you are a family introducing your children to the underwater world, a couple seeking a romantic adventure, or an experienced diver craving something extraordinary — every dive is a unique creation, never a package.

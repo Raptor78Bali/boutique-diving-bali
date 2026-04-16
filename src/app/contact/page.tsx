@@ -5,7 +5,7 @@ import { FadeInUp, FadeIn } from "@/components/AnimatedSection";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "Contact Dominic — Plan Your Private Diving Experience in Bali | Boutique Diving Bali",
+ title: "Contact | Boutique Diving Bali",
  description:
  "Contact Dominic to plan your private diving experience in Bali. WhatsApp, email, or Instagram — no commitment, no pressure.",
  keywords: [
@@ -24,6 +24,7 @@ export const metadata: Metadata = {
  "Plan your private diving experience in Bali. WhatsApp, email, or Instagram — reach out however you prefer.",
  url: "https://www.boutiquedivingbali.com/contact",
  siteName: "Boutique Diving Bali",
+ images: [{ url: 'https://www.boutiquedivingbali.com/images/og-image.jpg', width: 1200, height: 630 }],
  locale: "en_US",
  type: "website",
  },
@@ -32,6 +33,7 @@ export const metadata: Metadata = {
  title: "Contact Dominic | Boutique Diving Bali",
  description:
  "Plan your private diving experience in Bali. Reach out to Dominic directly.",
+ images: ['https://www.boutiquedivingbali.com/images/og-image.jpg'],
  },
  alternates: {
  canonical: "https://www.boutiquedivingbali.com/contact",
@@ -63,7 +65,7 @@ export default function ContactPage() {
  }}
  />
 
- <main className="min-h-screen">
+ <main id="main-content" className="min-h-screen">
  {/* ============================================= */}
  {/* HERO SECTION */}
  {/* ============================================= */}

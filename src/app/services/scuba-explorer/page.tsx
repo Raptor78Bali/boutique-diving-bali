@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "SSI Scuba Explorer for Kids in Bali — Ages 8–12, Private & Fun | Boutique Diving Bali",
+ title: "SSI Scuba Explorer for Kids Bali | Boutique Diving Bali",
  description:
  "SSI Scuba Explorer for kids aged 8–12 in Bali. Private, pool-based first underwater adventure. Safe, fun, unforgettable.",
  keywords: [
@@ -30,6 +30,7 @@ export const metadata: Metadata = {
  "Your child's first underwater adventure. Private SSI Scuba Explorer program for kids aged 8–12 in Bali. Safe, fun, one-on-one instruction.",
  url: "https://www.boutiquedivingbali.com/services/scuba-explorer",
  siteName: "Boutique Diving Bali",
+ images: [{ url: 'https://www.boutiquedivingbali.com/images/og-image.jpg', width: 1200, height: 630 }],
  locale: "en_US",
  type: "website",
  },
@@ -38,6 +39,7 @@ export const metadata: Metadata = {
  title: "SSI Scuba Explorer for Kids — Ages 8–12 | Boutique Diving Bali",
  description:
  "Your child's first underwater adventure. Private SSI Scuba Explorer program in Bali. Safe, fun, unforgettable.",
+ images: ['https://www.boutiquedivingbali.com/images/og-image.jpg'],
  },
  alternates: {
  canonical: "https://www.boutiquedivingbali.com/services/scuba-explorer",
@@ -91,11 +93,7 @@ export default function ScubaExplorerPage() {
  "@context": "https://schema.org",
  "@type": "Service",
  name: "SSI Scuba Explorer Program for Kids",
- provider: {
- "@type": "LocalBusiness",
- name: "Boutique Diving Bali",
- url: "https://www.boutiquedivingbali.com",
- },
+ provider: { "@id": "https://www.boutiquedivingbali.com/#organization" },
  description:
  "Private SSI Scuba Explorer experience for children aged 8–12 in Bali. A safe, fun, pool-based introduction to scuba diving with one-on-one instruction.",
  areaServed: {
@@ -110,6 +108,7 @@ export default function ScubaExplorerPage() {
  suggestedMaxAge: 12,
  },
  url: "https://www.boutiquedivingbali.com/services/scuba-explorer",
+ "dateModified": "2026-04-16",
  }}
  />
  {/* JSON-LD BreadcrumbList Schema */}
@@ -140,7 +139,7 @@ export default function ScubaExplorerPage() {
  }}
  />
 
- <main className="min-h-screen">
+ <main id="main-content" className="min-h-screen">
  {/* ============================================= */}
  {/* HERO SECTION */}
  {/* ============================================= */}

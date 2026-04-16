@@ -115,10 +115,17 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "Organization",
+                  "@id": "https://www.boutiquedivingbali.com/#organization",
                   name: "Boutique Diving Bali",
                   url: "https://www.boutiquedivingbali.com",
                   description: "Indonesia's premier personal diving concierge. Fully bespoke, private diving experiences across Bali and Indonesia.",
                   email: "info@boutiquedivingbali.com",
+                  logo: {
+                    "@type": "ImageObject",
+                    url: "https://www.boutiquedivingbali.com/images/logo-icon-only.png",
+                    width: 400,
+                    height: 400
+                  },
                   founder: { "@type": "Person", name: "Dominic Frei" },
                   contactPoint: {
                     "@type": "ContactPoint",
@@ -130,13 +137,15 @@ export default function RootLayout({
                   sameAs: [
  "https://www.instagram.com/boutiquedivingbali",
  "https://maps.app.goo.gl/dWZz5fu84wEpBcHD7"
- ]
+ ],
+                  "dateModified": "2026-04-16"
                 },
                 {
                   "@type": "WebSite",
+                  "@id": "https://www.boutiquedivingbali.com/#website",
                   name: "Boutique Diving Bali",
                   url: "https://www.boutiquedivingbali.com",
-                  publisher: { "@type": "Organization", name: "Boutique Diving Bali" }
+                  publisher: { "@id": "https://www.boutiquedivingbali.com/#organization" }
                 }
               ]
             }),

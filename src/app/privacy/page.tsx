@@ -10,6 +10,21 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.boutiquedivingbali.com/privacy",
   },
+  openGraph: {
+    title: 'Privacy Policy | Boutique Diving Bali',
+    description: 'Privacy policy for Boutique Diving Bali — how we handle your personal data.',
+    url: 'https://www.boutiquedivingbali.com/privacy',
+    siteName: 'Boutique Diving Bali',
+    images: [{ url: 'https://www.boutiquedivingbali.com/images/og-image.jpg', width: 1200, height: 630 }],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Privacy Policy | Boutique Diving Bali',
+    description: 'Privacy policy for Boutique Diving Bali.',
+    images: ['https://www.boutiquedivingbali.com/images/og-image.jpg'],
+  },
 };
 
 export default function PrivacyPage() {
@@ -26,7 +41,7 @@ export default function PrivacyPage() {
         }}
       />
 
-      <main className="min-h-screen">
+      <main id="main-content" className="min-h-screen">
         <section className="relative min-h-[40vh] flex items-center justify-center overflow-hidden bg-gradient-to-b from-[#0A1628] via-[#0B2A3A] to-[#0A1628]">
           <div className="relative z-10 max-w-4xl mx-auto px-6 text-center pt-32 pb-16">
             <nav aria-label="Breadcrumb" className="mb-8">

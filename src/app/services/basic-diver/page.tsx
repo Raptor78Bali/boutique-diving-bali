@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "Private SSI Basic Diver Experience Bali — Try Scuba Diving | Boutique Diving Bali",
+ title: "Try Scuba Diving in Bali | Boutique Diving Bali",
  description:
  "Try scuba diving privately in Bali with the SSI Basic Diver program. Perfect first dive experience for couples, families, and individuals. Max depth 12m. From age 10.",
  keywords: [
@@ -95,15 +95,12 @@ export default function BasicDiverPage() {
  name: "Private SSI Basic Diver Experience",
  description:
  "Try scuba diving privately in Bali with the SSI Basic Diver program. Perfect for first-time divers, couples, families, and anyone wanting to experience the underwater world in a single day.",
- provider: {
- "@type": "LocalBusiness",
- name: "Boutique Diving Bali",
- url: "https://www.boutiquedivingbali.com",
- },
+ provider: { "@id": "https://www.boutiquedivingbali.com/#organization" },
  areaServed: ["Bali", "Tulamben", "Indonesia"],
  serviceType: "Try Scuba Diving Experience",
  url: "https://www.boutiquedivingbali.com/services/basic-diver",
  priceRange: "$$$$",
+ "dateModified": "2026-04-16",
  }}
  />
  {/* JSON-LD BreadcrumbList Schema */}
@@ -134,7 +131,7 @@ export default function BasicDiverPage() {
  }}
  />
 
- <main className="min-h-screen">
+ <main id="main-content" className="min-h-screen">
  {/* ============================================= */}
  {/* HERO SECTION */}
  {/* ============================================= */}
@@ -272,7 +269,7 @@ export default function BasicDiverPage() {
  Most &ldquo;try diving&rdquo; experiences around Bali are rushed group affairs — 20 minutes of instruction, a crowded boat, and a guide who barely knows your name. The Basic Diver experience with Boutique Diving Bali is fundamentally different. This is a proper SSI program with real training, real skills, and a real dive at a world-class site — all done privately with Dominic as your personal diving companion.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- The SSI Basic Diver program teaches you the essential knowledge and skills to dive to 12 metres under the direct supervision of an SSI Professional. You will learn to breathe underwater, control your buoyancy, communicate with hand signals, and move through the water with confidence. And the best part — everything you learn counts as credit toward full Open Water Diver certification if you decide to continue.
+ The <a href="https://www.divessi.com/en/get-certified/scuba-diving/basic-diver" target="_blank" rel="noopener noreferrer" className="text-[#0C7C6B] underline underline-offset-2">SSI Basic Diver</a> program teaches you the essential knowledge and skills to dive to 12 metres under the direct supervision of an SSI Professional. You will learn to breathe underwater, control your buoyancy, communicate with hand signals, and move through the water with confidence. And the best part — everything you learn counts as credit toward full Open Water Diver certification if you decide to continue.
  </p>
  <p className="text-[#64748B] font-sans leading-relaxed">
  Whether you have a single day in Bali and want to make it extraordinary, or you want to test the waters before committing to a full certification course, this is the experience that lets you discover diving the right way — privately, safely, and at your own pace.

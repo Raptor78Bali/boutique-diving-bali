@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "Private SSI Specialty Courses in Bali — Deep Diving, Nitrox, Night, Wreck & More | Boutique Diving Bali",
+ title: "SSI Specialty Diving Courses Bali | Boutique Diving Bali",
  description:
  "Private SSI Specialty courses in Bali. Deep Diving, Nitrox, Night, Wreck, Navigation and more — one-on-one at Bali's best sites.",
  keywords: [
@@ -30,6 +30,7 @@ export const metadata: Metadata = {
  "Deep Diving, Nitrox, Night Diving, Wreck Diving, and more — all taught privately at Bali's best dive sites by your personal SSI instructor.",
  url: "https://www.boutiquedivingbali.com/services/specialty",
  siteName: "Boutique Diving Bali",
+ images: [{ url: 'https://www.boutiquedivingbali.com/images/og-image.jpg', width: 1200, height: 630 }],
  locale: "en_US",
  type: "website",
  },
@@ -38,6 +39,7 @@ export const metadata: Metadata = {
  title: "Private SSI Specialty Courses in Bali | Boutique Diving Bali",
  description:
  "Deep Diving, Nitrox, Night Diving, Wreck Diving, and more — privately, at Bali's best dive sites.",
+ images: ['https://www.boutiquedivingbali.com/images/og-image.jpg'],
  },
  alternates: {
  canonical: "https://www.boutiquedivingbali.com/services/specialty",
@@ -91,11 +93,7 @@ export default function SpecialtyPage() {
  "@context": "https://schema.org",
  "@type": "Service",
  name: "Private SSI Specialty Diving Courses",
- provider: {
- "@type": "LocalBusiness",
- name: "Boutique Diving Bali",
- url: "https://www.boutiquedivingbali.com",
- },
+ provider: { "@id": "https://www.boutiquedivingbali.com/#organization" },
  description:
  "Private SSI Specialty courses in Bali: Deep Diving, Nitrox, Night Diving, Wreck Diving, Navigation, and more. One-on-one instruction at Bali's best dive sites.",
  areaServed: {
@@ -105,6 +103,7 @@ export default function SpecialtyPage() {
  serviceType: "Private SSI Specialty Diving Courses",
  priceRange: "$$$$",
  url: "https://www.boutiquedivingbali.com/services/specialty",
+ "dateModified": "2026-04-16",
  }}
  />
  {/* JSON-LD BreadcrumbList Schema */}
@@ -135,7 +134,7 @@ export default function SpecialtyPage() {
  }}
  />
 
- <main className="min-h-screen">
+ <main id="main-content" className="min-h-screen">
  {/* ============================================= */}
  {/* HERO SECTION */}
  {/* ============================================= */}

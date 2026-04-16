@@ -6,7 +6,7 @@ import { FadeInUp, FadeIn } from "@/components/AnimatedSection";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "About Dominic Frei — Your Personal Diving Concierge in Bali | Boutique Diving Bali",
+ title: "About Dominic Frei | Boutique Diving Bali",
  description:
  "Meet Dominic Frei — Swiss-born, Bali-based SSI diving professional and founder of Boutique Diving Bali. His full story.",
  keywords: [
@@ -27,6 +27,7 @@ export const metadata: Metadata = {
  "Meet Dominic Frei — Swiss-born, Bali-based SSI-certified diving professional. Former Swiss Army instructor turned personal diving concierge.",
  url: "https://www.boutiquedivingbali.com/about",
  siteName: "Boutique Diving Bali",
+ images: [{ url: 'https://www.boutiquedivingbali.com/images/og-image.jpg', width: 1200, height: 630 }],
  locale: "en_US",
  type: "website",
  },
@@ -35,6 +36,7 @@ export const metadata: Metadata = {
  title: "About Dominic Frei | Boutique Diving Bali",
  description:
  "Meet the person behind Boutique Diving Bali. Swiss precision, Balinese warmth, and a passion for the ocean.",
+ images: ['https://www.boutiquedivingbali.com/images/og-image.jpg'],
  },
  alternates: {
  canonical: "https://www.boutiquedivingbali.com/about",
@@ -110,7 +112,7 @@ export default function AboutPage() {
  }}
  />
 
- <main className="min-h-screen">
+ <main id="main-content" className="min-h-screen">
  {/* ============================================= */}
  {/* HERO SECTION */}
  {/* ============================================= */}

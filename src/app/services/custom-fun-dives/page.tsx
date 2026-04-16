@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "Custom Fun Dives in Bali — Private Guided Diving at Bali's Best Sites | Boutique Diving Bali",
+ title: "Custom Private Fun Dives Bali | Boutique Diving Bali",
  description:
  "Private guided fun dives in Bali. Mantas, USAT Liberty wreck, macro, night dives — designed from scratch around your wishes.",
  keywords: [
@@ -30,6 +30,7 @@ export const metadata: Metadata = {
  "Dream dives designed from scratch. Private guided diving at Bali's finest sites — mantas, wrecks, macro, night dives. Your wish, your dive.",
  url: "https://www.boutiquedivingbali.com/services/custom-fun-dives",
  siteName: "Boutique Diving Bali",
+ images: [{ url: 'https://www.boutiquedivingbali.com/images/og-image.jpg', width: 1200, height: 630 }],
  locale: "en_US",
  type: "website",
  },
@@ -38,6 +39,7 @@ export const metadata: Metadata = {
  title: "Custom Fun Dives in Bali | Boutique Diving Bali",
  description:
  "Dream dives designed from scratch. Private guided diving at Bali's finest sites.",
+ images: ['https://www.boutiquedivingbali.com/images/og-image.jpg'],
  },
  alternates: {
  canonical: "https://www.boutiquedivingbali.com/services/custom-fun-dives",
@@ -90,11 +92,7 @@ export default function CustomFunDivesPage() {
  "@context": "https://schema.org",
  "@type": "Service",
  name: "Custom Fun Dives — Private Guided Diving",
- provider: {
- "@type": "LocalBusiness",
- name: "Boutique Diving Bali",
- url: "https://www.boutiquedivingbali.com",
- },
+ provider: { "@id": "https://www.boutiquedivingbali.com/#organization" },
  description:
  "Private guided fun dives in Bali designed from scratch around your wishes. Manta rays, wrecks, macro, night dives — every experience is bespoke.",
  areaServed: {
@@ -104,6 +102,7 @@ export default function CustomFunDivesPage() {
  serviceType: "Custom Private Fun Dives",
  priceRange: "$$$$",
  url: "https://www.boutiquedivingbali.com/services/custom-fun-dives",
+ "dateModified": "2026-04-16",
  }}
  />
  <JsonLd
@@ -118,7 +117,7 @@ export default function CustomFunDivesPage() {
  }}
  />
 
- <main className="min-h-screen">
+ <main id="main-content" className="min-h-screen">
  <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-gradient-to-b from-[#0A1628] via-[#0B2A3A] to-[#0A1628]">
  <div className="absolute inset-0 overflow-hidden pointer-events-none">
  <div className="absolute w-[1px] h-[200%] bg-gradient-to-b from-transparent via-white/[0.03] to-transparent" style={{ left: "18%", top: "-50%", animation: "light-ray-drift 20s ease-in-out infinite", transform: "rotate(16deg)" }} />

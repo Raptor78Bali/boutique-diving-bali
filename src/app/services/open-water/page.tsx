@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "Private SSI Open Water Diver Course in Bali — No Groups, Your Own Instructor | Boutique Diving Bali",
+ title: "Private SSI Open Water Course Bali | Boutique Diving Bali",
  description:
  "Private SSI Open Water Diver certification in Bali. No groups, no strangers — just you and your personal diving professional. From age 15.",
  keywords: [
@@ -30,6 +30,7 @@ export const metadata: Metadata = {
  "Earn your SSI Open Water Diver certification with fully private instruction in Bali. No groups, no rush — just you and your personal diving professional.",
  url: "https://www.boutiquedivingbali.com/services/open-water",
  siteName: "Boutique Diving Bali",
+ images: [{ url: 'https://www.boutiquedivingbali.com/images/og-image.jpg', width: 1200, height: 630 }],
  locale: "en_US",
  type: "website",
  },
@@ -38,6 +39,7 @@ export const metadata: Metadata = {
  title: "Private SSI Open Water Diver Course | Boutique Diving Bali",
  description:
  "Earn your SSI Open Water Diver certification with fully private instruction in Bali. No groups, no rush.",
+ images: ['https://www.boutiquedivingbali.com/images/og-image.jpg'],
  },
  alternates: {
  canonical: "https://www.boutiquedivingbali.com/services/open-water",
@@ -91,11 +93,7 @@ export default function OpenWaterDiverPage() {
  "@context": "https://schema.org",
  "@type": "Service",
  name: "Private SSI Open Water Diver Course",
- provider: {
- "@type": "LocalBusiness",
- name: "Boutique Diving Bali",
- url: "https://www.boutiquedivingbali.com",
- },
+ provider: { "@id": "https://www.boutiquedivingbali.com/#organization" },
  description:
  "Earn your SSI Open Water Diver certification with fully private instruction in Bali. No group classes — just you and your personal SSI-certified diving professional.",
  areaServed: {
@@ -105,6 +103,7 @@ export default function OpenWaterDiverPage() {
  serviceType: "Private SSI Open Water Diver Certification Course",
  priceRange: "$$$$",
  url: "https://www.boutiquedivingbali.com/services/open-water",
+ "dateModified": "2026-04-16",
  }}
  />
  {/* JSON-LD BreadcrumbList Schema */}
@@ -135,7 +134,7 @@ export default function OpenWaterDiverPage() {
  }}
  />
 
- <main className="min-h-screen">
+ <main id="main-content" className="min-h-screen">
  {/* ============================================= */}
  {/* HERO SECTION */}
  {/* ============================================= */}
@@ -446,7 +445,7 @@ export default function OpenWaterDiverPage() {
  Tulamben
  </h3>
  <p className="font-sans text-[#64748B] leading-relaxed mb-4">
- Dominic&apos;s home base and arguably the best place in Bali to learn to dive. Calm conditions, easy shore entries, and an extraordinary range of marine life — from the iconic USAT Liberty shipwreck (a World War II cargo ship resting at just 5–30 metres) to vibrant coral gardens teeming with tropical fish. You will not believe this is your classroom.
+ Dominic&apos;s home base and arguably the best place in Bali to learn to dive. Calm conditions, easy shore entries, and an extraordinary range of marine life — from the iconic <a href="https://en.wikipedia.org/wiki/USAT_Liberty" target="_blank" rel="noopener noreferrer" className="text-[#0C7C6B] underline underline-offset-2">USAT Liberty</a> shipwreck (a World War II cargo ship resting at just 5–30 metres) to vibrant coral gardens teeming with tropical fish. You will not believe this is your classroom.
  </p>
  <div className="flex flex-wrap gap-2">
  {["USAT Liberty Wreck", "Coral Garden", "Drop-Off", "Seraya Secrets"].map((site) => (
