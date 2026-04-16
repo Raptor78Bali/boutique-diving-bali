@@ -20,6 +20,7 @@ export default function Header() {
  }, []);
 
  const services = [
+ { name: "Basic Diver (10+)", href: "/services/basic-diver" },
  { name: "Scuba Explorer (8-12)", href: "/services/scuba-explorer" },
  { name: "Junior Open Water (10-14)", href: "/services/junior-owd" },
  { name: "Open Water Diver (15+)", href: "/services/open-water" },

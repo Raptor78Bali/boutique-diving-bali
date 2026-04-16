@@ -1,7 +1,7 @@
 import { FadeInUp, FadeIn } from "@/components/AnimatedSection";
 import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
-import { Compass, Shield, Globe, ChevronDown, Baby, GraduationCap, Award, Layers, Sparkles, Crown, Anchor, Navigation, Users, Star, Mail, MessageCircle, MapPin, Instagram, RefreshCw, ArrowRight } from "lucide-react";
+import { Compass, Shield, Globe, ChevronDown, Baby, GraduationCap, Award, Layers, Sparkles, Crown, Anchor, Navigation, Users, Star, Mail, MessageCircle, MapPin, Instagram, RefreshCw, ArrowRight, Waves } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -514,6 +514,13 @@ export default function Home() {
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
  {[
  {
+ icon: Waves,
+ title: "Basic Diver",
+ age: "From Age 10",
+ text: "Try scuba diving for the first time. A complete SSI program in a single day — perfect for couples, families, and curious adventurers. No experience needed.",
+ href: "/services/basic-diver",
+ },
+ {
  icon: Baby,
  title: "Scuba Explorer",
  age: "Ages 8–12",
@@ -563,7 +570,7 @@ export default function Home() {
  href: "/services/dive-butler",
  },
  ].map((service, i) => (
- <FadeInUp key={service.title} delay={0.1 + i * 0.1} className={i === 6 ? "lg:col-start-2" : ""}>
+ <FadeInUp key={service.title} delay={0.1 + i * 0.1}>
  <Link href={service.href} className="block h-full">
  <div className="bg-white border border-[var(--brand-tan)] rounded-2xl p-7 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 h-full flex flex-col">
  <service.icon className="w-7 h-7 text-[var(--brand-teal)] mb-4" strokeWidth={1.5} />
@@ -983,6 +990,7 @@ export default function Home() {
  <h4 className="text-white/60 text-xs uppercase tracking-widest font-sans mb-4">Services</h4>
  <ul className="space-y-2.5">
  {[
+ { name: "Basic Diver", href: "/services/basic-diver" },
  { name: "Scuba Explorer", href: "/services/scuba-explorer" },
  { name: "Junior Open Water", href: "/services/junior-owd" },
  { name: "Open Water Diver", href: "/services/open-water" },

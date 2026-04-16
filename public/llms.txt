@@ -17,6 +17,7 @@ Boutique Diving Bali is a premium personal diving concierge service founded by D
 
 ## Services
 
+- Basic Diver (/services/basic-diver) — Try scuba diving for the first time. Complete SSI program in a single day for individuals, couples, and families (up to 4 people). Max depth 12m. From age 10. No experience needed. Credits count toward Open Water certification within 6 months.
 - Dive Butler Service: Signature service — your personal diving professional on liveaboards and resorts across Indonesia. End-to-end management of all diving logistics.
 - Custom Fun Dives: Dream dives designed from scratch for certified divers. Manta rays, wrecks, macro diving — fully personalised.
 - SSI Open Water Diver: Full SSI certification, fully private, from age 15. No groups, no rushing.
