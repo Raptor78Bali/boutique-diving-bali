@@ -267,7 +267,7 @@ export default function SpecialtyPage() {
  <FadeInUp delay={0.1}>
  <div className="prose prose-lg max-w-none">
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- Your Open Water Diver certification gave you the fundamentals — how to breathe, how to descend, how to stay safe. But it also opened a door. SSI Specialty courses take you through that door and into the areas of diving that genuinely excite you: descending to 40 metres along dramatic walls, diving at night when the ocean transforms, exploring World War II shipwrecks, or extending your bottom time with enriched air nitrox.
+ Your Open Water Diver certification gave you the fundamentals — how to breathe, how to descend, how to stay safe. But it also opened a door. <a href="https://www.divessi.com" target="_blank" rel="noopener noreferrer" className="text-[#0C7C6B] hover:text-[#0A6B5C] transition-colors">SSI</a> Specialty courses take you through that door and into the areas of diving that genuinely excite you: descending to 40 metres along dramatic walls, diving at night when the ocean transforms, exploring World War II shipwrecks, or extending your bottom time with enriched air nitrox.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
  At most dive shops, Specialty courses are taught in groups with mixed experience levels and generic site selection. With Boutique Diving Bali, every Specialty is taught privately — one-on-one with Dominic at the dive sites in Bali that are specifically suited to that specialty. Deep Diving at Tulamben&apos;s Drop-Off. Wreck Diving on the USAT Liberty. Night Diving where the nocturnal marine life is richest. The right training at the right site makes all the difference.

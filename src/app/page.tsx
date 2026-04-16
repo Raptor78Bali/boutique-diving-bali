@@ -1,6 +1,5 @@
 import { FadeInUp, FadeIn } from "@/components/AnimatedSection";
 import FaqAccordion from "@/components/FaqAccordion";
-import JsonLd from "@/components/JsonLd";
 import { Compass, Shield, Globe, ChevronDown, Baby, GraduationCap, Award, Layers, Sparkles, Crown, Anchor, Navigation, Users, Star, Mail, MessageCircle, MapPin, Instagram, RefreshCw, ArrowRight, Waves } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -33,28 +32,6 @@ export const metadata = {
  description: "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond.",
  images: ["https://www.boutiquedivingbali.com/images/og-image.jpg"],
  },
-};
-
-const localBusinessSchema = {
- "@context": "https://schema.org",
- "@type": "LocalBusiness",
- name: "Boutique Diving Bali",
- description: "Indonesia's premier personal dive concierge. Fully bespoke, private scuba diving experiences in Bali, Komodo, Raja Ampat and beyond.",
- url: "https://boutiquedivingbali.com",
- email: "info@boutiquedivingbali.com",
- address: { "@type": "PostalAddress", addressLocality: "Bali", addressCountry: "ID" },
- geo: { "@type": "GeoCoordinates", latitude: -8.4095, longitude: 115.1889 },
- priceRange: "$$$$",
- image: "https://boutiquedivingbali.com/logo.svg",
- areaServed: ["Bali", "Komodo", "Raja Ampat", "Indonesia"],
-};
-
-const websiteSchema = {
- "@context": "https://schema.org",
- "@type": "WebSite",
- name: "Boutique Diving Bali",
- url: "https://boutiquedivingbali.com",
- description: "Indonesia's premier personal dive concierge offering fully bespoke, private scuba diving experiences.",
 };
 
 const homepageFaq = [
@@ -99,8 +76,6 @@ const homepageFaq = [
 export default function Home() {
  return (
  <main id="main-content" className="overflow-x-hidden">
- <JsonLd data={localBusinessSchema} />
- <JsonLd data={websiteSchema} />
  <script
  type="application/ld+json"
  dangerouslySetInnerHTML={{
@@ -118,7 +93,7 @@ export default function Home() {
  "knowsAbout": ["Scuba Diving", "SSI Certification", "Dive Butler Service", "Indonesia Diving", "Bali Diving", "Komodo Diving", "Raja Ampat Diving"],
  "knowsLanguage": ["English", "German"],
  "sameAs": [
- "https://instagram.com/boutiquedivingbali"
+ "https://www.instagram.com/boutiquedivingbali"
  ],
  "worksFor": { "@id": "https://www.boutiquedivingbali.com/#organization" }
  })
@@ -168,7 +143,9 @@ export default function Home() {
  "areaServed": "ID"
  },
  "sameAs": [
- "https://instagram.com/boutiquedivingbali"
+ "https://www.instagram.com/boutiquedivingbali",
+ "https://maps.app.goo.gl/dWZz5fu84wEpBcHD7",
+ "https://wa.me/41791722403"
  ],
  "hasOfferCatalog": {
  "@type": "OfferCatalog",
@@ -690,7 +667,7 @@ export default function Home() {
  },
  {
  name: "Komodo National Park",
- highlights: "UNESCO World Heritage, strong currents, sharks, mantas, dragons",
+ highlights: <><a href="https://whc.unesco.org/en/list/609" target="_blank" rel="noopener noreferrer" className="text-[#0C7C6B] hover:text-[#0A6B5C] transition-colors">UNESCO World Heritage</a>, strong currents, sharks, mantas, dragons</>,
  sites: "Batu Bolong • Manta Alley • Castle Rock",
  },
  {
@@ -778,25 +755,25 @@ export default function Home() {
  },
  ].map((testimonial, i) => (
  <FadeInUp key={testimonial.name} delay={0.1 + i * 0.15}>
- <div className="bg-white border border-[var(--brand-tan)] rounded-2xl p-8 hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+ <blockquote className="bg-white border border-[var(--brand-tan)] rounded-2xl p-8 hover:shadow-lg transition-all duration-300 h-full flex flex-col">
  <span className="font-heading text-5xl text-[var(--brand-gold)]/20 leading-none mb-2">&ldquo;</span>
  <p className="text-[var(--brand-text-secondary)] text-sm leading-relaxed font-sans italic flex-grow mb-6">
  {testimonial.quote}
  </p>
- <div className="flex items-center gap-2 pt-4 border-t border-[var(--brand-tan)]">
+ <footer className="flex items-center gap-2 pt-4 border-t border-[var(--brand-tan)]">
  <div className="flex gap-0.5">
  {[...Array(5)].map((_, j) => (
  <Star key={j} className="w-3.5 h-3.5 fill-[var(--brand-gold)] text-[var(--brand-gold)]" />
  ))}
  </div>
- <span className="text-[var(--brand-text)] text-sm font-sans font-medium ml-2">
+ <cite className="not-italic text-[var(--brand-text)] text-sm font-sans font-medium ml-2">
  {testimonial.name}
- </span>
+ </cite>
  <span className="text-[var(--brand-text-muted)] text-xs font-sans">
  — {testimonial.origin}
  </span>
- </div>
- </div>
+ </footer>
+ </blockquote>
  </FadeInUp>
  ))}
  </div>

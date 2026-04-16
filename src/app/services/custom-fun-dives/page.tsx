@@ -229,7 +229,7 @@ export default function CustomFunDivesPage() {
  {
  title: "Wreck Exploration",
  icon: Anchor,
- description: "Explore the USAT Liberty — a World War II cargo ship resting at 5–30 metres, encrusted with coral and teeming with life. Early morning dives before the crowds are a speciality.",
+ description: <><a href="https://en.wikipedia.org/wiki/USAT_Liberty" target="_blank" rel="noopener noreferrer" className="text-[#0C7C6B] hover:text-[#0A6B5C] transition-colors">Explore the USAT Liberty</a> — a World War II cargo ship resting at 5–30 metres, encrusted with coral and teeming with life. Early morning dives before the crowds are a speciality.</>,
  site: "Tulamben — USAT Liberty",
  },
  {

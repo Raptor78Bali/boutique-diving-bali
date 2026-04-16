@@ -136,7 +136,8 @@ export default function RootLayout({
                   areaServed: { "@type": "Country", name: "Indonesia" },
                   sameAs: [
  "https://www.instagram.com/boutiquedivingbali",
- "https://maps.app.goo.gl/dWZz5fu84wEpBcHD7"
+ "https://maps.app.goo.gl/dWZz5fu84wEpBcHD7",
+ "https://wa.me/41791722403"
  ],
                   "dateModified": "2026-04-16"
                 },

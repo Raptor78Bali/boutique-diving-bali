@@ -101,7 +101,7 @@ export default function AboutPage() {
  "knowsAbout": ["Scuba Diving", "SSI Certification", "Dive Butler Service", "Indonesia Diving", "Bali Diving", "Komodo Diving", "Raja Ampat Diving"],
  "knowsLanguage": ["English", "German"],
  "sameAs": [
- "https://instagram.com/boutiquedivingbali"
+ "https://www.instagram.com/boutiquedivingbali"
  ],
  "worksFor": {
  "@type": "Organization",
