@@ -80,6 +80,10 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "AKiUau91FXJ-0rWV6roMTd9zOLVlXHv84-6mxPqvEZI",
+    // TODO: Add Bing Webmaster Tools verification code from bing.com/webmasters
+    // other: {
+    //   'msvalidate.01': 'REAL_CODE_HERE',
+    // },
   },
   icons: {
     icon: [
