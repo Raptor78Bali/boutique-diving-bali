@@ -80,7 +80,7 @@ const faqItems = [
  {
  question: "How does pricing work for the Dive Butler service?",
  answer:
- "Every Dive Butler engagement is fully bespoke, which means pricing is individual for each client. The cost depends on several factors: your destination, the duration of the engagement (from a single day to multi-week expeditions), the number of divers in your party, their skill levels, any certification courses requested, the number of fun dives, and any travel or accommodation logistics involved. Once Dominic understands exactly what you envision, he prepares a detailed, transparent proposal tailored to your specific wishes. There are no hidden costs and no standard packages — because no two diving experiences should ever be the same. Simply reach out to start the conversation.",
+ "Every Dive Butler engagement is fully bespoke, which means pricing is individual for each client. The cost depends on several factors: your destination, the duration of the engagement (from a single day to multi-week expeditions), the number of divers in your party, their skill levels, any certification courses requested, the number of fun dives. Once Dominic understands exactly what you envision, he prepares a detailed, transparent proposal tailored to your specific wishes. There are no hidden costs and no standard packages — because no two diving experiences should ever be the same. Simply reach out to start the conversation.",
  },
 ];
 
@@ -261,7 +261,7 @@ export default function DiveButlerPage() {
  The Dive Butler service is a private diving concierge who joins you on liveaboards and at five-star dive resorts across Indonesia. Dominic handles the dive planning, equipment logistics, briefings, and underwater guiding personally — so your trip stays one-on-one from the first email to the final dive.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- That is the Dive Butler. Dominic Frei, your SSI-certified Swiss diving professional, travels with you to any destination in Indonesia as your private dive professional. He handles everything: equipment preparation, dive planning, safety checks, weather timing, coordination with local operators and dive guides. You handle nothing — except deciding where you want to dive and what you want to see.
+ That is the Dive Butler. Dominic Frei, your SSI-certified Swiss diving professional, travels with you to any destination in Indonesia as your private dive professional. He handles everything diving-related: equipment preparation, dive planning, safety checks, weather timing, coordination with local dive operators and guides. You arrange your own travel, hotel, and transfers — Dominic focuses entirely on your underwater experience.
  </p>
  <p className="text-[#64748B] font-sans leading-relaxed">
  The concept of a personal Dive Butler was pioneered internationally by operators serving superyachts and ultra-luxury resorts in the Maldives. Boutique Diving Bali brings this same philosophy to Indonesia — the world&apos;s largest archipelago and the global epicentre of marine biodiversity — with one critical difference: here, it is not a team of rotating staff. It is one person. Your person. The same instructor, the same trust, the same understanding — from your first breath underwater to your last dive of the trip.
@@ -289,7 +289,7 @@ export default function DiveButlerPage() {
  "@type": "HowToStep",
  "position": 2,
  "name": "Receive Your Bespoke Proposal",
- "text": "Dominic prepares a detailed, fully transparent proposal. Every element is itemised: dive days, certifications, equipment, logistics, and accommodation. No hidden costs."
+ "text": "Dominic prepares a detailed, fully transparent proposal covering every diving element: dive days, sites, equipment, certifications, and Dominic's professional fee. Travel, hotels, and transfers are arranged by the customer. No hidden costs."
  },
  {
  "@type": "HowToStep",
@@ -448,7 +448,7 @@ export default function DiveButlerPage() {
  {
  icon: Shield,
  title: "End-to-End Dive Management",
- description: "Equipment, planning, safety, weather, logistics, local guide coordination — everything is handled before you arrive.",
+ description: "Equipment, planning, safety, weather, dive logistics, local guide coordination — everything diving-related is handled before you arrive.",
  },
  {
  icon: Users,
