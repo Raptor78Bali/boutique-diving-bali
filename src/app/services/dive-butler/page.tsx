@@ -337,7 +337,7 @@ export default function DiveButlerPage() {
  step: "02",
  title: "Receive Your Bespoke Proposal",
  description:
- "Based on your wishes, Dominic prepares a detailed, fully transparent proposal. Every element is itemised: dive days, certifications, equipment, logistics, travel, and accommodation where applicable. No hidden costs, no standard packages. You review, refine, and approve at your own pace.",
+ "Based on your wishes, Dominic prepares a detailed, fully transparent proposal covering every diving element: dive days, sites, equipment, certifications, and Dominic's professional fee. No hidden costs, no standard packages. Travel, hotels, and transfers are arranged by you — the proposal stays focused on the diving. You review, refine, and approve at your own pace.",
  icon: Star,
  },
  {
