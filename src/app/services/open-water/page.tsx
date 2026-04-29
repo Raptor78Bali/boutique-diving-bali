@@ -261,7 +261,7 @@ export default function OpenWaterDiverPage() {
  <FadeInUp delay={0.1}>
  <div className="prose prose-lg max-w-none">
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- The SSI Open Water Diver certification is a 3–4 day course that qualifies you to dive to 18 metres with a buddy, anywhere in the world, for life. Boutique Diving Bali delivers it fully private — one diver, one professional, no group, no waiting — in Tulamben on Bali&apos;s east coast.
+ The SSI Open Water Diver certification is a 3–4 day course that qualifies you to dive to 18 metres with a buddy, anywhere in the world, for life. Boutique Diving Bali delivers it fully private — solo, with your partner, or as a family — never mixed with strangers, in Tulamben on Bali&apos;s east coast.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
  At Boutique Diving Bali, your Open Water Diver course is entirely different. Dominic Frei, your SSI-certified Swiss diving professional, guides you privately — one-on-one or with your own group only. Every skill is demonstrated just for you. Every question is answered immediately. Every dive is planned around your comfort, your confidence, and the best conditions that day. You never compete for attention, and you never feel rushed.
@@ -338,7 +338,7 @@ export default function OpenWaterDiverPage() {
  </tr>
  <tr>
  <td className="px-4 py-3 font-medium text-[#2D4349]">Group size</td>
- <td className="px-4 py-3 text-[#2D4349]">Always one diver — fully private, never shared</td>
+ <td className="px-4 py-3 text-[#2D4349]">Solo, couple, or family — never mixed with strangers</td>
  </tr>
  </tbody>
  </table>
