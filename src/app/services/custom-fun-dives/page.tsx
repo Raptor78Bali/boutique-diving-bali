@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "Custom Private Fun Dives Bali | Boutique Diving Bali",
+ title: "Custom Private Fun Dives Bali",
  description:
  "Private guided fun dives in Bali. Mantas, USAT Liberty wreck, macro, night dives — designed from scratch around your wishes.",
  keywords: [

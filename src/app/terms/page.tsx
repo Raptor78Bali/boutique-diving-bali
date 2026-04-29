@@ -5,7 +5,7 @@ import { FadeInUp } from "@/components/AnimatedSection";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Boutique Diving Bali",
+  title: "Terms & Conditions",
   description: "Terms and Conditions for Boutique Diving Bali. Important information about our concierge services, client responsibilities, diving insurance, and liability.",
   alternates: {
     canonical: "https://www.boutiquedivingbali.com/terms",

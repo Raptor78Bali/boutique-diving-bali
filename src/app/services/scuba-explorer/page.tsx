@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "SSI Scuba Explorer for Kids Bali | Boutique Diving Bali",
+ title: "SSI Scuba Explorer for Kids Bali",
  description:
  "SSI Scuba Explorer for kids aged 8–12 in Bali. Private, pool-based first underwater adventure. Safe, fun, unforgettable.",
  keywords: [

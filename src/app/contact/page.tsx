@@ -5,7 +5,7 @@ import { FadeInUp, FadeIn } from "@/components/AnimatedSection";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "Contact | Boutique Diving Bali",
+ title: "Contact",
  description:
  "Contact Dominic to plan your private diving experience in Bali. WhatsApp, email, or Instagram — no commitment, no pressure.",
  keywords: [

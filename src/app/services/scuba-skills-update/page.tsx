@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "SSI Scuba Skills Update Bali | Boutique Diving Bali",
+ title: "SSI Scuba Skills Update Bali",
  description:
  "Private SSI Scuba Skills Update in Bali. Haven't dived in a while? Rebuild confidence at your pace with your own diving professional.",
  keywords: [

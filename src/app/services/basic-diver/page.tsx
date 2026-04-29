@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "Try Scuba Diving in Bali | Boutique Diving Bali",
+ title: "Try Scuba Diving in Bali",
  description:
  "Try scuba diving privately in Bali with the SSI Basic Diver program. Perfect first dive experience for couples, families, and individuals. Max depth 12m. From age 10.",
  keywords: [

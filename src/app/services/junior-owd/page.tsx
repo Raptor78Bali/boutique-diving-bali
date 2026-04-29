@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "SSI Junior Open Water Diver Bali | Boutique Diving Bali",
+ title: "SSI Junior Open Water Diver Bali",
  description:
  "Private SSI Junior Open Water Diver course for children aged 10–14 in Bali. One-on-one, patient, safe. No group classes.",
  keywords: [

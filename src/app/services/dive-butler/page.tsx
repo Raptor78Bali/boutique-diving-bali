@@ -6,7 +6,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "Personal Dive Butler Indonesia | Boutique Diving Bali",
+ title: "Personal Dive Butler Indonesia",
  description:
  "Your personal SSI-certified diving companion travels with you across Indonesia. Liveaboards, resorts, any destination. Fully bespoke, entirely private.",
  keywords: [

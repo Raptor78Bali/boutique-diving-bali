@@ -6,7 +6,7 @@ import { FadeInUp, FadeIn } from "@/components/AnimatedSection";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
- title: "About Dominic Frei | Boutique Diving Bali",
+ title: "About Dominic Frei",
  description:
  "Meet Dominic Frei — Swiss-born, Bali-based SSI diving professional and founder of Boutique Diving Bali. His full story.",
  keywords: [

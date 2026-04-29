@@ -5,7 +5,7 @@ import { FadeInUp } from "@/components/AnimatedSection";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Boutique Diving Bali",
+  title: "Privacy Policy",
   description: "Privacy Policy for Boutique Diving Bali. How we handle your personal information when you contact us or use our website.",
   alternates: {
     canonical: "https://www.boutiquedivingbali.com/privacy",
