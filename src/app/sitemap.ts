@@ -1,13 +1,20 @@
 import type { MetadataRoute } from "next";
+import { execFileSync } from "node:child_process";
 import { statSync } from "node:fs";
 import path from "node:path";
 
 const BASE_URL = "https://www.boutiquedivingbali.com";
 
-// Each route maps to the source file whose mtime drives its lastModified.
-// When we edit a service page, only that page's lastmod changes — giving
-// AI crawlers a real freshness signal instead of one shared deploy date.
-const routes: Array<{ path: string; source: string; priority: number; changeFrequency: "daily" | "weekly" | "monthly" | "yearly" }> = [
+// Each route maps to the source file whose last edit drives its lastModified.
+// We use git commit time (preserved across clones) rather than filesystem
+// mtime (reset on every Vercel build) so AI crawlers get a real per-file
+// freshness signal instead of a single "deploy moment" timestamp.
+const routes: Array<{
+  path: string;
+  source: string;
+  priority: number;
+  changeFrequency: "daily" | "weekly" | "monthly" | "yearly";
+}> = [
   { path: "/", source: "src/app/page.tsx", priority: 1.0, changeFrequency: "weekly" },
   { path: "/about", source: "src/app/about/page.tsx", priority: 0.9, changeFrequency: "monthly" },
   { path: "/contact", source: "src/app/contact/page.tsx", priority: 0.8, changeFrequency: "monthly" },
@@ -23,21 +30,48 @@ const routes: Array<{ path: string; source: string; priority: number; changeFreq
   { path: "/terms", source: "src/app/terms/page.tsx", priority: 0.3, changeFrequency: "yearly" },
 ];
 
-function getMtime(sourcePath: string): Date {
+/**
+ * Returns the ISO timestamp of the most recent git commit that touched the
+ * given file. Falls back through three layers:
+ *   1. git log → real per-file freshness (preferred — works on Vercel)
+ *   2. fs.statSync → filesystem mtime (works locally, ~uniform on Vercel)
+ *   3. new Date() → current time (last resort, never returns null)
+ *
+ * The result is always a valid Date object.
+ */
+function getLastModified(sourcePath: string): Date {
+  const fullPath = path.join(process.cwd(), sourcePath);
+
+  // Layer 1: git commit time (preserved across clones)
   try {
-    const fullPath = path.join(process.cwd(), sourcePath);
+    const out = execFileSync("git", ["log", "-1", "--format=%cI", "--", sourcePath], {
+      cwd: process.cwd(),
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    }).trim();
+    if (out) {
+      const d = new Date(out);
+      if (!isNaN(d.getTime())) return d;
+    }
+  } catch {
+    // git not available, file has no history, or other git error — fall through.
+  }
+
+  // Layer 2: filesystem mtime
+  try {
     return statSync(fullPath).mtime;
   } catch {
-    // Fallback if a source file is missing for any reason — better to ship
-    // a sitemap with a sensible date than fail the build.
-    return new Date();
+    // File doesn't exist (shouldn't happen for our hardcoded routes) — fall through.
   }
+
+  // Layer 3: current time — sitemap is more useful with a fresh date than missing.
+  return new Date();
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((r) => ({
     url: `${BASE_URL}${r.path}`,
-    lastModified: getMtime(r.source),
+    lastModified: getLastModified(r.source),
     changeFrequency: r.changeFrequency,
     priority: r.priority,
   }));
