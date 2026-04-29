@@ -261,7 +261,7 @@ export default function OpenWaterDiverPage() {
  <FadeInUp delay={0.1}>
  <div className="prose prose-lg max-w-none">
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- At most dive shops in Bali, your Open Water Diver course means sharing an instructor with four, six, sometimes eight other students. You wait your turn. You move at the group&apos;s pace. If you need more time with a skill, you feel the pressure of everyone watching. If you progress quickly, you wait for others to catch up. The instructor — however talented — cannot give you individual attention when they are managing a crowd.
+ The SSI Open Water Diver certification is a 3–4 day course that qualifies you to dive to 18 metres with a buddy, anywhere in the world, for life. Boutique Diving Bali delivers it fully private — one diver, one professional, no group, no waiting — in Tulamben on Bali&apos;s east coast.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
  At Boutique Diving Bali, your Open Water Diver course is entirely different. Dominic Frei, your SSI-certified Swiss diving professional, guides you privately — one-on-one or with your own group only. Every skill is demonstrated just for you. Every question is answered immediately. Every dive is planned around your comfort, your confidence, and the best conditions that day. You never compete for attention, and you never feel rushed.
@@ -291,11 +291,58 @@ export default function OpenWaterDiverPage() {
  Course Structure
  </p>
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-4">
- Three Phases to Your Certification
+ What does the SSI Open Water Diver course involve?
  </h2>
  <p className="font-sans text-[#64748B] text-center max-w-2xl mx-auto mb-14">
  The SSI Open Water Diver course is structured in three clear phases — and with private instruction, each phase is tailored entirely to your pace.
  </p>
+ </FadeInUp>
+
+ <FadeInUp delay={0.05}>
+ <div className="overflow-x-auto rounded-lg border border-[#E8DFD0] my-8 max-w-4xl mx-auto">
+ <table className="w-full text-left text-sm md:text-base">
+ <thead className="bg-[#0A1628] text-[#FDF8F0]">
+ <tr>
+ <th className="px-4 py-3 font-medium tracking-wide">Specification</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Detail</th>
+ </tr>
+ </thead>
+ <tbody className="divide-y divide-[#E8DFD0] bg-[#FDF8F0]">
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Certification body</td>
+ <td className="px-4 py-3 text-[#2D4349]">SSI (Scuba Schools International)</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Course duration</td>
+ <td className="px-4 py-3 text-[#2D4349]">3–4 days, paced to your comfort</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Maximum depth</td>
+ <td className="px-4 py-3 text-[#2D4349]">18 metres (60 feet)</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Minimum age</td>
+ <td className="px-4 py-3 text-[#2D4349]">15 years</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Prerequisites</td>
+ <td className="px-4 py-3 text-[#2D4349]">Basic swimming ability, medical fitness to dive</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Course components</td>
+ <td className="px-4 py-3 text-[#2D4349]">Digital theory + confined-water session + 4 open-water dives</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Certification validity</td>
+ <td className="px-4 py-3 text-[#2D4349]">Lifetime, recognised in over 130 countries</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Group size</td>
+ <td className="px-4 py-3 text-[#2D4349]">Always one diver — fully private, never shared</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
  </FadeInUp>
 
  <div className="space-y-6">

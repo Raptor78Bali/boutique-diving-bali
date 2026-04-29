@@ -259,14 +259,14 @@ export default function BasicDiverPage() {
  The Experience
  </p>
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-8">
- More Than Just a Try Dive
+ What is the SSI Basic Diver programme?
  </h2>
  </FadeInUp>
 
  <FadeInUp delay={0.1}>
  <div className="prose prose-lg max-w-none">
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- Most &ldquo;try diving&rdquo; experiences around Bali are rushed group affairs — 20 minutes of instruction, a crowded boat, and a guide who barely knows your name. The Basic Diver experience with Boutique Diving Bali is fundamentally different. This is a proper SSI program with real training, real skills, and a real dive at a world-class site — all done privately with Dominic as your personal diving companion.
+ The SSI Basic Diver programme is a single-day private scuba experience for complete beginners aged 10 and up. It includes one digital theory session, one confined-water session, and one open-water dive to a maximum of 12 metres — all credits count toward full Open Water certification within six months.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
  The <a href="https://www.divessi.com/en/get-certified/scuba-diving/basic-diver" target="_blank" rel="noopener noreferrer" className="text-[#0C7C6B] underline underline-offset-2">SSI Basic Diver</a> program teaches you the essential knowledge and skills to dive to 12 metres under the direct supervision of an SSI Professional. You will learn to breathe underwater, control your buoyancy, communicate with hand signals, and move through the water with confidence. And the best part — everything you learn counts as credit toward full Open Water Diver certification if you decide to continue.
@@ -289,8 +289,44 @@ export default function BasicDiverPage() {
  The Program
  </p>
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-14">
- Your Day of Discovery
+ What happens on your Basic Diver day?
  </h2>
+ </FadeInUp>
+
+ <FadeInUp delay={0.05}>
+ <div className="overflow-x-auto rounded-lg border border-[#E8DFD0] my-8 max-w-4xl mx-auto">
+ <table className="w-full text-left text-sm md:text-base">
+ <thead className="bg-[#0A1628] text-[#FDF8F0]">
+ <tr>
+ <th className="px-4 py-3 font-medium tracking-wide">Time</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Phase</th>
+ <th className="px-4 py-3 font-medium tracking-wide">What you do</th>
+ </tr>
+ </thead>
+ <tbody className="divide-y divide-[#E8DFD0] bg-[#FDF8F0]">
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349] whitespace-nowrap">Morning</td>
+ <td className="px-4 py-3 text-[#2D4349]">Digital theory session</td>
+ <td className="px-4 py-3 text-[#2D4349]">Short SSI knowledge module — diving basics, safety, equipment</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349] whitespace-nowrap">Late morning</td>
+ <td className="px-4 py-3 text-[#2D4349]">Confined-water session</td>
+ <td className="px-4 py-3 text-[#2D4349]">Pool or shallow protected water — basic skills, breathing, buoyancy</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349] whitespace-nowrap">Afternoon</td>
+ <td className="px-4 py-3 text-[#2D4349]">Open-water dive</td>
+ <td className="px-4 py-3 text-[#2D4349]">Real ocean dive in Tulamben, max depth 12 m, with Dominic personally</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349] whitespace-nowrap">Total</td>
+ <td className="px-4 py-3 text-[#2D4349]">10–12 hours</td>
+ <td className="px-4 py-3 text-[#2D4349]">All transport, equipment, lunch, and SSI digital materials included</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
  </FadeInUp>
 
  <div className="space-y-6">

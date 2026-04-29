@@ -191,13 +191,13 @@ export default function CustomFunDivesPage() {
  <div className="max-w-4xl mx-auto px-6">
  <FadeInUp>
  <p className="font-sans uppercase tracking-[0.2em] text-xs text-[#C5A55A] mb-4 text-center">Not a Standard Day Trip</p>
- <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-8">Your Dive. Your Sites. Your Marine Life Wishlist.</h2>
+ <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-8">What are Custom Fun Dives?</h2>
  </FadeInUp>
 
  <FadeInUp delay={0.1}>
  <div className="prose prose-lg max-w-none">
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- At a typical Bali dive operator, you book a &ldquo;fun dive dayrdquo and get assigned to a boat with eight other divers, a standard route, and a guide who leads the group along the same path they take every single day. You see what the group sees. You move at the group&apos;s speed. If you want to spend ten minutes watching a cleaning station, too bad — the group has moved on. If conditions are better at a different site, too bad — the bus is already heading to the scheduled one.
+ Custom Fun Dives are bespoke private diving days for already-certified divers, designed around your specific wishlist — manta encounters, the USAT Liberty wreck, macro photography, drift diving, or anything else Bali&apos;s reefs offer. No fixed itinerary, no shared boat, no group.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
  Custom Fun Dives with Boutique Diving Bali work differently. You tell Dominic what you want: mantas, the Liberty wreck at sunrise before the crowds, a macro photography session at Seraya Secrets, a night dive to see the hunters come out, or simply the best diving conditions available that day. He designs your experience from scratch — choosing the site, the timing, the dive profile, and the approach based on your wishes and the conditions.
@@ -278,8 +278,59 @@ export default function CustomFunDivesPage() {
  <div className="max-w-5xl mx-auto px-6">
  <FadeInUp>
  <p className="font-sans uppercase tracking-[0.2em] text-xs text-[#C5A55A] mb-4 text-center">Where You Will Dive</p>
- <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-4">Bali&apos;s Finest Dive Sites — Selected for You</h2>
+ <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-4">Where can I dive in Bali?</h2>
  <p className="font-sans text-[#64748B] text-center max-w-2xl mx-auto mb-14">Dominic chooses the site with the best conditions each day. You never dive a site just because it fits a schedule.</p>
+ </FadeInUp>
+
+ <FadeInUp delay={0.05}>
+ <div className="overflow-x-auto rounded-lg border border-[#E8DFD0] my-8 max-w-5xl mx-auto">
+ <table className="w-full text-left text-sm md:text-base">
+ <thead className="bg-[#0A1628] text-[#FDF8F0]">
+ <tr>
+ <th className="px-4 py-3 font-medium tracking-wide">Site</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Highlight</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Best months</th>
+ </tr>
+ </thead>
+ <tbody className="divide-y divide-[#E8DFD0] bg-[#FDF8F0]">
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Tulamben — USAT Liberty</td>
+ <td className="px-4 py-3 text-[#2D4349]">WWII shipwreck, 30 m long, fully encrusted in coral</td>
+ <td className="px-4 py-3 text-[#2D4349]">Year-round</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Tulamben — Coral Garden</td>
+ <td className="px-4 py-3 text-[#2D4349]">Shallow reef, exceptional macro life, beginner-friendly</td>
+ <td className="px-4 py-3 text-[#2D4349]">Year-round</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Amed</td>
+ <td className="px-4 py-3 text-[#2D4349]">Pyramids site, Japanese wreck, calm bays</td>
+ <td className="px-4 py-3 text-[#2D4349]">April–November</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Nusa Penida — Manta Point</td>
+ <td className="px-4 py-3 text-[#2D4349]">Reef manta cleaning station, year-round sightings</td>
+ <td className="px-4 py-3 text-[#2D4349]">Year-round</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Nusa Penida — Crystal Bay</td>
+ <td className="px-4 py-3 text-[#2D4349]">Mola mola (oceanic sunfish) season, dramatic walls</td>
+ <td className="px-4 py-3 text-[#2D4349]">July–October</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Padang Bai — Blue Lagoon</td>
+ <td className="px-4 py-3 text-[#2D4349]">Easy reef, abundant macro, ideal for skill refreshers</td>
+ <td className="px-4 py-3 text-[#2D4349]">April–November</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Menjangan Island</td>
+ <td className="px-4 py-3 text-[#2D4349]">Pristine wall dives in West Bali National Park</td>
+ <td className="px-4 py-3 text-[#2D4349]">April–November</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
  </FadeInUp>
 
  <div className="grid md:grid-cols-2 gap-8">

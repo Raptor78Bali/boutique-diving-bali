@@ -258,7 +258,7 @@ export default function DiveButlerPage() {
  <FadeInUp delay={0.1}>
  <div className="prose prose-lg max-w-none">
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- Imagine arriving at a luxury liveaboard or a five-star dive resort — and instead of joining a group of strangers led by an unfamiliar guide, you have your own personal diving concierge already there, already prepared, already knowing exactly what you want from this trip.
+ The Dive Butler service is a private diving concierge who joins you on liveaboards and at five-star dive resorts across Indonesia. Dominic handles the dive planning, equipment logistics, briefings, and underwater guiding personally — so your trip stays one-on-one from the first email to the final dive.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
  That is the Dive Butler. Dominic Frei, your SSI-certified Swiss diving professional, travels with you to any destination in Indonesia as your private dive professional. He handles everything: equipment preparation, dive planning, safety checks, weather timing, coordination with local operators and dive guides. You handle nothing — except deciding where you want to dive and what you want to see.
@@ -390,8 +390,47 @@ export default function DiveButlerPage() {
  What You Get
  </p>
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-white text-center mb-14">
- The Dive Butler Experience
+ What&apos;s included in the Dive Butler service?
  </h2>
+ </FadeInUp>
+
+ <FadeInUp delay={0.05}>
+ <div className="overflow-x-auto rounded-lg border border-[#C5A55A]/30 my-8 max-w-4xl mx-auto">
+ <table className="w-full text-left text-sm md:text-base">
+ <thead className="bg-[#0B2A3A] text-[#C5A55A]">
+ <tr>
+ <th className="px-4 py-3 font-medium tracking-wide">What you get</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Details</th>
+ </tr>
+ </thead>
+ <tbody className="divide-y divide-[#C5A55A]/20 text-[#FDF8F0]">
+ <tr>
+ <td className="px-4 py-3 font-medium">Trip planning &amp; itinerary</td>
+ <td className="px-4 py-3">Custom dive schedule shaped around your goals, fitness, and certification level</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium">Pre-trip preparation</td>
+ <td className="px-4 py-3">Equipment list, briefings, certification check, dietary and medical coordination</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium">In-water guiding</td>
+ <td className="px-4 py-3">Dominic personally as your private dive professional on every dive</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium">Equipment management</td>
+ <td className="px-4 py-3">Setup, breakdown, rinsing, transport — handled before you reach the boat</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium">Photography &amp; video</td>
+ <td className="px-4 py-3">Optional underwater photography of your dives, by request</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium">Coverage</td>
+ <td className="px-4 py-3">Bali, Komodo, Raja Ampat, Wakatobi, Banda Sea, Lembeh — all of Indonesia</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
  </FadeInUp>
 
  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

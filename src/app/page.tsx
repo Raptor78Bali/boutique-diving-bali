@@ -565,6 +565,80 @@ export default function Home() {
  </FadeInUp>
  ))}
  </div>
+
+ <FadeInUp delay={0.2}>
+ <div className="overflow-x-auto rounded-lg border border-[var(--brand-tan)] my-12 max-w-6xl mx-auto">
+ <table className="w-full text-left text-sm md:text-base">
+ <thead className="bg-[var(--brand-navy)] text-[var(--brand-cream)]">
+ <tr>
+ <th className="px-4 py-3 font-medium tracking-wide">Course</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Age</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Max depth</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Duration</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Prerequisites</th>
+ </tr>
+ </thead>
+ <tbody className="divide-y divide-[var(--brand-tan)] bg-[var(--brand-cream)]">
+ <tr>
+ <td className="px-4 py-3 font-medium text-[var(--brand-text)]">SSI Basic Diver</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">10+</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">12 m</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">1 day</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">None — basic swimming ability</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[var(--brand-text)]">SSI Scuba Explorer</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">8–12</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">2 m (pool)</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">Half-day</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">None — comfortable in water</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[var(--brand-text)]">SSI Junior Open Water Diver</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">10–14</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">12 m (10–11) / 18 m (12–14)</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">3–4 days</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">Swimming ability, parental consent</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[var(--brand-text)]">SSI Open Water Diver</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">15+</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">18 m</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">3–4 days</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">Swimming ability, medical fitness</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[var(--brand-text)]">SSI Specialty Courses</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">15+</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">Up to 40 m (Deep)</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">1–3 days each</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">SSI Open Water or equivalent</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[var(--brand-text)]">Scuba Skills Update</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">15+</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">18 m</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">Half-day</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">Lapsed certified diver</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[var(--brand-text)]">Custom Fun Dives</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">15+</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">Per certification level</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">Flexible</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">SSI Open Water or equivalent</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[var(--brand-text)]">Dive Butler Service</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">All levels</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">Per certification level</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">Multi-day trips</td>
+ <td className="px-4 py-3 text-[var(--brand-text)]">Any SSI/PADI/CMAS/SDI cert.</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </FadeInUp>
  </div>
  </section>
 
