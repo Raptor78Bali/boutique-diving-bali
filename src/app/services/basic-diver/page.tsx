@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
  title: "Try Scuba Diving in Bali",
  description:
- "Try scuba diving privately in Bali with the SSI Basic Diver program. Perfect first dive experience for couples, families, and individuals. Max depth 12m. From age 10.",
+ "Try scuba diving privately in Bali with SSI Basic Diver — your first dive, fully private, with a personal SSI professional. Beginners welcome from age 10.",
  keywords: [
  "try scuba diving Bali",
  "basic diver SSI Bali",

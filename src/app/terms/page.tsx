@@ -6,7 +6,7 @@ import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Terms & Conditions",
-  description: "Terms and Conditions for Boutique Diving Bali. Important information about our concierge services, client responsibilities, diving insurance, and liability.",
+  description: "Terms and Conditions for Boutique Diving Bali — concierge services, diver responsibilities, insurance, and liability information.",
   alternates: {
     canonical: "https://www.boutiquedivingbali.com/terms",
   },
