@@ -238,7 +238,7 @@ export default function ScubaSkillsUpdatePage() {
  Rust Is Normal
  </p>
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-8">
- You Have Not Forgotten How to Dive. You Just Need to Remember.
+ When should I book a Scuba Skills Update?
  </h2>
  </FadeInUp>
 
@@ -255,6 +255,33 @@ export default function ScubaSkillsUpdatePage() {
  </p>
  </div>
  </FadeInUp>
+
+ <FadeInUp delay={0.2}>
+ <div className="overflow-x-auto rounded-lg border border-[#E8DFD0] my-8 max-w-3xl mx-auto">
+ <table className="w-full text-left text-sm md:text-base">
+ <thead className="bg-[#0A1628] text-[#FDF8F0]">
+ <tr>
+ <th className="px-4 py-3 font-medium tracking-wide">Time since your last dive</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Recommendation</th>
+ </tr>
+ </thead>
+ <tbody className="divide-y divide-[#E8DFD0] bg-[#FDF8F0]">
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Less than 6 months</td>
+ <td className="px-4 py-3 text-[#2D4349]">Refresher usually optional</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">6 months or more</td>
+ <td className="px-4 py-3 text-[#2D4349]">Skills Update highly recommended</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">12 months or more</td>
+ <td className="px-4 py-3 text-[#2D4349]">Most dive operators worldwide will require one before allowing you to dive</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </FadeInUp>
  </div>
  </section>
 
@@ -268,7 +295,7 @@ export default function ScubaSkillsUpdatePage() {
  What You Will Review
  </p>
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-4">
- The Core Skills — At Your Pace
+ What skills will I review?
  </h2>
  <p className="font-sans text-[#64748B] text-center max-w-2xl mx-auto mb-14">
  Dominic focuses on the skills that matter most for safe, confident diving. You practise each one until it feels natural again — not until a clock runs out.

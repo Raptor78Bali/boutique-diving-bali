@@ -295,7 +295,7 @@ export default function ScubaExplorerPage() {
  What They Will Learn
  </p>
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-4">
- Real Skills, Real Equipment, Real Fun
+ What will my child learn?
  </h2>
  <p className="font-sans text-[#64748B] text-center max-w-2xl mx-auto mb-14">
  The Scuba Explorer program teaches genuine diving skills — in a safe, controlled environment where the only goal is your child&apos;s comfort and enjoyment.
@@ -422,11 +422,46 @@ export default function ScubaExplorerPage() {
  The Diving Journey
  </p>
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-4">
- From First Bubbles to Certified Diver
+ What is the diving pathway from age 8?
  </h2>
  <p className="font-sans text-[#64748B] text-center max-w-2xl mx-auto mb-14">
  The Scuba Explorer is the first step in a clear pathway. Each stage builds on the last — and Dominic guides your child through every one.
  </p>
+ </FadeInUp>
+
+ <FadeInUp delay={0.05}>
+ <div className="overflow-x-auto rounded-lg border border-[#E8DFD0] my-8 max-w-5xl mx-auto">
+ <table className="w-full text-left text-sm md:text-base">
+ <thead className="bg-[#0A1628] text-[#FDF8F0]">
+ <tr>
+ <th className="px-4 py-3 font-medium tracking-wide">Step</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Programme</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Age</th>
+ <th className="px-4 py-3 font-medium tracking-wide">What it includes</th>
+ </tr>
+ </thead>
+ <tbody className="divide-y divide-[#E8DFD0] bg-[#FDF8F0]">
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349] whitespace-nowrap">Start here</td>
+ <td className="px-4 py-3 text-[#2D4349]">SSI Scuba Explorer</td>
+ <td className="px-4 py-3 text-[#2D4349]">8–12</td>
+ <td className="px-4 py-3 text-[#2D4349]">Pool-based introduction. First breath underwater, basic skills, ocean conservation. Earns SSI Scuba Explorer recognition.</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349] whitespace-nowrap">Next step</td>
+ <td className="px-4 py-3 text-[#2D4349]">Junior Open Water Diver</td>
+ <td className="px-4 py-3 text-[#2D4349]">10–14</td>
+ <td className="px-4 py-3 text-[#2D4349]">Full SSI certification with open water dives. Age-appropriate depth limits.</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349] whitespace-nowrap">The goal</td>
+ <td className="px-4 py-3 text-[#2D4349]">Open Water Diver</td>
+ <td className="px-4 py-3 text-[#2D4349]">From 15</td>
+ <td className="px-4 py-3 text-[#2D4349]">The full adult certification. 18 metres depth, dive anywhere in the world with another certified diver. Junior OWD upgrades automatically at 15.</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
  </FadeInUp>
 
  <div className="grid md:grid-cols-3 gap-6">

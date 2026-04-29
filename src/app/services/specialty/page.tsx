@@ -290,11 +290,64 @@ export default function SpecialtyPage() {
  Choose Your Specialty
  </p>
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-4">
- Popular SSI Specialties Available in Bali
+ Which SSI specialty courses are available in Bali?
  </h2>
  <p className="font-sans text-[#64748B] text-center max-w-2xl mx-auto mb-14">
  Each specialty is taught privately — one-on-one with Dominic at the dive sites best suited for that training.
  </p>
+ </FadeInUp>
+
+ <FadeInUp delay={0.05}>
+ <div className="overflow-x-auto rounded-lg border border-[#E8DFD0] my-8 max-w-5xl mx-auto">
+ <table className="w-full text-left text-sm md:text-base">
+ <thead className="bg-[#0A1628] text-[#FDF8F0]">
+ <tr>
+ <th className="px-4 py-3 font-medium tracking-wide">Specialty</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Depth</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Dives</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Best site</th>
+ </tr>
+ </thead>
+ <tbody className="divide-y divide-[#E8DFD0] bg-[#FDF8F0]">
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Deep Diving</td>
+ <td className="px-4 py-3 text-[#2D4349]">18–40 metres</td>
+ <td className="px-4 py-3 text-[#2D4349]">3 open water dives</td>
+ <td className="px-4 py-3 text-[#2D4349]">Tulamben Drop-Off, USAT Liberty deep sections</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Enriched Air Nitrox</td>
+ <td className="px-4 py-3 text-[#2D4349]">Up to 40 metres</td>
+ <td className="px-4 py-3 text-[#2D4349]">Theory + optional dives</td>
+ <td className="px-4 py-3 text-[#2D4349]">Any dive site — Nitrox improves every dive</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Night Diving & Limited Visibility</td>
+ <td className="px-4 py-3 text-[#2D4349]">Up to 30 metres</td>
+ <td className="px-4 py-3 text-[#2D4349]">2 open water dives</td>
+ <td className="px-4 py-3 text-[#2D4349]">Tulamben — rich nocturnal marine life</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Wreck Diving</td>
+ <td className="px-4 py-3 text-[#2D4349]">Up to 30 metres</td>
+ <td className="px-4 py-3 text-[#2D4349]">2 open water dives</td>
+ <td className="px-4 py-3 text-[#2D4349]">USAT Liberty wreck, Tulamben</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Navigation</td>
+ <td className="px-4 py-3 text-[#2D4349]">Up to 30 metres</td>
+ <td className="px-4 py-3 text-[#2D4349]">2 open water dives</td>
+ <td className="px-4 py-3 text-[#2D4349]">Sites with clear reference points around Tulamben and Amed</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Photo & Video</td>
+ <td className="px-4 py-3 text-[#2D4349]">Up to 30 metres</td>
+ <td className="px-4 py-3 text-[#2D4349]">2 open water dives</td>
+ <td className="px-4 py-3 text-[#2D4349]">Seraya Secrets (macro), Coral Garden, Jemeluk Bay</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
  </FadeInUp>
 
  <div className="grid md:grid-cols-2 gap-6">
@@ -466,7 +519,7 @@ export default function SpecialtyPage() {
  The SSI Pathway
  </p>
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-4">
- Build Toward Master Diver
+ How do I work toward Master Diver?
  </h2>
  <p className="font-sans text-[#64748B] text-center max-w-2xl mx-auto mb-14">
  Every Specialty you complete and every dive you log counts toward SSI&apos;s recognition ratings. Here is the pathway.

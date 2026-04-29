@@ -295,11 +295,54 @@ export default function JuniorOwdPage() {
  Course Structure
  </p>
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-4">
- The Same World-Class Certification — At Your Child&apos;s Pace
+ What does the Junior Open Water course involve?
  </h2>
  <p className="font-sans text-[#64748B] text-center max-w-2xl mx-auto mb-14">
  The Junior OWD follows the same three-phase structure as the adult course. The difference? Every moment is adapted to how your child learns best.
  </p>
+ </FadeInUp>
+
+ <FadeInUp delay={0.05}>
+ <div className="overflow-x-auto rounded-lg border border-[#E8DFD0] my-8 max-w-4xl mx-auto">
+ <table className="w-full text-left text-sm md:text-base">
+ <thead className="bg-[#0A1628] text-[#FDF8F0]">
+ <tr>
+ <th className="px-4 py-3 font-medium tracking-wide">Specification</th>
+ <th className="px-4 py-3 font-medium tracking-wide">Detail</th>
+ </tr>
+ </thead>
+ <tbody className="divide-y divide-[#E8DFD0] bg-[#FDF8F0]">
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Age range</td>
+ <td className="px-4 py-3 text-[#2D4349]">10–14 years</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Maximum depth (ages 10–11)</td>
+ <td className="px-4 py-3 text-[#2D4349]">12 metres (40 feet)</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Maximum depth (ages 12–14)</td>
+ <td className="px-4 py-3 text-[#2D4349]">18 metres (60 feet)</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Course duration</td>
+ <td className="px-4 py-3 text-[#2D4349]">Three to four days</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Confined water training</td>
+ <td className="px-4 py-3 text-[#2D4349]">One full day</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Open water dives</td>
+ <td className="px-4 py-3 text-[#2D4349]">Four dives over 2–3 days</td>
+ </tr>
+ <tr>
+ <td className="px-4 py-3 font-medium text-[#2D4349]">Certification upgrade</td>
+ <td className="px-4 py-3 text-[#2D4349]">Automatically upgrades to full Open Water Diver at age 15</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
  </FadeInUp>
 
  <div className="space-y-6">
@@ -430,7 +473,7 @@ export default function JuniorOwdPage() {
  Safety First
  </p>
  <h2 className="font-heading text-3xl sm:text-4xl font-normal text-[#2D4349] text-center mb-4">
- Age-Appropriate Depth Limits
+ What depth can children dive to?
  </h2>
  <p className="font-sans text-[#64748B] text-center max-w-2xl mx-auto mb-14">
  SSI sets clear depth limits and supervision rules for Junior Open Water Divers. Dominic follows these strictly — and adds his own safety standards on top.
