@@ -272,7 +272,7 @@ export default function JuniorOwdPage() {
  <FadeInUp delay={0.1}>
  <div className="prose prose-lg max-w-none">
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- Children learn differently from adults. They need more encouragement, more patience, more flexibility — and above all, they need to feel safe and excited, not pressured. In a typical group course, your child is one of several students competing for the instructor&apos;s attention. They may feel self-conscious, rushed, or anxious about keeping up with older or more confident kids. That is not how a child should experience the underwater world for the first time.
+ Children learn differently from adults. They need more encouragement, more patience, more flexibility — and above all, they need to feel safe and excited, not pressured. In a typical group course, your child is one of several students competing for the coach&apos;s attention. They may feel self-conscious, rushed, or anxious about keeping up with older or more confident kids. That is not how a child should experience the underwater world for the first time.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
  With Boutique Diving Bali, your child dives privately with Dominic — one-on-one or with their siblings only. Every skill is taught at their pace. Every question gets a patient, individual answer. If they need to repeat a skill ten times, they repeat it ten times — without anyone watching or waiting. If they are having a brilliant day and want to push further, Dominic adjusts the plan instantly.
@@ -419,7 +419,7 @@ export default function JuniorOwdPage() {
  {
  icon: Users,
  title: "Completely Private Instruction",
- description: "One instructor, one child (or siblings together). No strangers, no peer pressure. Your child is the only student.",
+ description: "One diving coach, one child (or siblings together). No strangers, no peer pressure. Your child is the only student.",
  },
  {
  icon: Heart,

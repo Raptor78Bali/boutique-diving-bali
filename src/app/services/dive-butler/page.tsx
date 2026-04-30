@@ -65,7 +65,7 @@ const faqItems = [
  {
  question: "How is the Dive Butler different from the dive guides included on liveaboards or at resorts?",
  answer:
- "Most liveaboards and dive resorts provide shared dive guides who lead groups of 6 to 12 divers through a standard route. They do not know your personal comfort level, your anxieties, what you want to see, or how to adjust the dive to your pace. The Dive Butler is the opposite: Dominic is YOUR instructor, exclusively. He knows your experience, your preferences, your signals. He has already planned your dive specifically for you. He manages your equipment, monitors your air, watches your buoyancy, and ensures you see the marine life that matters most to you — not the group. It is the difference between a guided tour and a private concierge.",
+ "Most liveaboards and dive resorts provide shared dive guides who lead groups of 6 to 12 divers through a standard route. They do not know your personal comfort level, your anxieties, what you want to see, or how to adjust the dive to your pace. The Dive Butler is the opposite: Dominic is YOUR diving professional, exclusively. He knows your experience, your preferences, your signals. He has already planned your dive specifically for you. He manages your equipment, monitors your air, watches your buoyancy, and ensures you see the marine life that matters most to you — not the group. It is the difference between a guided tour and a private concierge.",
  },
  {
  question: "Can I book the Dive Butler for my family, including children?",
@@ -264,7 +264,7 @@ export default function DiveButlerPage() {
  That is the Dive Butler. Dominic Frei, your SSI-certified Swiss diving professional, travels with you to any destination in Indonesia as your private dive professional. He handles everything diving-related: equipment preparation, dive planning, safety checks, weather timing, coordination with local dive operators and guides. You arrange your own travel, hotel, and transfers — Dominic focuses entirely on your underwater experience.
  </p>
  <p className="text-[#64748B] font-sans leading-relaxed">
- The concept of a personal Dive Butler was pioneered internationally by operators serving superyachts and ultra-luxury resorts in the Maldives. Boutique Diving Bali brings this same philosophy to Indonesia — the world&apos;s largest archipelago and the global epicentre of marine biodiversity — with one critical difference: here, it is not a team of rotating staff. It is one person. Your person. The same instructor, the same trust, the same understanding — from your first breath underwater to your last dive of the trip.
+ The concept of a personal Dive Butler was pioneered internationally by operators serving superyachts and ultra-luxury resorts in the Maldives. Boutique Diving Bali brings this same philosophy to Indonesia — the world&apos;s largest archipelago and the global epicentre of marine biodiversity — with one critical difference: here, it is not a team of rotating staff. It is one person. Your person. The same professional, the same trust, the same understanding — from your first breath underwater to your last dive of the trip.
  </p>
  </div>
  </FadeInUp>
@@ -300,7 +300,7 @@ export default function DiveButlerPage() {
  {
  "@type": "HowToStep",
  "position": 4,
- "name": "Dive With Your Personal Instructor",
+ "name": "Dive With Your Personal Diving Professional",
  "text": "Underwater, Dominic is by your side exclusively. He monitors your comfort, manages safety, and adjusts every dive to your pace and interests."
  }
  ]
@@ -349,7 +349,7 @@ export default function DiveButlerPage() {
  },
  {
  step: "04",
- title: "Dive With Your Personal Instructor",
+ title: "Dive With Your Personal Diving Professional",
  description:
  "Underwater, Dominic is by your side — exclusively. He monitors your comfort, manages your safety, adjusts the dive in real time to your pace and interests. At his home base in Tulamben, he leads dives himself. At destinations across Indonesia, he works alongside vetted local guides who handle the site briefing while Dominic stays focused on you.",
  icon: Anchor,
@@ -437,7 +437,7 @@ export default function DiveButlerPage() {
  {[
  {
  icon: Crown,
- title: "Your Personal Instructor",
+ title: "Your Personal Diving Professional",
  description: "One dedicated SSI-certified instructor — Dominic — exclusively for you and your party. No group rotations, no strangers.",
  },
  {

@@ -248,7 +248,7 @@ export default function ScubaSkillsUpdatePage() {
  It is completely normal. You earned your certification years ago — maybe on a holiday, maybe on a gap year, maybe when the kids were younger. Life got busy, and diving took a back seat. Now you are planning a trip to Bali, you see the incredible dive sites, and you think: I want to do this again. But it has been a while, and you are not sure how much you remember.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- The SSI Scuba Skills Update exists for exactly this moment. It is not a test. It is not a new certification. It is simply a chance to review the skills you already learned, practise them in the water with a patient instructor, and rebuild the confidence you need to enjoy diving again. With Boutique Diving Bali, this happens entirely privately — just you and Dominic. No group of strangers watching you clear your mask for the first time in five years.
+ The SSI Scuba Skills Update exists for exactly this moment. It is not a test. It is not a new certification. It is simply a chance to review the skills you already learned, practise them in the water with a patient diving professional, and rebuild the confidence you need to enjoy diving again. With Boutique Diving Bali, this happens entirely privately — just you and Dominic. No group of strangers watching you clear your mask for the first time in five years.
  </p>
  <p className="text-[#64748B] font-sans leading-relaxed">
  Most divers are surprised at how quickly it comes back. The knowledge is still there. The muscle memory returns faster than expected. What a private refresher gives you is the space and time to rediscover it all without any pressure — and the confidence to then enjoy your holiday dives to the fullest.
@@ -430,7 +430,7 @@ export default function ScubaSkillsUpdatePage() {
  },
  {
  title: "\"I'm nervous about diving again\"",
- description: "Completely normal. A private refresher removes all pressure. You go at your pace, in a pool, with a patient instructor. Confidence returns fast.",
+ description: "Completely normal. A private refresher removes all pressure. You go at your pace, in a pool, with a patient diving professional. Confidence returns fast.",
  },
  {
  title: "\"We have a liveaboard booked\"",

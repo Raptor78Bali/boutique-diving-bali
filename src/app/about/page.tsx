@@ -333,7 +333,7 @@ export default function AboutPage() {
  Bali has over 300 dive operators. Most of them are good. Many are excellent. But almost all of them operate the same model: fixed packages, group sizes of six to twelve, rotating instructors, and a schedule that prioritises efficiency over experience. That model works for the majority of divers — and there is nothing wrong with it.
  </p>
  <p className="text-[#2D4349] font-sans leading-relaxed mb-6">
- Boutique Diving Bali exists for the people who want something else. People who value privacy over price. Who want their instructor to know their name, their comfort level, their anxieties, and their aspirations. Who want the dive site chosen for conditions, not convenience. Who want their children taught by someone who genuinely understands how young people learn — not just someone who holds a certification.
+ Boutique Diving Bali exists for the people who want something else. People who value privacy over price. Who want their diving professional to know their name, their comfort level, their anxieties, and their aspirations. Who want the dive site chosen for conditions, not convenience. Who want their children taught by someone who genuinely understands how young people learn — not just someone who holds a certification.
  </p>
  <p className="text-[#64748B] font-sans leading-relaxed">
  &ldquo;Boutique&rdquo; means small by design. It means Dominic will never hire ten instructors and start running group tours. It means every client is personally looked after by the same person — from the first WhatsApp message to the last dive of the trip. It means the business stays small so the experience stays extraordinary.
@@ -377,7 +377,7 @@ export default function AboutPage() {
  {
  icon: MapPin,
  title: "In Bali Since 2021",
- description: "Not a visiting instructor — Dominic lives in Bali with his family. He knows the island, the waters, the conditions, and the culture intimately.",
+ description: "Not a visiting professional — Dominic lives in Bali with his family. He knows the island, the waters, the conditions, and the culture intimately.",
  },
  {
  icon: Users,

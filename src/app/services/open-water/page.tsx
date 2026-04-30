@@ -55,7 +55,7 @@ const faqItems = [
  {
  question: "What does the course involve?",
  answer:
- "The SSI Open Water Diver course has three phases. First, digital theory — you study the academic materials online at your own pace before arriving in Bali, covering diving physics, safety, equipment, and planning. Second, confined water training — you practise essential skills (breathing, buoyancy, mask clearing, emergency procedures) in a pool or calm shallow water until you are completely comfortable. Third, open water dives — you complete four open water dives over two days at real dive sites, applying everything you have learned. With Boutique Diving Bali, all three phases are conducted entirely privately with Dominic as your personal instructor.",
+ "The SSI Open Water Diver course has three phases. First, digital theory — you study the academic materials online at your own pace before arriving in Bali, covering diving physics, safety, equipment, and planning. Second, confined water training — you practise essential skills (breathing, buoyancy, mask clearing, emergency procedures) in a pool or calm shallow water until you are completely comfortable. Third, open water dives — you complete four open water dives over two days at real dive sites, applying everything you have learned. With Boutique Diving Bali, all three phases are conducted entirely privately with Dominic as your personal diving professional.",
  },
  {
  question: "How long does the course take?",
@@ -419,7 +419,7 @@ export default function OpenWaterDiverPage() {
  {
  icon: Users,
  title: "Entirely Private Instruction",
- description: "One instructor, one student (or your own group). No strangers, no waiting, no compromises on your learning pace.",
+ description: "One diving professional, one student (or your own group). No strangers, no waiting, no compromises on your learning pace.",
  },
  {
  icon: Award,

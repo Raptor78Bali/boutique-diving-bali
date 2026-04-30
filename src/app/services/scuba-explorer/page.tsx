@@ -368,7 +368,7 @@ export default function ScubaExplorerPage() {
  {
  icon: Users,
  title: "Completely Private",
- description: "One instructor, one child (or siblings). No group of strangers. Your child is the only student — all attention is on them.",
+ description: "One diving coach, one child (or siblings). No group of strangers. Your child is the only student — all attention is on them.",
  },
  {
  icon: Heart,

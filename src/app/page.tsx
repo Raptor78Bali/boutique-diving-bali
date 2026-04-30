@@ -37,7 +37,7 @@ export const metadata = {
 const homepageFaq = [
  {
  question: "What makes Boutique Diving Bali different from other dive operators?",
- answer: "We are NOT a dive shop. We are your personal diving concierge. Every experience is fully bespoke — designed from scratch around your wishes, skill level, and comfort. No fixed packages, no group tours. You dive privately with Dominic, your SSI-certified Swiss instructor, who handles every detail for a seamless, worry-free experience."
+ answer: "We are NOT a dive shop. We are your personal diving concierge. Every experience is fully bespoke — designed from scratch around your wishes, skill level, and comfort. No fixed packages, no group tours. You dive privately with Dominic, your SSI-certified Swiss diving professional, who handles every detail for a seamless, worry-free experience."
  },
  {
  question: "Do I need diving experience to book?",
@@ -45,7 +45,7 @@ const homepageFaq = [
  },
  {
  question: "What is the Dive Butler service?",
- answer: "The Dive Butler is our signature service. Dominic joins you as your personal dive instructor on liveaboard trips or at dive resorts anywhere in Indonesia — Komodo, Raja Ampat, Banda Sea, Wakatobi, and beyond. He handles all diving logistics, equipment, safety planning, and coordination so you experience only wonder."
+ answer: "The Dive Butler is our signature service. Dominic joins you as your personal diving professional on liveaboard trips or at dive resorts anywhere in Indonesia — Komodo, Raja Ampat, Banda Sea, Wakatobi, and beyond. He handles all diving logistics, equipment, safety planning, and coordination so you experience only wonder."
  },
  {
  question: "Which destinations in Indonesia can you arrange diving?",
@@ -542,7 +542,7 @@ export default function Home() {
  icon: Crown,
  title: "Dive Butler Service",
  age: "All Levels",
- text: "Your personal dive instructor on liveaboards and resorts across Indonesia. I handle every detail for a seamless, worry-free experience.",
+ text: "Your personal dive professional on liveaboards and resorts across Indonesia. I handle every detail for a seamless, worry-free experience.",
  href: "/services/dive-butler",
  },
  ].map((service, i) => (
@@ -665,7 +665,7 @@ export default function Home() {
  </div>
  <p className="text-white/70 leading-relaxed font-sans mb-8 max-w-xl">
  You want a private Dive Butler? No problem. I will join you as your personal
- dive instructor. Whether on a liveaboard trip through Komodo, a week at a luxury
+ dive professional. Whether on a liveaboard trip through Komodo, a week at a luxury
  dive resort in Raja Ampat, or island-hopping through the Banda Sea — I will handle
  every detail regarding diving for you. Equipment selection, logistics, safety
  planning, weather timing — all invisible. You experience only wonder.
